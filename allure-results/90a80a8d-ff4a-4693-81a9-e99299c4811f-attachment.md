@@ -1,0 +1,596 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=e8]
+    - heading "Keyboard shortcuts" [level=2] [ref=e9]
+    - list "Keyboard shortcuts" [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Search, alt, forward slash" [ref=e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e13]:
+            - generic [ref=e14]: Search
+            - generic [ref=e15]:
+              - generic [ref=e16]: alt
+              - generic [ref=e17]: +
+              - generic [ref=e18]: /
+      - listitem [ref=e19]:
+        - link "Cart, shift, alt, c" [ref=e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e21]:
+            - generic [ref=e22]: Cart
+            - generic [ref=e23]:
+              - generic [ref=e24]: shift
+              - generic [ref=e25]: +
+              - generic [ref=e26]: alt
+              - generic [ref=e27]: +
+              - generic [ref=e28]: C
+      - listitem [ref=e29]:
+        - link "Home, shift, alt, h" [ref=e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e31]:
+            - generic [ref=e32]: Home
+            - generic [ref=e33]:
+              - generic [ref=e34]: shift
+              - generic [ref=e35]: +
+              - generic [ref=e36]: alt
+              - generic [ref=e37]: +
+              - generic [ref=e38]: H
+      - listitem [ref=e39]:
+        - link "Your orders, shift, alt, o" [ref=e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e41]:
+            - generic [ref=e42]: Orders
+            - generic [ref=e43]:
+              - generic [ref=e44]: shift
+              - generic [ref=e45]: +
+              - generic [ref=e46]: alt
+              - generic [ref=e47]: +
+              - generic [ref=e48]: O
+      - listitem [ref=e49]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]:
+            - generic [ref=e52]: Show/Hide shortcuts
+            - generic [ref=e53]:
+              - generic [ref=e54]: shift
+              - generic [ref=e55]: +
+              - generic [ref=e56]: alt
+              - generic [ref=e57]: +
+              - generic [ref=e58]: Z
+    - generic [ref=e64]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e65]:
+    - navigation "Primary" [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link "Amazon.in" [ref=e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Deliver to divjot Patiala 147001‌" [ref=e73] [cursor=pointer]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: Deliver to divjot
+              - generic [ref=e77]: Patiala 147001‌
+        - search [ref=e80]:
+          - generic [ref=e83]:
+            - generic [ref=e85]: All
+            - combobox "Select the department you want to search in" [ref=e87] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e90]
+          - generic "Go" [ref=e93] [cursor=pointer]:
+            - button "Go" [ref=e94]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e98] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e101]:
+                - img "India" [ref=e102]
+                - generic [ref=e103]: EN
+            - button "Expand to Change Language or Country" [ref=e104] [cursor=pointer]
+          - generic [ref=e105]:
+            - link "Hello, divjot Account & Lists" [ref=e106] [cursor=pointer]:
+              - /url: https://www.amazon.in/gp/css/homepage.html?ref_=nav_youraccount_btn
+              - generic [ref=e108]: Hello, divjot
+              - generic [ref=e109]: Account & Lists
+            - button "Expand Account and Lists" [ref=e110] [cursor=pointer]
+          - link "Returns & Orders" [ref=e111] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e112]: Returns
+            - generic [ref=e113]: "& Orders"
+          - link "1 item in cart" [ref=e114] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e116]: "1"
+            - generic [ref=e119]: Cart
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - button "Open All Categories Menu" [ref=e123] [cursor=pointer]:
+            - generic [ref=e125]: All
+          - button "Open Rufus panel" [ref=e126] [cursor=pointer]:
+            - generic [ref=e128]: Rufus
+        - list [ref=e132]:
+          - listitem [ref=e133]:
+            - link "Fresh" [ref=e135] [cursor=pointer]:
+              - /url: /fresh?ref_=nav_cs_fresh
+          - listitem [ref=e136]:
+            - link "MX Player" [ref=e138] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e139]:
+            - link "Sell" [ref=e141] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e142]:
+            - link "Gift Cards" [ref=e144] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e145]:
+            - link "Amazon Pay" [ref=e147] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e148]:
+            - link "Buy Again" [ref=e150] [cursor=pointer]:
+              - /url: /gp/buyagain?ie=UTF8&ref_=nav_cs_buy_again
+          - listitem [ref=e151]:
+            - generic [ref=e152]:
+              - link "Prime" [ref=e153] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e154] [cursor=pointer]
+          - listitem [ref=e155]:
+            - link "Gift Ideas" [ref=e157] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=e158]:
+            - link "divjot 's Amazon.in" [ref=e160] [cursor=pointer]:
+              - /url: /gp/yourstore/home?ref_=nav_cs_ys
+              - generic [ref=e161]:
+                - generic [ref=e162]: divjot
+                - text: "'s Amazon.in"
+          - listitem [ref=e163]:
+            - generic [ref=e164]:
+              - link "Browsing History" [ref=e165] [cursor=pointer]:
+                - /url: /gp/history?ref_=nav_cs_timeline
+              - button "Browsing History Details" [ref=e166] [cursor=pointer]
+          - listitem [ref=e167]:
+            - link "AmazonBasics" [ref=e169] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e170]:
+            - link "Home Improvement" [ref=e172] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e173]:
+            - link "Health, Household & Personal Care" [ref=e175] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e176]:
+            - link "Today's Deals" [ref=e178] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e179]:
+            - link "Customer Service" [ref=e181] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e182]:
+            - link "Subscribe & Save" [ref=e184] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e185]:
+            - link "Baby" [ref=e187] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e188]:
+            - link "Books" [ref=e190] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e191]:
+            - link "Toys & Games" [ref=e193] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e194]:
+            - link "Pet Supplies" [ref=e196] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e197]:
+            - link "Car & Motorbike" [ref=e199] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e200]:
+            - link "Bestsellers" [ref=e202] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e203]:
+            - link "Home & Kitchen" [ref=e205] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e206]:
+            - link "Sports, Fitness & Outdoors" [ref=e208] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e209]:
+            - link "Beauty & Personal Care" [ref=e211] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e212]:
+            - link "Audible" [ref=e214] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e215]:
+            - link "New Releases" [ref=e217] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e218]:
+            - link "Electronics" [ref=e220] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e221]:
+            - link "Computers" [ref=e223] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e224]:
+            - link "Video Games" [ref=e226] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e227]:
+            - link "Kindle eBooks" [ref=e229] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e230]:
+            - link "Fashion" [ref=e232] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+      - dialog [ref=e235]:
+        - generic [ref=e238]:
+          - generic [ref=e242]:
+            - heading "Subtotal" [level=1] [ref=e244]
+            - heading "₹34,999.00" [level=2] [ref=e247]
+          - generic [ref=e249]:
+            - generic [ref=e255]:
+              - text: Your order is eligible for FREE Delivery. Select this option at checkout.
+              - link "Details" [ref=e256] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=200904360&pop-up=1
+            - link "Go to Cart" [ref=e260] [cursor=pointer]:
+              - /url: /cart?ref_=ox_ewc_ret_gtc_dsk_in
+          - list [ref=e265]:
+            - listitem [ref=e266]:
+              - generic [ref=e268]:
+                - generic [ref=e269]:
+                  - link "Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB LPDDR5 Ram, 512 GB SSD PCIe, Windows 11 Lifetime Validity,15.6\" FHD Screen, AMD Radeon 610M, Silver, 1 Year Brand Warranty" [ref=e271] [cursor=pointer]:
+                    - /url: /gp/product/B0CL7CMTXS/ref=ewc_pr_img_1?smid=A1FD6IF5XR2IOV&psc=1
+                    - img "Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB LPDDR5 Ram, 512 GB SSD PCIe, Windows 11 Lifetime Validity,15.6\" FHD Screen, AMD Radeon 610M, Silver, 1 Year Brand Warranty" [ref=e272]
+                  - generic [ref=e273]: ₹34,999.00
+                - group "Quantity is 1" [ref=e279]:
+                  - generic [ref=e280]: Quantity is 1
+                  - generic [ref=e282]:
+                    - button "Delete Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB LPDDR5 Ram, 512 GB SSD PCIe, Windows 11 Lifetime Validity,15.6&quot; FHD Screen, AMD Radeon 610M, Silver, 1 Year Brand Warranty" [ref=e283] [cursor=pointer]
+                    - generic [ref=e287]: "1"
+                    - generic [ref=e289]: "1"
+                    - button "Increase quantity by one Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB LPDDR5 Ram, 512 GB SSD PCIe, Windows 11 Lifetime Validity,15.6&quot; FHD Screen, AMD Radeon 610M, Silver, 1 Year Brand Warranty" [ref=e290] [cursor=pointer]
+  - generic [ref=e295]:
+    - list [ref=e298]:
+      - listitem [ref=e299]:
+        - link "Your Account" [ref=e301] [cursor=pointer]:
+          - /url: /gp/css/homepage.html?ref=ya_address_book_address_book_to_your_account_breadcrumb
+      - listitem [ref=e302]: ›
+      - listitem [ref=e303]:
+        - generic [ref=e304]: Your Addresses
+    - heading "Address saved" [level=4] [ref=e307]
+    - heading "Your Addresses" [level=1] [ref=e309]
+    - generic [ref=e311]:
+      - link "Add address" [ref=e313] [cursor=pointer]:
+        - /url: /a/addresses/add?ref=ya_address_book_add_button
+        - generic [ref=e317]: Add address
+      - generic [ref=e318]:
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - text: "Default:"
+            - img "Amazon default shipping address" [ref=e322]
+          - generic [ref=e324]:
+            - list [ref=e325]:
+              - listitem [ref=e326]:
+                - heading "divjot" [level=5] [ref=e328]
+              - listitem [ref=e329]:
+                - generic [ref=e330]: House no 505
+              - listitem [ref=e331]:
+                - generic [ref=e332]: Street No 5, Gur Nanak Nagar
+              - listitem [ref=e333]:
+                - generic [ref=e334]: PATIALA, PUNJAB 147001
+              - listitem [ref=e335]:
+                - generic [ref=e336]: India
+              - listitem [ref=e337]:
+                - generic [ref=e338]: "Phone number: ‪7018292679‬"
+            - link "Add delivery instructions" [ref=e341] [cursor=pointer]:
+              - /url: "#"
+        - list [ref=e343]:
+          - listitem [ref=e344]:
+            - generic [ref=e346]:
+              - link "Edit this address" [ref=e347] [cursor=pointer]:
+                - /url: "#"
+                - text: Edit
+              - text: "|"
+          - listitem [ref=e348]:
+            - link "Delete this address" [ref=e351] [cursor=pointer]:
+              - /url: "#"
+              - text: Remove
+      - generic [ref=e352]:
+        - generic [ref=e356]:
+          - list [ref=e357]:
+            - listitem [ref=e358]:
+              - heading "divjot" [level=5] [ref=e360]
+            - listitem [ref=e361]:
+              - generic [ref=e362]: House no 505
+            - listitem [ref=e363]:
+              - generic [ref=e364]: Street No 5, Gur Nanak Nagar
+            - listitem [ref=e365]:
+              - generic [ref=e366]: PATIALA, PUNJAB 147001
+            - listitem [ref=e367]:
+              - generic [ref=e368]: India
+            - listitem [ref=e369]:
+              - generic [ref=e370]: "Phone number: ‪7018292679‬"
+          - link "Add delivery instructions" [ref=e373] [cursor=pointer]:
+            - /url: "#"
+        - list [ref=e375]:
+          - listitem [ref=e376]:
+            - generic [ref=e377]:
+              - link "Edit this address" [ref=e378] [cursor=pointer]:
+                - /url: /a/addresses/edit?ref=ya_address_book_edit_button&addressID=WV42RPF5FTFBYB2Y7ZNQG12NOTAN9QEJDA31DJEQ9NATONOPXTQ2EIA2OX5CVKZ5
+                - text: Edit
+              - text: "|"
+          - listitem [ref=e379]:
+            - link "Delete this address" [ref=e382] [cursor=pointer]:
+              - /url: "#"
+              - text: Remove
+          - listitem [ref=e383]:
+            - generic [ref=e385]:
+              - text: "|"
+              - link "Set this address as default" [ref=e386] [cursor=pointer]:
+                - /url: "#"
+                - text: Set as Default
+    - generic:
+      - list
+  - complementary "Your recently viewed items and featured recommendations" [ref=e387]:
+    - group [ref=e397]:
+      - generic [ref=e400]:
+        - generic [ref=e401]:
+          - heading "Your browsing history" [level=2] [ref=e402]
+          - link "Your browsing history - View or edit your browsing history" [ref=e404] [cursor=pointer]:
+            - /url: /gp/history
+            - text: View or edit your browsing history
+        - generic [ref=e407]: Page 1 of 2
+      - generic [ref=e409]:
+        - button "Previous set of slides" [ref=e411] [cursor=pointer]:
+          - generic [ref=e414]: Previous set of slides
+        - group [ref=e416]:
+          - list [ref=e417]:
+            - listitem [ref=e418]:
+              - link "acer Aspire Lite, AMD Ryzen 3 5300U Processor, 16 GB RAM, 512GB SSD, Full HD, 15.6\"/39.62cm, Windows 11 Home, Steel Gray, 1.5" [ref=e421] [cursor=pointer]:
+                - /url: /Acer-Premium-Windows-AL15-41-Display/dp/B0CWTYGPH8/ref=rvi_d_sccl_1/520-9791214-2577806?pd_rd_w=zAi2Y&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=6DS2QNZJ5044YCDEPWR4&pd_rd_wg=y3JKd&pd_rd_r=fd4cb5fd-bdcf-41e4-9ae8-91610cb9cdbf&pd_rd_i=B0CWTYGPH8&psc=1
+                - img "acer Aspire Lite, AMD Ryzen 3 5300U Processor, 16 GB RAM, 512GB SSD, Full HD, 15.6\"/39.62cm, Windows 11 Home, Steel Gray, 1.5" [ref=e423]
+            - listitem [ref=e424]:
+              - link "HP 15, AMD Ryzen 3 7320U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6''/39.6cm, Win11, M365 Basic(1yr)* Office24," [ref=e427] [cursor=pointer]:
+                - /url: /HP-Anti-Glare-Micro-Edge-Office24-fc0500AU/dp/B0FJYJ8LVY/ref=rvi_d_sccl_2/520-9791214-2577806?pd_rd_w=zAi2Y&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=6DS2QNZJ5044YCDEPWR4&pd_rd_wg=y3JKd&pd_rd_r=fd4cb5fd-bdcf-41e4-9ae8-91610cb9cdbf&pd_rd_i=B0FJYJ8LVY&psc=1
+                - img "HP 15, AMD Ryzen 3 7320U (8GB DDR4, 512GB SSD) FHD, Anti-Glare, Micro-Edge, 15.6''/39.6cm, Win11, M365 Basic(1yr)* Office24," [ref=e429]
+            - listitem [ref=e430]:
+              - link "Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB LPDDR5 Ram, 512 GB SSD PCIe, Windows 11 Lifetime Validity,15.6\" FHD Screen," [ref=e433] [cursor=pointer]:
+                - /url: /Lenovo-V15-Lifetime-Validity-Warranty/dp/B0CL7CMTXS/ref=rvi_d_sccl_3/520-9791214-2577806?pd_rd_w=zAi2Y&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=6DS2QNZJ5044YCDEPWR4&pd_rd_wg=y3JKd&pd_rd_r=fd4cb5fd-bdcf-41e4-9ae8-91610cb9cdbf&pd_rd_i=B0CL7CMTXS&psc=1
+                - img "Lenovo V15 G4 AMD Athlon Silver 7120U Laptop 8GB LPDDR5 Ram, 512 GB SSD PCIe, Windows 11 Lifetime Validity,15.6\" FHD Screen," [ref=e435]
+            - listitem [ref=e436]:
+              - link "HP 15, Intel Core 3 100U (16GB DDR5, 512GB SSD), Micro-Edge, Anti-Glare, 15.6''/39.6cm, Win11, M365* Office24, Silver, 1.59kg" [ref=e439] [cursor=pointer]:
+                - /url: /HP-Micro-Edge-Anti-Glare-Office24-fd0885TU/dp/B0G8HDB47S/ref=rvi_d_sccl_4/520-9791214-2577806?pd_rd_w=zAi2Y&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=6DS2QNZJ5044YCDEPWR4&pd_rd_wg=y3JKd&pd_rd_r=fd4cb5fd-bdcf-41e4-9ae8-91610cb9cdbf&pd_rd_i=B0G8HDB47S&psc=1
+                - img "HP 15, Intel Core 3 100U (16GB DDR5, 512GB SSD), Micro-Edge, Anti-Glare, 15.6''/39.6cm, Win11, M365* Office24, Silver, 1.59kg" [ref=e441]
+            - listitem [ref=e442]:
+              - link "ASUS Vivobook 14 (2025), Intel Core 5 120U, 8GB RAM, 512GB SSD, FHD, 14\", (35.5 cm), Windows 11 Home, M365 Basic(1 Year)* Off" [ref=e445] [cursor=pointer]:
+                - /url: /ASUS-Vivobook-Windows-Office-X1404VAP-EB1521WS/dp/B0GCD4B93P/ref=rvi_d_sccl_5/520-9791214-2577806?pd_rd_w=zAi2Y&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=6DS2QNZJ5044YCDEPWR4&pd_rd_wg=y3JKd&pd_rd_r=fd4cb5fd-bdcf-41e4-9ae8-91610cb9cdbf&pd_rd_i=B0GCD4B93P&psc=1
+                - img "ASUS Vivobook 14 (2025), Intel Core 5 120U, 8GB RAM, 512GB SSD, FHD, 14\", (35.5 cm), Windows 11 Home, M365 Basic(1 Year)* Off" [ref=e447]
+            - listitem [ref=e448]:
+              - link "ASUS Vivobook 16 (2026), AMD Ryzen AI 7 445, AMD Radeon iGPU, 16GB RAM, 512GB SSD, FHD+, 16\", (40 cm), Windows 11, M365 Basic" [ref=e451] [cursor=pointer]:
+                - /url: /ASUS-Vivobook-Windows-M1607GA-MB030WS-Co-Pilot/dp/B0GGRJD7KY/ref=rvi_d_sccl_6/520-9791214-2577806?pd_rd_w=zAi2Y&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=6DS2QNZJ5044YCDEPWR4&pd_rd_wg=y3JKd&pd_rd_r=fd4cb5fd-bdcf-41e4-9ae8-91610cb9cdbf&pd_rd_i=B0GGRJD7KY&psc=1
+                - img "ASUS Vivobook 16 (2026), AMD Ryzen AI 7 445, AMD Radeon iGPU, 16GB RAM, 512GB SSD, FHD+, 16\", (40 cm), Windows 11, M365 Basic" [ref=e453]
+            - listitem [ref=e454]:
+              - link "Lenovo V15 G4 AMD Ryzen 5 7520U 15.6 inch FHD Laptop, AMD Graphics, 16GB DDR5 5500Mhz Ram, 512GB SSD NVMe, Windows 11, Dolby" [ref=e457] [cursor=pointer]:
+                - /url: /Lenovo-Graphics-5500Mhz-Windows-Warranty/dp/B0F29HNJL1/ref=rvi_d_sccl_7/520-9791214-2577806?pd_rd_w=zAi2Y&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=6DS2QNZJ5044YCDEPWR4&pd_rd_wg=y3JKd&pd_rd_r=fd4cb5fd-bdcf-41e4-9ae8-91610cb9cdbf&pd_rd_i=B0F29HNJL1&psc=1
+                - img "Lenovo V15 G4 AMD Ryzen 5 7520U 15.6 inch FHD Laptop, AMD Graphics, 16GB DDR5 5500Mhz Ram, 512GB SSD NVMe, Windows 11, Dolby" [ref=e459]
+            - listitem [ref=e460]:
+              - link "Lenovo IdeaPad Slim 3 13th Gen Core i7-13620H 15.3 inch (38.8cm) WUXGA IPS Laptop (16GB RAM/512GB SSD/Windows 11/MSO 365 Basi" [ref=e463] [cursor=pointer]:
+                - /url: /Lenovo-IdeaPad-i7-13620H-Windows-83K100S1IN/dp/B0G6ZMN5XK/ref=rvi_d_sccl_8/520-9791214-2577806?pd_rd_w=zAi2Y&content-id=amzn1.sym.2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_p=2fa5ef78-d215-4b54-bdb7-fa3d3620b822&pf_rd_r=6DS2QNZJ5044YCDEPWR4&pd_rd_wg=y3JKd&pd_rd_r=fd4cb5fd-bdcf-41e4-9ae8-91610cb9cdbf&pd_rd_i=B0G6ZMN5XK&psc=1
+                - img "Lenovo IdeaPad Slim 3 13th Gen Core i7-13620H 15.3 inch (38.8cm) WUXGA IPS Laptop (16GB RAM/512GB SSD/Windows 11/MSO 365 Basi" [ref=e465]
+        - button "Next set of slides" [ref=e467] [cursor=pointer]:
+          - generic [ref=e470]: Next set of slides
+  - generic [ref=e471]:
+    - button "Back to top" [ref=e472] [cursor=pointer]:
+      - generic [ref=e473]: Back to top
+    - generic [ref=e474]:
+      - generic [ref=e475]:
+        - heading "Get to Know Us" [level=6] [ref=e476]
+        - list [ref=e477]:
+          - listitem [ref=e478]:
+            - link "About Amazon" [ref=e479] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e480]:
+            - link "Careers" [ref=e481] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e482]:
+            - link "Press Releases" [ref=e483] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e484]:
+            - link "Amazon Science" [ref=e485] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e487]:
+        - heading "Connect with Us" [level=6] [ref=e488]
+        - list [ref=e489]:
+          - listitem [ref=e490]:
+            - link "Facebook" [ref=e491] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e492]:
+            - link "Twitter" [ref=e493] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e494]:
+            - link "Instagram" [ref=e495] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e497]:
+        - heading "Make Money with Us" [level=6] [ref=e498]
+        - list [ref=e499]:
+          - listitem [ref=e500]:
+            - link "Sell on Amazon" [ref=e501] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e502]:
+            - link "Sell under Amazon Accelerator" [ref=e503] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e504]:
+            - link "Protect and Build Your Brand" [ref=e505] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e506]:
+            - link "Amazon Global Selling" [ref=e507] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e508]:
+            - link "Supply to Amazon" [ref=e509] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e510]:
+            - link "Become an Affiliate" [ref=e511] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e512]:
+            - link "Fulfilment by Amazon" [ref=e513] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e514]:
+            - link "Advertise Your Products" [ref=e515] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e516]:
+            - link "Amazon Pay on Merchants" [ref=e517] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e519]:
+        - heading "Let Us Help You" [level=6] [ref=e520]
+        - list [ref=e521]:
+          - listitem [ref=e522]:
+            - link "Your Account" [ref=e523] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e524]:
+            - link "Returns Centre" [ref=e525] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e526]:
+            - link "Recalls and Product Safety Alerts" [ref=e527] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e528]:
+            - link "100% Purchase Protection" [ref=e529] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e530]:
+            - link "Amazon App Download" [ref=e531] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e532]:
+            - link "Help" [ref=e533] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e535]:
+      - link "Amazon India Home" [ref=e538] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e541]:
+        - generic [ref=e542]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e543] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e545]: English
+          - button "Expand to Change Language or Country" [ref=e546] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e547] [cursor=pointer]:
+          - generic [ref=e549]: India
+    - generic "More on Amazon" [ref=e550]:
+      - generic "More on Amazon" [ref=e551]:
+        - list [ref=e552]:
+          - listitem [ref=e553]:
+            - link "AbeBooks Books, art & collectibles" [ref=e554] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e555]
+              - generic [ref=e556]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e557]
+          - listitem [ref=e558]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e559] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e560]
+              - generic [ref=e561]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e562]
+          - listitem [ref=e563]:
+            - link "Audible Download Audio Books" [ref=e564] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e565]
+              - generic [ref=e566]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e567]
+          - listitem [ref=e568]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e569] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e570]
+              - generic [ref=e571]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e572]:
+          - listitem [ref=e573]:
+            - link "Shopbop Designer Fashion Brands" [ref=e574] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e575]
+              - generic [ref=e576]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e577]
+          - listitem [ref=e578]:
+            - link "Amazon Business Everything For Your Business" [ref=e579] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e580]
+              - generic [ref=e581]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e582]
+          - listitem [ref=e583]:
+            - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e584] [cursor=pointer]:
+              - /url: /music/prime?ref=footer_apm
+              - heading "Amazon Prime Music" [level=5] [ref=e585]
+              - generic [ref=e586]:
+                - text: 100 million songs, ad-free
+                - text: Over 15 million podcast episodes
+          - listitem [ref=e587]
+          - listitem [ref=e588]
+    - generic [ref=e589]:
+      - list [ref=e590]:
+        - listitem [ref=e591]:
+          - link "Conditions of Use & Sale" [ref=e592] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e593]:
+          - link "Privacy Notice" [ref=e594] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e595]:
+          - link "Interest-Based Ads" [ref=e596] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e597]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e599]:
+    - iframe [ref=f7e2]:
+      - generic [active]:
+        - img [ref=f8e1]
+        - img [ref=f8e2]
+        - img [ref=f8e3]
+        - img [ref=f8e4]
+        - img [ref=f8e5]
+        - img [ref=f8e6]
+        - img [ref=f8e7]
+        - img [ref=f8e8]
+```

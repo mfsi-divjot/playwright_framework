@@ -1,0 +1,897 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Shopping cart" [ref=e9] [cursor=pointer]:
+          - /url: "#sc-active-cart"
+          - text: Your Amazon Cart
+    - separator [ref=e10]
+    - heading "Keyboard shortcuts" [level=2] [ref=e11]
+    - list "Keyboard shortcuts" [ref=e12]:
+      - listitem [ref=e13]:
+        - link "Search, alt, forward slash" [ref=e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e15]:
+            - generic [ref=e16]: Search
+            - generic [ref=e17]:
+              - generic [ref=e18]: alt
+              - generic [ref=e19]: +
+              - generic [ref=e20]: /
+      - listitem [ref=e21]:
+        - link "Cart, shift, alt, c" [ref=e22] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e23]:
+            - generic [ref=e24]: Cart
+            - generic [ref=e25]:
+              - generic [ref=e26]: shift
+              - generic [ref=e27]: +
+              - generic [ref=e28]: alt
+              - generic [ref=e29]: +
+              - generic [ref=e30]: C
+      - listitem [ref=e31]:
+        - link "Home, shift, alt, h" [ref=e32] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e33]:
+            - generic [ref=e34]: Home
+            - generic [ref=e35]:
+              - generic [ref=e36]: shift
+              - generic [ref=e37]: +
+              - generic [ref=e38]: alt
+              - generic [ref=e39]: +
+              - generic [ref=e40]: H
+      - listitem [ref=e41]:
+        - link "Your orders, shift, alt, o" [ref=e42] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e43]:
+            - generic [ref=e44]: Orders
+            - generic [ref=e45]:
+              - generic [ref=e46]: shift
+              - generic [ref=e47]: +
+              - generic [ref=e48]: alt
+              - generic [ref=e49]: +
+              - generic [ref=e50]: O
+      - listitem [ref=e51]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]:
+            - generic [ref=e54]: Show/Hide shortcuts
+            - generic [ref=e55]:
+              - generic [ref=e56]: shift
+              - generic [ref=e57]: +
+              - generic [ref=e58]: alt
+              - generic [ref=e59]: +
+              - generic [ref=e60]: Z
+    - generic [ref=e66]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e67]:
+    - navigation "Primary" [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - link "Amazon.in" [ref=e72] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Chandigarh 140603 Update location" [ref=e75] [cursor=pointer]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: Delivering to Chandigarh 140603
+              - generic [ref=e79]: Update location
+        - search [ref=e82]:
+          - generic [ref=e85]:
+            - generic [ref=e87]: All
+            - combobox "Select the department you want to search in" [ref=e89] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e92]
+          - generic "Go" [ref=e95] [cursor=pointer]:
+            - button "Go" [ref=e96]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e100] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e103]:
+                - img "India" [ref=e104]
+                - generic [ref=e105]: EN
+            - button "Expand to Change Language or Country" [ref=e106] [cursor=pointer]
+          - generic [ref=e107]:
+            - link "Hello, sign in Account & Lists" [ref=e108] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fgp%2Fcart%2Fview.html%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e110]: Hello, sign in
+              - generic [ref=e111]: Account & Lists
+            - button "Expand Account and Lists" [ref=e112] [cursor=pointer]
+          - link "Returns & Orders" [ref=e113] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e114]: Returns
+            - generic [ref=e115]: "& Orders"
+          - link "2 items in cart" [ref=e116] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e118]: "2"
+            - generic [ref=e121]: Cart
+      - generic [ref=e122]:
+        - button "Open All Categories Menu" [ref=e124] [cursor=pointer]:
+          - generic [ref=e126]: All
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - link "Fresh" [ref=e133] [cursor=pointer]:
+              - /url: /fresh?ref_=nav_cs_fresh
+          - listitem [ref=e134]:
+            - link "MX Player" [ref=e136] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e137]:
+            - link "Sell" [ref=e139] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e140]:
+            - link "Bestsellers" [ref=e142] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e143]:
+            - link "Mobiles" [ref=e145] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e146]:
+            - link "Customer Service" [ref=e148] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e149]:
+            - link "Today's Deals" [ref=e151] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e152]:
+            - generic [ref=e153]:
+              - link "Prime" [ref=e154] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e155] [cursor=pointer]
+          - listitem [ref=e156]:
+            - link "New Releases" [ref=e158] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e159]:
+            - link "Fashion" [ref=e161] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e162]:
+            - link "Amazon Pay" [ref=e164] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e165]:
+            - link "Electronics" [ref=e167] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e168]:
+            - link "Home & Kitchen" [ref=e170] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e171]:
+            - link "Toys & Games" [ref=e173] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e174]:
+            - link "Computers" [ref=e176] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e177]:
+            - link "Books" [ref=e179] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e180]:
+            - link "Gift Cards" [ref=e182] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e183]:
+            - link "Beauty & Personal Care" [ref=e185] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e186]:
+            - link "Car & Motorbike" [ref=e188] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e189]:
+            - link "Home Improvement" [ref=e191] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e192]:
+            - link "Grocery & Gourmet Foods" [ref=e194] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e195]:
+            - link "Custom Products" [ref=e197] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e198]:
+            - link "Sports, Fitness & Outdoors" [ref=e200] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e201]:
+            - link "Health, Household & Personal Care" [ref=e203] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e204]:
+            - link "Video Games" [ref=e206] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e207]:
+            - link "Baby" [ref=e209] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e210]:
+            - link "Pet Supplies" [ref=e212] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e213]:
+            - link "Subscribe & Save" [ref=e215] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e216]:
+            - link "AmazonBasics" [ref=e218] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e219]:
+            - link "Audible" [ref=e221] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e222]:
+            - link "Kindle eBooks" [ref=e224] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e225]:
+            - link "Flights" [ref=e227] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+  - main [ref=e232]:
+    - heading "All Carts" [level=1] [ref=e233]
+    - generic [ref=e235]:
+      - generic [ref=e236]:
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - 'heading "Amazon Subtotal (2 items): ₹40,980.00" [level=3] [ref=e242]':
+              - generic [ref=e243]: Amazon
+              - generic [ref=e244]:
+                - text: "Subtotal (2 items):"
+                - generic [ref=e245]: ₹40,980.00
+            - generic [ref=e249]:
+              - checkbox "This order contains a gift" [ref=e250]
+              - generic [ref=e252]: This order contains a gift
+            - generic [ref=e256] [cursor=pointer]:
+              - button "Proceed to Buy Buy Amazon items" [ref=e257]: Proceed to checkout
+              - generic [ref=e260]: Proceed to Buy
+          - button "EMI Available" [ref=e265] [cursor=pointer]:
+            - heading "EMI Available" [level=5] [ref=e267]
+        - generic [ref=e273]:
+          - heading "Products related to items in your cart" [level=5] [ref=e274]
+          - button "Leave feedback on Sponsored ad" [ref=e280] [cursor=pointer]: Sponsored
+          - list [ref=e284]:
+            - listitem [ref=e285]:
+              - generic [ref=e288]:
+                - link [ref=e290] [cursor=pointer]:
+                  - /url: /dp/B0DDL495SX/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwMzI1OTIwOTYzNzMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=toB8mIrCZ8&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e292]
+                - generic [ref=e293]:
+                  - link "acer Aspire Lite, 12th gen, Intel Core i5-12450H Processor, 16 GB, 512GB, Full HD IPS, 15.6\"/39.62 cm, Windows 11 Home, MSO, Pure Silver, 1.70 kg, AL15-52H, Backlit Keyboard" [ref=e294] [cursor=pointer]:
+                    - /url: /dp/B0DDL495SX/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwMzI1OTIwOTYzNzMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=toB8mIrCZ8&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e296]:
+                      - generic [ref=e297]: acer Aspire Lite, 12th gen, Intel Core i5-12450H Processor, 16 GB, 512GB, Full HD IPS, 15.6"/39.62 cm, Windows 11 Home, MSO, Pure Silver, 1.70 kg, AL15-52H, Backlit Keyboard
+                      - generic [ref=e298]: acer Aspire Lite, 12th gen, Intel Core i5-12450H Processor, 16 GB, 512GB, Full HD IPS, 15.6"/39.62 cm, Windows 11 Home, MSO, Pure Silver, 1.70 kg, AL15-52H, Backlit Keyboard
+                  - link "4.0 out of 5 stars 804 ratings" [ref=e300] [cursor=pointer]:
+                    - /url: /dp/B0DDL495SX/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwMzI1OTIwOTYzNzMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=toB8mIrCZ8&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e302]: 4.0 out of 5 stars
+                    - generic [ref=e303]: 804 ratings
+                  - link "₹46,990.00" [ref=e305] [cursor=pointer]:
+                    - /url: /dp/B0DDL495SX/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwMzI1OTIwOTYzNzMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=toB8mIrCZ8&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e307]:
+                      - generic [ref=e308]: ₹46,990.00
+                      - generic [ref=e309]:
+                        - text: ₹
+                        - generic [ref=e310]:
+                          - text: 46,990
+                          - generic [ref=e311]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e315] [cursor=pointer]:
+                    - /url: /dp/B0DDL495SX/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwMzI1OTIwOTYzNzMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=toB8mIrCZ8&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e316]:
+              - generic [ref=e319]:
+                - link [ref=e321] [cursor=pointer]:
+                  - /url: /dp/B0F5B2X1SD/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTcxOTk3OTczNDMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=XIzUvyKz4K&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e323]
+                - generic [ref=e324]:
+                  - link "HP 15, Intel Core Ultra 5 125H, 12 Tops (16GB DDR5, 512GB SSD) FHD, IPS, 15.6''/39.6cm, Win11, M365 Basic* Office24, Silver, 1.65kg, fd1254TU, Intel Graphics, FHD Camera w/Shutter, AI Powered Laptop" [ref=e325] [cursor=pointer]:
+                    - /url: /dp/B0F5B2X1SD/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTcxOTk3OTczNDMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=XIzUvyKz4K&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e327]:
+                      - generic [ref=e328]: HP 15, Intel Core Ultra 5 125H, 12 Tops (16GB DDR5, 512GB SSD) FHD, IPS, 15.6''/39.6cm, Win11, M365 Basic* Office24, Silver, 1.65kg, fd1254TU, Intel Graphics, FHD Camera w/Shutter, AI Powered Laptop
+                      - generic [ref=e329]: HP 15, Intel Core Ultra 5 125H, 12 Tops (16GB DDR5, 512GB SSD) FHD, IPS, 15.6''/39.6cm, Win11, M365 Basic* Office24, Silver, 1.65kg, fd1254TU, Intel Graphics, FHD Camera w/Shutter, AI Powered Laptop
+                  - link "3.6 out of 5 stars 24 ratings" [ref=e331] [cursor=pointer]:
+                    - /url: /dp/B0F5B2X1SD/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTcxOTk3OTczNDMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=XIzUvyKz4K&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e333]: 3.6 out of 5 stars
+                    - generic [ref=e334]: 24 ratings
+                  - link "₹60,990.00" [ref=e336] [cursor=pointer]:
+                    - /url: /dp/B0F5B2X1SD/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTcxOTk3OTczNDMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=XIzUvyKz4K&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e338]:
+                      - generic [ref=e339]: ₹60,990.00
+                      - generic [ref=e340]:
+                        - text: ₹
+                        - generic [ref=e341]:
+                          - text: 60,990
+                          - generic [ref=e342]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e346] [cursor=pointer]:
+                    - /url: /dp/B0F5B2X1SD/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTcxOTk3OTczNDMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=XIzUvyKz4K&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e347]:
+              - generic [ref=e350]:
+                - link [ref=e352] [cursor=pointer]:
+                  - /url: /dp/B0FRM3G9JF/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTAwNjk0MTQ4NjMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=t3IlMZ5VyW&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e354]
+                - generic [ref=e355]:
+                  - link "HP Omnibook 5 OLED (Previously Pavilion), Snapdragon X Processor (16GB LPDDR5x,1TB SSD) 2K OLED,16''/40.6cm, Win11, M365*Office24, Glacier Silver, 1.59kg, fb0001QU, Backlit, Next-Gen AI Laptop" [ref=e356] [cursor=pointer]:
+                    - /url: /dp/B0FRM3G9JF/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTAwNjk0MTQ4NjMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=t3IlMZ5VyW&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e358]:
+                      - generic [ref=e359]: HP Omnibook 5 OLED (Previously Pavilion), Snapdragon X Processor (16GB LPDDR5x,1TB SSD) 2K OLED,16''/40.6cm, Win11, M365*Office24, Glacier Silver, 1.59kg, fb0001QU, Backlit, Next-Gen AI Laptop
+                      - generic [ref=e360]: HP Omnibook 5 OLED (Previously Pavilion), Snapdragon X Processor (16GB LPDDR5x,1TB SSD) 2K OLED,16''/40.6cm, Win11, M365*Office24, Glacier Silver, 1.59kg, fb0001QU, Backlit, Next-Gen AI Laptop
+                  - link "4.1 out of 5 stars 174 ratings" [ref=e362] [cursor=pointer]:
+                    - /url: /dp/B0FRM3G9JF/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTAwNjk0MTQ4NjMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=t3IlMZ5VyW&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e364]: 4.1 out of 5 stars
+                    - generic [ref=e365]: 174 ratings
+                  - link "₹63,990.00" [ref=e367] [cursor=pointer]:
+                    - /url: /dp/B0FRM3G9JF/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTAwNjk0MTQ4NjMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=t3IlMZ5VyW&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e369]:
+                      - generic [ref=e370]: ₹63,990.00
+                      - generic [ref=e371]:
+                        - text: ₹
+                        - generic [ref=e372]:
+                          - text: 63,990
+                          - generic [ref=e373]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e377] [cursor=pointer]:
+                    - /url: /dp/B0FRM3G9JF/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTAwNjk0MTQ4NjMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=t3IlMZ5VyW&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e378]:
+              - generic [ref=e381]:
+                - link [ref=e383] [cursor=pointer]:
+                  - /url: /dp/B0BQJ68HHC/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwODQxMzIwNDMyMDMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=DQkCYWuCEn&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e385]
+                - generic [ref=e386]:
+                  - link "Dell 15, Intel Core 3, 14th Gen-100U, 8GB DDR4, 512GB SSD, FHD IPS, 15.6\"/39.62cm, Windows 11, Microsoft Office Home 2024, Carbon Black, 1.63Kg, Dell 15, Intel UHD Graphics, Thin & Light, Laptop" [ref=e387] [cursor=pointer]:
+                    - /url: /dp/B0BQJ68HHC/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwODQxMzIwNDMyMDMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=DQkCYWuCEn&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e389]:
+                      - generic [ref=e390]: Dell 15, Intel Core 3, 14th Gen-100U, 8GB DDR4, 512GB SSD, FHD IPS, 15.6"/39.62cm, Windows 11, Microsoft Office Home 2024, Carbon Black, 1.63Kg, Dell 15, Intel UHD Graphics, Thin & Light, Laptop
+                      - generic [ref=e391]: Dell 15, Intel Core 3, 14th Gen-100U, 8GB DDR4, 512GB SSD, FHD IPS, 15.6"/39.62cm, Windows 11, Microsoft Office Home 2024, Carbon Black, 1.63Kg, Dell 15, Intel UHD Graphics, Thin & Light, Laptop
+                  - link "4.0 out of 5 stars 1,048 ratings" [ref=e393] [cursor=pointer]:
+                    - /url: /dp/B0BQJ68HHC/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwODQxMzIwNDMyMDMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=DQkCYWuCEn&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e395]: 4.0 out of 5 stars
+                    - generic [ref=e396]: 1,048 ratings
+                  - link "₹45,990.00" [ref=e398] [cursor=pointer]:
+                    - /url: /dp/B0BQJ68HHC/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwODQxMzIwNDMyMDMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=DQkCYWuCEn&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e400]:
+                      - generic [ref=e401]: ₹45,990.00
+                      - generic [ref=e402]:
+                        - text: ₹
+                        - generic [ref=e403]:
+                          - text: 45,990
+                          - generic [ref=e404]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e408] [cursor=pointer]:
+                    - /url: /dp/B0BQJ68HHC/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo4NTc5MjU1MDUyODkxNjYxOjE3NzI3ODM4OTA6c3BfY2FydF9wZXJjb2xhdGU6MzAwODQxMzIwNDMyMDMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=DQkCYWuCEn&pd_rd_w=1TcxN&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&ref_=pd_cart_sspa_dk_ct_pt_expsub
+      - generic [ref=e409]:
+        - generic [ref=e411]:
+          - heading "Shopping Cart" [level=2] [ref=e415]
+          - generic [ref=e418]:
+            - generic [ref=e422]: Price
+            - list "Shopping Cart" [ref=e423]:
+              - listitem [ref=e424]:
+                - generic [ref=e426]:
+                  - link [ref=e428] [cursor=pointer]:
+                    - /url: /gp/product/B0GLXWY8ZX/ref=ox_sc_act_image_1?smid=AJ6SIZC8YQDZX&psc=1
+                  - generic [ref=e429]:
+                    - link "acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6\"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [ref=e431] [cursor=pointer]:
+                      - /url: /gp/product/B0GLXWY8ZX/ref=ox_sc_act_title_1?smid=AJ6SIZC8YQDZX&psc=1
+                      - heading "acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6\"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [level=3] [ref=e433]:
+                        - generic [ref=e434]:
+                          - generic [ref=e435]: acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop
+                          - generic [ref=e436]: acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6"/39.62cm, Windows 11 Home, Pure Sil…
+                    - generic [ref=e442]:
+                      - generic [ref=e443]: ₹28,990.00
+                      - text: ₹28,990.00
+                    - generic [ref=e444]:
+                      - generic [ref=e445]: In stock
+                      - generic [ref=e448]: FREE delivery Thu, 12 Mar available at checkout
+                      - paragraph [ref=e449]
+                      - generic [ref=e453]:
+                        - checkbox "This will be a gift This is a gift Learn more" [ref=e454]
+                        - generic [ref=e456]:
+                          - text: This will be a gift
+                          - link "This is a gift Learn more" [ref=e458] [cursor=pointer]:
+                            - /url: /gp/help/customer/display.html/ref=ord_cart_shr?pop-up=1&nodeId=200507630
+                            - generic [ref=e459]:
+                              - generic [ref=e460]: This is a gift
+                              - text: Learn more
+                    - generic [ref=e461]:
+                      - group "Quantity is 1" [ref=e464]:
+                        - generic [ref=e465]: Quantity is 1
+                        - generic [ref=e467]:
+                          - button "Delete acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6&quot;/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [ref=e468] [cursor=pointer]
+                          - generic [ref=e472]: "1"
+                          - generic [ref=e474]: "1"
+                          - button "Increase quantity by one acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6&quot;/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [active] [ref=e475] [cursor=pointer]
+                      - button "Delete acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6&quot;/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [ref=e479] [cursor=pointer]: Delete
+                      - button "Save for later acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6&quot;/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [ref=e482] [cursor=pointer]: Save for later
+                      - link "Share acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6&amp;quot;/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [ref=e485] [cursor=pointer]:
+                        - /url: "#"
+                        - text: Share
+              - listitem [ref=e486]:
+                - generic [ref=e488]:
+                  - link [ref=e490] [cursor=pointer]:
+                    - /url: /gp/product/B0G2MT8YVV/ref=ox_sc_act_image_2?smid=AJ6SIZC8YQDZX&psc=1
+                  - generic [ref=e491]:
+                    - link "Neopticon EBook 11.6\" HD Laptop | Best Student & Office Work Laptop | Celeron N4020 | 4GB DDR4 | 128GB eMMC + M.2 SSD Expandable Slot | Win 11 Home |31Wh Battery | UHD Graphics 600 | Black" [ref=e493] [cursor=pointer]:
+                      - /url: /gp/product/B0G2MT8YVV/ref=ox_sc_act_title_2?smid=AJ6SIZC8YQDZX&psc=1
+                      - heading "Neopticon EBook 11.6\" HD Laptop | Best Student & Office Work Laptop | Celeron N4020 | 4GB DDR4 | 128GB eMMC + M.2 SSD Expandable Slot | Win 11 Home |31Wh Battery | UHD Graphics 600 | Black" [level=3] [ref=e495]:
+                        - generic [ref=e496]:
+                          - generic [ref=e497]: Neopticon EBook 11.6" HD Laptop | Best Student & Office Work Laptop | Celeron N4020 | 4GB DDR4 | 128GB eMMC + M.2 SSD Expandable Slot | Win 11 Home |31Wh Battery | UHD Graphics 600 | Black
+                          - generic [ref=e498]: Neopticon EBook 11.6" HD Laptop | Best Student & Office Work Laptop | Celeron N4020 | 4GB DDR4 | 128GB eMMC +…
+                    - generic [ref=e499]:
+                      - generic [ref=e501]:
+                        - generic [ref=e503]: 52% off
+                        - generic [ref=e505]: Limited time deal
+                      - generic [ref=e506]:
+                        - generic [ref=e510]:
+                          - generic [ref=e511]: ₹11,990.00
+                          - text: ₹11,990.00
+                        - generic [ref=e512]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e513]:
+                            - generic [ref=e514]: ₹25,000.00
+                            - text: ₹25,000.00
+                    - generic [ref=e515]:
+                      - generic [ref=e516]: In stock
+                      - generic [ref=e519]: FREE delivery Sun, 8 Mar available at checkout
+                      - paragraph [ref=e520]
+                      - generic [ref=e524]:
+                        - checkbox "This will be a gift This is a gift Learn more" [ref=e525]
+                        - generic [ref=e527]:
+                          - text: This will be a gift
+                          - link "This is a gift Learn more" [ref=e529] [cursor=pointer]:
+                            - /url: /gp/help/customer/display.html/ref=ord_cart_shr?pop-up=1&nodeId=200507630
+                            - generic [ref=e530]:
+                              - generic [ref=e531]: This is a gift
+                              - text: Learn more
+                    - generic [ref=e532]:
+                      - group "Quantity is 1" [ref=e535]:
+                        - generic [ref=e536]: Quantity is 1
+                        - generic [ref=e538]:
+                          - button "Delete Neopticon EBook 11.6&quot; HD Laptop | Best Student &amp; Office Work Laptop | Celeron N4020 | 4GB DDR4 | 128GB eMMC + M.2 SSD Expandable Slot | Win 11 Home |31Wh Battery | UHD Graphics 600 | Black" [ref=e539] [cursor=pointer]
+                          - generic [ref=e543]: "1"
+                          - generic [ref=e545]: "1"
+                          - button "Increase quantity by one Neopticon EBook 11.6&quot; HD Laptop | Best Student &amp; Office Work Laptop | Celeron N4020 | 4GB DDR4 | 128GB eMMC + M.2 SSD Expandable Slot | Win 11 Home |31Wh Battery | UHD Graphics 600 | Black" [ref=e546] [cursor=pointer]
+                      - button "Delete Neopticon EBook 11.6&quot; HD Laptop | Best Student &amp; Office Work Laptop | Celeron N4020 | 4GB DDR4 | 128GB eMMC + M.2 SSD Expandable Slot | Win 11 Home |31Wh Battery | UHD Graphics 600 | Black" [ref=e550] [cursor=pointer]: Delete
+                      - button "Save for later Neopticon EBook 11.6&quot; HD Laptop | Best Student &amp; Office Work Laptop | Celeron N4020 | 4GB DDR4 | 128GB eMMC + M.2 SSD Expandable Slot | Win 11 Home |31Wh Battery | UHD Graphics 600 | Black" [ref=e553] [cursor=pointer]: Save for later
+                      - button "See more like this Neopticon EBook 11.6&quot; HD Laptop | Best Student &amp; Office Work Laptop | Celeron N4020 | 4GB DDR4 | 128GB eMMC + M.2 SSD Expandable Slot | Win 11 Home |31Wh Battery | UHD Graphics 600 | Black" [ref=e556] [cursor=pointer]: See more like this
+                      - link "Share Neopticon EBook 11.6&amp;quot; HD Laptop | Best Student &amp;amp; Office Work Laptop | Celeron N4020 | 4GB DDR4 | 128GB eMMC + M.2 SSD Expandable Slot | Win 11 Home |31Wh Battery | UHD Graphics 600 | Black" [ref=e559] [cursor=pointer]:
+                        - /url: "#"
+                        - text: Share
+            - generic [ref=e561]:
+              - text: "Subtotal (2 items):"
+              - generic [ref=e562]: ₹40,980.00
+        - generic [ref=e566]:
+          - paragraph [ref=e568]: The price and availability of items at Amazon.in are subject to change. The shopping cart is a temporary place to store a list of your items and reflects each item's most recent price.
+          - paragraph [ref=e569]: Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay.
+  - group [ref=e577]:
+    - heading "Customers who shopped for acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X R... also shopped for:" [level=2] [ref=e582]
+    - group [ref=e587]:
+      - list [ref=e588]:
+        - listitem [ref=e589]:
+          - generic [ref=e591]:
+            - link [ref=e592] [cursor=pointer]:
+              - /url: /acer-Pentium-LPDDR4X-39-62cm-A325-45/dp/B0GLY3PQBB/ref=pd_cart_crc_cko_sbs_d_sccl_2_1/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0GLY3PQBB&psc=1
+              - img [ref=e594]
+            - generic [ref=e596]:
+              - link "acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 256GB SSD, HD, 15.6\"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [ref=e597] [cursor=pointer]:
+                - /url: /acer-Pentium-LPDDR4X-39-62cm-A325-45/dp/B0GLY3PQBB/ref=pd_cart_crc_cko_sbs_d_sccl_2_1/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0GLY3PQBB&psc=1
+                - generic [ref=e599]: acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 256GB SSD, HD, 15.6"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop
+              - generic [ref=e600]:
+                - generic [ref=e602]:
+                  - generic [ref=e603]:
+                    - link "-21%" [ref=e604] [cursor=pointer]:
+                      - /url: /acer-Pentium-LPDDR4X-39-62cm-A325-45/dp/B0GLY3PQBB/ref=pd_cart_crc_cko_sbs_d_sccl_2_1/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0GLY3PQBB&psc=1
+                      - text: "-21%"
+                    - link "₹32,900.00" [ref=e605] [cursor=pointer]:
+                      - /url: /acer-Pentium-LPDDR4X-39-62cm-A325-45/dp/B0GLY3PQBB/ref=pd_cart_crc_cko_sbs_d_sccl_2_1/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0GLY3PQBB&psc=1
+                      - generic [ref=e606]:
+                        - generic [ref=e607]: ₹32,900.00
+                        - generic [ref=e608]:
+                          - text: ₹
+                          - generic [ref=e609]:
+                            - text: 32,900
+                            - generic [ref=e610]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹41,500.00" [ref=e612] [cursor=pointer]':
+                    - /url: /acer-Pentium-LPDDR4X-39-62cm-A325-45/dp/B0GLY3PQBB/ref=pd_cart_crc_cko_sbs_d_sccl_2_1/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0GLY3PQBB&psc=1
+                    - generic [ref=e614]: "M.R.P: ₹41,500.00"
+                - generic [ref=e616]: Get it by Wednesday, March 11
+              - text: FREE Delivery by Amazon
+            - generic [ref=e624] [cursor=pointer]:
+              - button "Add to cart, acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 256GB SSD, HD, 15.6\"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [ref=e625]
+              - generic [ref=e626]: Add to cart
+        - listitem [ref=e627]:
+          - generic [ref=e629]:
+            - link [ref=e630] [cursor=pointer]:
+              - /url: /HP-Chromebook-Micro-Edge-Touchscreen-14a-ca0505TU/dp/B09QQM3J65/ref=pd_cart_crc_cko_sbs_d_sccl_2_2/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B09QQM3J65&psc=1
+              - img [ref=e632]
+            - generic [ref=e634]:
+              - link "HP Chromebook x360, Intel Celeron N4120, 14-inch (35.6 cm), HD, 4GB LPDDR4, 64GB eMMC, Intel UHD Graphics, Thin & Light, Dual Speakers, BrightView Display (Chrome 64, White, 1.49 kg), ca0505TU" [ref=e635] [cursor=pointer]:
+                - /url: /HP-Chromebook-Micro-Edge-Touchscreen-14a-ca0505TU/dp/B09QQM3J65/ref=pd_cart_crc_cko_sbs_d_sccl_2_2/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B09QQM3J65&psc=1
+                - generic [ref=e637]: HP Chromebook x360, Intel Celeron N4120, 14-inch (35.6 cm), HD, 4GB LPDDR4, 64GB eMMC, Intel UHD Graphics, Thin & Light, Dual Speakers, BrightView Display (Chrome 64, White, 1.49 kg), ca0505TU
+              - link "3.7 out of 5 stars, 87 ratings" [ref=e640] [cursor=pointer]:
+                - /url: /product-reviews/B09QQM3J65/ref=pd_cart_crc_cko_sbs_d_sccl_2_2_cr/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B09QQM3J65
+                - generic [ref=e642]: 3.7 out of 5 stars
+                - text: "87"
+              - generic [ref=e643]:
+                - generic [ref=e645]:
+                  - generic [ref=e646]:
+                    - link "-12%" [ref=e647] [cursor=pointer]:
+                      - /url: /HP-Chromebook-Micro-Edge-Touchscreen-14a-ca0505TU/dp/B09QQM3J65/ref=pd_cart_crc_cko_sbs_d_sccl_2_2/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B09QQM3J65&psc=1
+                      - text: "-12%"
+                    - link "₹28,490.00" [ref=e648] [cursor=pointer]:
+                      - /url: /HP-Chromebook-Micro-Edge-Touchscreen-14a-ca0505TU/dp/B09QQM3J65/ref=pd_cart_crc_cko_sbs_d_sccl_2_2/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B09QQM3J65&psc=1
+                      - generic [ref=e649]:
+                        - generic [ref=e650]: ₹28,490.00
+                        - generic [ref=e651]:
+                          - text: ₹
+                          - generic [ref=e652]:
+                            - text: 28,490
+                            - generic [ref=e653]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹32,295.00" [ref=e655] [cursor=pointer]':
+                    - /url: /HP-Chromebook-Micro-Edge-Touchscreen-14a-ca0505TU/dp/B09QQM3J65/ref=pd_cart_crc_cko_sbs_d_sccl_2_2/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B09QQM3J65&psc=1
+                    - generic [ref=e657]: "M.R.P: ₹32,295.00"
+                - generic [ref=e659]: Get it by Monday, March 9
+              - text: FREE Delivery by Amazon
+            - generic [ref=e667] [cursor=pointer]:
+              - button "Add to cart, HP Chromebook x360, Intel Celeron N4120, 14-inch (35.6 cm), HD, 4GB LPDDR4, 64GB eMMC, Intel UHD Graphics, Thin & Light, Dual Speakers, BrightView Display (Chrome 64, White, 1.49 kg), ca0505TU" [ref=e668]
+              - generic [ref=e669]: Add to cart
+        - listitem [ref=e670]:
+          - generic [ref=e672]:
+            - link [ref=e673] [cursor=pointer]:
+              - /url: /Celeron-LPDDR4X-39-62cm-Windows-A325-45/dp/B0FF4QBNWM/ref=pd_cart_crc_cko_sbs_d_sccl_2_3/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0FF4QBNWM&psc=1
+              - img [ref=e675]
+            - generic [ref=e677]:
+              - link "acer Aspire 3, Intel Core Celeron N4500, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6\"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [ref=e678] [cursor=pointer]:
+                - /url: /Celeron-LPDDR4X-39-62cm-Windows-A325-45/dp/B0FF4QBNWM/ref=pd_cart_crc_cko_sbs_d_sccl_2_3/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0FF4QBNWM&psc=1
+                - generic [ref=e680]: acer Aspire 3, Intel Core Celeron N4500, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop
+              - link "3.4 out of 5 stars, 371 ratings" [ref=e683] [cursor=pointer]:
+                - /url: /product-reviews/B0FF4QBNWM/ref=pd_cart_crc_cko_sbs_d_sccl_2_3_cr/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0FF4QBNWM
+                - generic [ref=e685]: 3.4 out of 5 stars
+                - text: "371"
+              - generic [ref=e686]:
+                - generic [ref=e688]:
+                  - generic [ref=e689]:
+                    - link "-26%" [ref=e690] [cursor=pointer]:
+                      - /url: /Celeron-LPDDR4X-39-62cm-Windows-A325-45/dp/B0FF4QBNWM/ref=pd_cart_crc_cko_sbs_d_sccl_2_3/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0FF4QBNWM&psc=1
+                      - text: "-26%"
+                    - link "₹31,800.00" [ref=e691] [cursor=pointer]:
+                      - /url: /Celeron-LPDDR4X-39-62cm-Windows-A325-45/dp/B0FF4QBNWM/ref=pd_cart_crc_cko_sbs_d_sccl_2_3/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0FF4QBNWM&psc=1
+                      - generic [ref=e692]:
+                        - generic [ref=e693]: ₹31,800.00
+                        - generic [ref=e694]:
+                          - text: ₹
+                          - generic [ref=e695]:
+                            - text: 31,800
+                            - generic [ref=e696]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹42,990.00" [ref=e698] [cursor=pointer]':
+                    - /url: /Celeron-LPDDR4X-39-62cm-Windows-A325-45/dp/B0FF4QBNWM/ref=pd_cart_crc_cko_sbs_d_sccl_2_3/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0FF4QBNWM&psc=1
+                    - generic [ref=e700]: "M.R.P: ₹42,990.00"
+                - generic [ref=e702]: Get it by Wednesday, March 11
+              - text: FREE Delivery by Amazon
+              - generic [ref=e705]: Only 2 left in stock.
+            - generic [ref=e713] [cursor=pointer]:
+              - button "Add to cart, acer Aspire 3, Intel Core Celeron N4500, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6\"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [ref=e714]
+              - generic [ref=e715]: Add to cart
+        - listitem [ref=e716]:
+          - generic [ref=e718]:
+            - link [ref=e719] [cursor=pointer]:
+              - /url: /Dell_Model-5400-i5-8th-Gen/dp/B0GCG1742H/ref=pd_cart_crc_cko_sbs_d_sccl_2_4/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0GCG1742H&psc=1
+              - img [ref=e721]
+            - generic [ref=e723]:
+              - link "Dell_Model 5400 | i5 8th Gen Processor | 8GB DDR4 RAM | 256GB SSD | 14\" (35.6cm) FHD Display | Win 10 | A+ Condition Laptop (Refab)" [ref=e724] [cursor=pointer]:
+                - /url: /Dell_Model-5400-i5-8th-Gen/dp/B0GCG1742H/ref=pd_cart_crc_cko_sbs_d_sccl_2_4/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0GCG1742H&psc=1
+                - generic [ref=e726]: Dell_Model 5400 | i5 8th Gen Processor | 8GB DDR4 RAM | 256GB SSD | 14" (35.6cm) FHD Display | Win 10 | A+ Condition Laptop (Refab)
+              - link "5.0 out of 5 stars, 1 ratings" [ref=e729] [cursor=pointer]:
+                - /url: /product-reviews/B0GCG1742H/ref=pd_cart_crc_cko_sbs_d_sccl_2_4_cr/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0GCG1742H
+                - generic [ref=e731]: 5.0 out of 5 stars
+                - text: "1"
+              - generic [ref=e732]:
+                - generic [ref=e734]:
+                  - generic [ref=e735]:
+                    - link "-49%" [ref=e736] [cursor=pointer]:
+                      - /url: /Dell_Model-5400-i5-8th-Gen/dp/B0GCG1742H/ref=pd_cart_crc_cko_sbs_d_sccl_2_4/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0GCG1742H&psc=1
+                      - text: "-49%"
+                    - link "₹25,450.00" [ref=e737] [cursor=pointer]:
+                      - /url: /Dell_Model-5400-i5-8th-Gen/dp/B0GCG1742H/ref=pd_cart_crc_cko_sbs_d_sccl_2_4/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0GCG1742H&psc=1
+                      - generic [ref=e738]:
+                        - generic [ref=e739]: ₹25,450.00
+                        - generic [ref=e740]:
+                          - text: ₹
+                          - generic [ref=e741]:
+                            - text: 25,450
+                            - generic [ref=e742]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹49,995.00" [ref=e744] [cursor=pointer]':
+                    - /url: /Dell_Model-5400-i5-8th-Gen/dp/B0GCG1742H/ref=pd_cart_crc_cko_sbs_d_sccl_2_4/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0GCG1742H&psc=1
+                    - generic [ref=e746]: "M.R.P: ₹49,995.00"
+                - generic [ref=e748]: Get it by Monday, March 9
+              - text: FREE Delivery by Amazon
+            - generic [ref=e756] [cursor=pointer]:
+              - button "Add to cart, Dell_Model 5400 | i5 8th Gen Processor | 8GB DDR4 RAM | 256GB SSD | 14\" (35.6cm) FHD Display | Win 10 | A+ Condition Laptop (Refab)" [ref=e757]
+              - generic [ref=e758]: Add to cart
+        - listitem [ref=e759]:
+          - generic [ref=e761]:
+            - link [ref=e762] [cursor=pointer]:
+              - /url: /Acer-Celeron-Dual-Core-Processor-Windows/dp/B0B646J7WQ/ref=pd_cart_crc_cko_sbs_d_sccl_2_5/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0B646J7WQ&psc=1
+              - img [ref=e764]
+            - generic [ref=e766]:
+              - 'link "acer Aspire 3 Laptop (Made in India) (Intel Celeron Dual-Core Processor N4500 | Windows 11 Home | 4 GB | 256GB SSD | Weight : 1.45 Kg| Silver) A314-35, 35.56 Cm (14-Inch) HD Display" [ref=e767] [cursor=pointer]':
+                - /url: /Acer-Celeron-Dual-Core-Processor-Windows/dp/B0B646J7WQ/ref=pd_cart_crc_cko_sbs_d_sccl_2_5/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0B646J7WQ&psc=1
+                - generic [ref=e769]: "acer Aspire 3 Laptop (Made in India) (Intel Celeron Dual-Core Processor N4500 | Windows 11 Home | 4 GB | 256GB SSD | Weight : 1.45 Kg| Silver) A314-35, 35.56 Cm (14-Inch) HD Display"
+              - link "2.4 out of 5 stars, 4 ratings" [ref=e772] [cursor=pointer]:
+                - /url: /product-reviews/B0B646J7WQ/ref=pd_cart_crc_cko_sbs_d_sccl_2_5_cr/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0B646J7WQ
+                - generic [ref=e774]: 2.4 out of 5 stars
+                - text: "4"
+              - generic [ref=e775]:
+                - generic [ref=e777]:
+                  - generic [ref=e778]:
+                    - link "-63%" [ref=e779] [cursor=pointer]:
+                      - /url: /Acer-Celeron-Dual-Core-Processor-Windows/dp/B0B646J7WQ/ref=pd_cart_crc_cko_sbs_d_sccl_2_5/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0B646J7WQ&psc=1
+                      - text: "-63%"
+                    - link "₹29,999.00" [ref=e780] [cursor=pointer]:
+                      - /url: /Acer-Celeron-Dual-Core-Processor-Windows/dp/B0B646J7WQ/ref=pd_cart_crc_cko_sbs_d_sccl_2_5/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0B646J7WQ&psc=1
+                      - generic [ref=e781]:
+                        - generic [ref=e782]: ₹29,999.00
+                        - generic [ref=e783]:
+                          - text: ₹
+                          - generic [ref=e784]:
+                            - text: 29,999
+                            - generic [ref=e785]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹79,999.00" [ref=e787] [cursor=pointer]':
+                    - /url: /Acer-Celeron-Dual-Core-Processor-Windows/dp/B0B646J7WQ/ref=pd_cart_crc_cko_sbs_d_sccl_2_5/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0B646J7WQ&psc=1
+                    - generic [ref=e789]: "M.R.P: ₹79,999.00"
+                - generic [ref=e791]: Get it by Wednesday, March 11
+              - text: FREE Delivery by Amazon
+            - generic [ref=e799] [cursor=pointer]:
+              - 'button "Add to cart, acer Aspire 3 Laptop (Made in India) (Intel Celeron Dual-Core Processor N4500 | Windows 11 Home | 4 GB | 256GB SSD | Weight : 1.45 Kg| Silver) A314-35, 35.56 Cm (14-Inch) HD Display" [ref=e800]'
+              - generic [ref=e801]: Add to cart
+        - listitem [ref=e802]:
+          - generic [ref=e804]:
+            - link [ref=e805] [cursor=pointer]:
+              - /url: /HP-Notebook-15-6-inch-Anti-Glare-Graphics/dp/B0DV97FSGN/ref=pd_cart_crc_cko_sbs_d_sccl_2_6/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0DV97FSGN&psc=1
+              - img [ref=e807]
+            - generic [ref=e809]:
+              - link "HP 255 Notebook, AMD Athlon Silver 7120U,8GB DDR4, 256GB SSD, 15.6-inch(39.6cm),Anti-Glare, HD Laptop, Radeon Graphics, (Win 11, Silver,1.52kg) G10" [ref=e810] [cursor=pointer]:
+                - /url: /HP-Notebook-15-6-inch-Anti-Glare-Graphics/dp/B0DV97FSGN/ref=pd_cart_crc_cko_sbs_d_sccl_2_6/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0DV97FSGN&psc=1
+                - generic [ref=e812]: HP 255 Notebook, AMD Athlon Silver 7120U,8GB DDR4, 256GB SSD, 15.6-inch(39.6cm),Anti-Glare, HD Laptop, Radeon Graphics, (Win 11, Silver,1.52kg) G10
+              - link "1.0 out of 5 stars, 1 ratings" [ref=e815] [cursor=pointer]:
+                - /url: /product-reviews/B0DV97FSGN/ref=pd_cart_crc_cko_sbs_d_sccl_2_6_cr/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0DV97FSGN
+                - generic [ref=e817]: 1.0 out of 5 stars
+                - text: "1"
+              - generic [ref=e818]:
+                - generic [ref=e820]:
+                  - generic [ref=e821]:
+                    - link "-62%" [ref=e822] [cursor=pointer]:
+                      - /url: /HP-Notebook-15-6-inch-Anti-Glare-Graphics/dp/B0DV97FSGN/ref=pd_cart_crc_cko_sbs_d_sccl_2_6/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0DV97FSGN&psc=1
+                      - text: "-62%"
+                    - link "₹29,890.00" [ref=e823] [cursor=pointer]:
+                      - /url: /HP-Notebook-15-6-inch-Anti-Glare-Graphics/dp/B0DV97FSGN/ref=pd_cart_crc_cko_sbs_d_sccl_2_6/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0DV97FSGN&psc=1
+                      - generic [ref=e824]:
+                        - generic [ref=e825]: ₹29,890.00
+                        - generic [ref=e826]:
+                          - text: ₹
+                          - generic [ref=e827]:
+                            - text: 29,890
+                            - generic [ref=e828]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹78,990.00" [ref=e830] [cursor=pointer]':
+                    - /url: /HP-Notebook-15-6-inch-Anti-Glare-Graphics/dp/B0DV97FSGN/ref=pd_cart_crc_cko_sbs_d_sccl_2_6/520-8640319-5450752?pd_rd_w=Gq0dC&content-id=amzn1.sym.61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_p=61c9f25f-5129-4f03-9806-1917beac1ddc&pf_rd_r=WCQEZW05J07VDHZJGCC8&pd_rd_wg=eQlOn&pd_rd_r=2c8bf728-8f2d-4dc9-acfe-e56da9958cf8&pd_rd_i=B0DV97FSGN&psc=1
+                    - generic [ref=e832]: "M.R.P: ₹78,990.00"
+                - generic [ref=e834]: Get it by Wednesday, March 11
+              - text: FREE Delivery by Amazon
+            - generic [ref=e842] [cursor=pointer]:
+              - button "Add to cart, HP 255 Notebook, AMD Athlon Silver 7120U,8GB DDR4, 256GB SSD, 15.6-inch(39.6cm),Anti-Glare, HD Laptop, Radeon Graphics, (Win 11, Silver,1.52kg) G10" [ref=e843]
+              - generic [ref=e844]: Add to cart
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e845]:
+    - button "Back to top" [ref=e846] [cursor=pointer]:
+      - generic [ref=e847]: Back to top
+    - generic [ref=e848]:
+      - generic [ref=e849]:
+        - heading "Get to Know Us" [level=6] [ref=e850]
+        - list [ref=e851]:
+          - listitem [ref=e852]:
+            - link "About Amazon" [ref=e853] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e854]:
+            - link "Careers" [ref=e855] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e856]:
+            - link "Press Releases" [ref=e857] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e858]:
+            - link "Amazon Science" [ref=e859] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e861]:
+        - heading "Connect with Us" [level=6] [ref=e862]
+        - list [ref=e863]:
+          - listitem [ref=e864]:
+            - link "Facebook" [ref=e865] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e866]:
+            - link "Twitter" [ref=e867] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e868]:
+            - link "Instagram" [ref=e869] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e871]:
+        - heading "Make Money with Us" [level=6] [ref=e872]
+        - list [ref=e873]:
+          - listitem [ref=e874]:
+            - link "Sell on Amazon" [ref=e875] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e876]:
+            - link "Sell under Amazon Accelerator" [ref=e877] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e878]:
+            - link "Protect and Build Your Brand" [ref=e879] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e880]:
+            - link "Amazon Global Selling" [ref=e881] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e882]:
+            - link "Supply to Amazon" [ref=e883] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e884]:
+            - link "Become an Affiliate" [ref=e885] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e886]:
+            - link "Fulfilment by Amazon" [ref=e887] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e888]:
+            - link "Advertise Your Products" [ref=e889] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e890]:
+            - link "Amazon Pay on Merchants" [ref=e891] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e893]:
+        - heading "Let Us Help You" [level=6] [ref=e894]
+        - list [ref=e895]:
+          - listitem [ref=e896]:
+            - link "Your Account" [ref=e897] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e898]:
+            - link "Returns Centre" [ref=e899] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e900]:
+            - link "Recalls and Product Safety Alerts" [ref=e901] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e902]:
+            - link "100% Purchase Protection" [ref=e903] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e904]:
+            - link "Amazon App Download" [ref=e905] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e906]:
+            - link "Help" [ref=e907] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e909]:
+      - link "Amazon India Home" [ref=e912] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e915]:
+        - generic [ref=e916]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e917] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e919]: English
+          - button "Expand to Change Language or Country" [ref=e920] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e921] [cursor=pointer]:
+          - generic [ref=e923]: India
+    - generic "More on Amazon" [ref=e924]:
+      - generic "More on Amazon" [ref=e925]:
+        - list [ref=e926]:
+          - listitem [ref=e927]:
+            - link "AbeBooks Books, art & collectibles" [ref=e928] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e929]
+              - generic [ref=e930]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e931]
+          - listitem [ref=e932]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e933] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e934]
+              - generic [ref=e935]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e936]
+          - listitem [ref=e937]:
+            - link "Audible Download Audio Books" [ref=e938] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e939]
+              - generic [ref=e940]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e941]
+          - listitem [ref=e942]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e943] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e944]
+              - generic [ref=e945]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e946]:
+          - listitem [ref=e947]:
+            - link "Shopbop Designer Fashion Brands" [ref=e948] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e949]
+              - generic [ref=e950]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e951]
+          - listitem [ref=e952]:
+            - link "Amazon Business Everything For Your Business" [ref=e953] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e954]
+              - generic [ref=e955]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e956]
+          - listitem [ref=e957]:
+            - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e958] [cursor=pointer]:
+              - /url: /music/prime?ref=footer_apm
+              - heading "Amazon Prime Music" [level=5] [ref=e959]
+              - generic [ref=e960]:
+                - text: 100 million songs, ad-free
+                - text: Over 15 million podcast episodes
+          - listitem [ref=e961]
+          - listitem [ref=e962]
+    - generic [ref=e963]:
+      - list [ref=e964]:
+        - listitem [ref=e965]:
+          - link "Conditions of Use & Sale" [ref=e966] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e967]:
+          - link "Privacy Notice" [ref=e968] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e969]:
+          - link "Interest-Based Ads" [ref=e970] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e971]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e973]:
+    - iframe [ref=f12e2]:
+      - generic [active]:
+        - img [ref=f13e1]
+        - img [ref=f13e2]
+        - img [ref=f13e3]
+        - img [ref=f13e4]
+        - img [ref=f13e5]
+        - img [ref=f13e6]
+        - img [ref=f13e7]
+        - img [ref=f13e8]
+        - img [ref=f13e9]
+        - img [ref=f13e10]
+        - img [ref=f13e11]
+        - img [ref=f13e12]
+```
