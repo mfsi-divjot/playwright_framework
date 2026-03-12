@@ -25,7 +25,7 @@ jobs:
       run: npx playwright install --with-deps
 
     - name: Install Allure CLI
-      uses: andrejewski/allure-action@v2.0.0
+      run: npm install -g allure-commandline --save-dev
 
     - name: Run Playwright tests
       run: npx playwright test tests/TC06_Booking.spec.js
