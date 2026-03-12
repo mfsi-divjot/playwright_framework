@@ -15,9 +15,11 @@ class AuthService {
             }
         })
         expect(response.status()).toBe(200);
+        // const body = await response.json();
+        // const token = body.token;
+        // return token;
         const body = await response.json();
-        const token = body.token;
-        return token;
+        return body;
     }
 }
 module.exports = AuthService;

@@ -1,0 +1,108 @@
+[
+  { bookingid: 2872 }, { bookingid: 2605 }, { bookingid: 2922 },
+  { bookingid: 1584 }, { bookingid: 501 },  { bookingid: 2515 },
+  { bookingid: 2615 }, { bookingid: 249 },  { bookingid: 2410 },
+  { bookingid: 663 },  { bookingid: 2948 }, { bookingid: 2966 },
+  { bookingid: 2621 }, { bookingid: 1825 }, { bookingid: 2039 },
+  { bookingid: 2710 }, { bookingid: 2604 }, { bookingid: 473 },
+  { bookingid: 1746 }, { bookingid: 2683 }, { bookingid: 1435 },
+  { bookingid: 1955 }, { bookingid: 842 },  { bookingid: 94 },
+  { bookingid: 3101 }, { bookingid: 818 },  { bookingid: 118 },
+  { bookingid: 6 },    { bookingid: 2321 }, { bookingid: 2384 },
+  { bookingid: 475 },  { bookingid: 1594 }, { bookingid: 161 },
+  { bookingid: 2705 }, { bookingid: 953 },  { bookingid: 1151 },
+  { bookingid: 1368 }, { bookingid: 1192 }, { bookingid: 648 },
+  { bookingid: 2896 }, { bookingid: 2593 }, { bookingid: 402 },
+  { bookingid: 2250 }, { bookingid: 400 },  { bookingid: 214 },
+  { bookingid: 1324 }, { bookingid: 370 },  { bookingid: 2425 },
+  { bookingid: 3048 }, { bookingid: 1399 }, { bookingid: 808 },
+  { bookingid: 937 },  { bookingid: 973 },  { bookingid: 1297 },
+  { bookingid: 415 },  { bookingid: 2965 }, { bookingid: 336 },
+  { bookingid: 85 },   { bookingid: 1279 }, { bookingid: 745 },
+  { bookingid: 2112 }, { bookingid: 853 },  { bookingid: 371 },
+  { bookingid: 886 },  { bookingid: 1395 }, { bookingid: 1656 },
+  { bookingid: 2220 }, { bookingid: 479 },  { bookingid: 254 },
+  { bookingid: 266 },  { bookingid: 110 },  { bookingid: 2565 },
+  { bookingid: 817 },  { bookingid: 2708 }, { bookingid: 319 },
+  { bookingid: 2472 }, { bookingid: 984 },  { bookingid: 181 },
+  { bookingid: 2996 }, { bookingid: 1333 }, { bookingid: 3049 },
+  { bookingid: 725 },  { bookingid: 1450 }, { bookingid: 175 },
+  { bookingid: 550 },  { bookingid: 1968 }, { bookingid: 2535 },
+  { bookingid: 1307 }, { bookingid: 1832 }, { bookingid: 2058 },
+  { bookingid: 1128 }, { bookingid: 1488 }, { bookingid: 2537 },
+  { bookingid: 1820 }, { bookingid: 2725 }, { bookingid: 190 },
+  { bookingid: 2753 }, { bookingid: 3082 }, { bookingid: 1779 },
+  { bookingid: 2090 },
+  ... 2030 more items
+]
+{
+  firstname: 'Bob',
+  lastname: 'Smith',
+  totalprice: 111,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'Breakfast'
+}
+{
+  bookingid: 3113,
+  booking: {
+    firstname: 'Jim',
+    lastname: 'Brown',
+    totalprice: 111,
+    depositpaid: true,
+    bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+    additionalneeds: 'Breakfast'
+  }
+}
+{
+  'content-length': '197',
+  'content-type': 'application/json; charset=utf-8',
+  date: 'Thu, 12 Mar 2026 07:46:13 GMT',
+  etag: 'W/"c5-f46SRvafgFftrP+2yiKvavEMMQ0"',
+  nel: '{"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}',
+  'report-to': '{"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=f5eaa4B8ATBvgDgF2mmPeRMwXYFEJc0AZLwsQo86obs%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1773301573"}],"max_age":3600}',
+  'reporting-endpoints': 'heroku-nel="https://nel.heroku.com/reports?s=f5eaa4B8ATBvgDgF2mmPeRMwXYFEJc0AZLwsQo86obs%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1773301573"',
+  server: 'Heroku',
+  via: '1.1 heroku-router',
+  'x-powered-by': 'Express'
+}
+{
+  firstname: 'James',
+  lastname: 'Brown',
+  totalprice: 111,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'Breakfast'
+}
+{
+  'content-length': '170',
+  'content-type': 'application/json; charset=utf-8',
+  date: 'Thu, 12 Mar 2026 07:46:14 GMT',
+  etag: 'W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"',
+  nel: '{"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}',
+  'report-to': '{"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=ZkZUF9uiud2Kc%2BmpfqclqshTzqdqEj2ZI2NMao%2BGxLE%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1773301574"}],"max_age":3600}',
+  'reporting-endpoints': 'heroku-nel="https://nel.heroku.com/reports?s=ZkZUF9uiud2Kc%2BmpfqclqshTzqdqEj2ZI2NMao%2BGxLE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1773301574"',
+  server: 'Heroku',
+  via: '1.1 heroku-router',
+  'x-powered-by': 'Express'
+}
+{
+  firstname: 'Jamis',
+  lastname: 'Brown',
+  totalprice: 111,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'Breakfast'
+}
+{
+  'content-length': '170',
+  'content-type': 'application/json; charset=utf-8',
+  date: 'Thu, 12 Mar 2026 07:46:14 GMT',
+  etag: 'W/"aa-K+Rh5A2JoXPTLskOaCSRUrzSfMI"',
+  nel: '{"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}',
+  'report-to': '{"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=ZkZUF9uiud2Kc%2BmpfqclqshTzqdqEj2ZI2NMao%2BGxLE%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1773301574"}],"max_age":3600}',
+  'reporting-endpoints': 'heroku-nel="https://nel.heroku.com/reports?s=ZkZUF9uiud2Kc%2BmpfqclqshTzqdqEj2ZI2NMao%2BGxLE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1773301574"',
+  server: 'Heroku',
+  via: '1.1 heroku-router',
+  'x-powered-by': 'Express'
+}

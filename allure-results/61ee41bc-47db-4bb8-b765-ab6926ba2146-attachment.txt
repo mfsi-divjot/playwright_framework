@@ -1,0 +1,52 @@
+{
+  'content-length': '196',
+  'content-type': 'application/json; charset=utf-8',
+  date: 'Thu, 12 Mar 2026 08:10:45 GMT',
+  etag: 'W/"c4-Lwfp7YBzgj1p/G2Ao4jsOBP2egE"',
+  nel: '{"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}',
+  'report-to': '{"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=5iYPwML89eQATvrKWnmhkpI%2FDr2Xtb%2FnmKThHGTdi2I%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1773303045"}],"max_age":3600}',
+  'reporting-endpoints': 'heroku-nel="https://nel.heroku.com/reports?s=5iYPwML89eQATvrKWnmhkpI%2FDr2Xtb%2FnmKThHGTdi2I%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1773303045"',
+  server: 'Heroku',
+  via: '1.1 heroku-router',
+  'x-powered-by': 'Express'
+}
+{
+  firstname: 'James',
+  lastname: 'Brown',
+  totalprice: 111,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'Breakfast'
+}
+{
+  'content-length': '170',
+  'content-type': 'application/json; charset=utf-8',
+  date: 'Thu, 12 Mar 2026 08:10:45 GMT',
+  etag: 'W/"aa-waBDObUc25azXZ1Gkrz0LIEDGrg"',
+  nel: '{"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}',
+  'report-to': '{"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=5iYPwML89eQATvrKWnmhkpI%2FDr2Xtb%2FnmKThHGTdi2I%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1773303045"}],"max_age":3600}',
+  'reporting-endpoints': 'heroku-nel="https://nel.heroku.com/reports?s=5iYPwML89eQATvrKWnmhkpI%2FDr2Xtb%2FnmKThHGTdi2I%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1773303045"',
+  server: 'Heroku',
+  via: '1.1 heroku-router',
+  'x-powered-by': 'Express'
+}
+{
+  firstname: 'Jamis',
+  lastname: 'Brown',
+  totalprice: 111,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'Breakfast'
+}
+{
+  'content-length': '170',
+  'content-type': 'application/json; charset=utf-8',
+  date: 'Thu, 12 Mar 2026 08:10:46 GMT',
+  etag: 'W/"aa-K+Rh5A2JoXPTLskOaCSRUrzSfMI"',
+  nel: '{"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}',
+  'report-to': '{"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=523j1ab%2F2YyiihCMWpKKycv%2Fih4z%2Fj3CLPnXIy0duag%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1773303046"}],"max_age":3600}',
+  'reporting-endpoints': 'heroku-nel="https://nel.heroku.com/reports?s=523j1ab%2F2YyiihCMWpKKycv%2Fih4z%2Fj3CLPnXIy0duag%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1773303046"',
+  server: 'Heroku',
+  via: '1.1 heroku-router',
+  'x-powered-by': 'Express'
+}

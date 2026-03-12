@@ -1,5 +1,5 @@
 const {expect} = require('@playwright/test')
-
+// add secondId, assertion in test page
 class BookingService{
     constructor(request){
         this.request = request
@@ -12,9 +12,7 @@ class BookingService{
         });
         expect(response.status()).toBe(200);
         const body = await response.json();
-        console.log(body);
-        const secondBookingId = await body[1].bookingid;
-        return secondBookingId;
+        return body;
     }
     async getBooking(secondBookingId){
         const response = await this.request.get(`/booking/${secondBookingId}`, {
@@ -24,12 +22,7 @@ class BookingService{
         })
         expect(response.status()).toBe(200);
         const body = await response.json();
-        console.log(body);
-        expect(body).toHaveProperty('firstname');
-        expect(body).toHaveProperty('depositpaid');
-        expect(body.bookingdates).toHaveProperty('checkout');
-        expect(body.depositpaid).toBe(true);
-        expect(typeof body.bookingdates).toBe('object');
+        return body;
     }
     async createBooking(payload){
         const response = await this.request.post('/booking', {
@@ -40,12 +33,11 @@ class BookingService{
             data : payload
         })
         expect(response.status()).toBe(200);
-        const body = await response.json();
-        console.log(body);
         const header = await response.headers();
         console.log(header);
         expect(header['content-type']).toContain('application/json');
-        return body.bookingid;
+        const body = await response.json();
+        return body;
     }
     async updateBooking(token, id, payload){
         const response = await this.request.put(`/booking/${id}`, {
@@ -56,15 +48,14 @@ class BookingService{
             },
             data : payload
         })
-        const body = await response.json();
-        console.log(body);
+        // const body = await response.json();
+        // console.log(body);
         const header = await response.headers();
         console.log(header);
         expect(response.status()).toBe(200);
-        expect(body.firstname).toBe('James');
-        expect(body.bookingdates).toHaveProperty('checkout');
-        expect(typeof body.depositpaid).toBe('boolean');
         expect(header['content-type']).toContain('application/json')
+        const body = await response.json();
+        return body;
     }
     async partialUpdateBooking(token, id, payload){
         const response = await this.request.patch(`booking/${id}`,{
@@ -75,13 +66,12 @@ class BookingService{
             },
             data : payload
         })
-        const body = await response.json();
-        console.log(body);
         const header = await response.headers();
         console.log(header);
         expect(response.status()).toBe(200);
         expect(header['content-type']).toContain('application/json');
-        expect(body.firstname).toBe('Jamis');
+        const body = await response.json();
+        return body;
     }
     async deleteBooking(token, id){
         const response = await this.request.delete(`/booking/${id}`,{
@@ -92,5 +82,6 @@ class BookingService{
         })
         expect(response.status()).toBe(201);
     }
+    
 }
 module.exports = BookingService
