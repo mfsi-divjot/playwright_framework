@@ -9,7 +9,7 @@ const config = ({
     timeout : 10000
   },
   // reporter : 'html', // line, dot, list, junit, json, html
-  reporter : [['html'],['allure-playwright']],
+  reporter : [['html', {outputFolder:'playwright-report'}], ['allure-playwright']],
   // projects : [
   //   // {
   //   //   name : 'Desktop' ,
