@@ -1,5 +1,5 @@
 const {test, expect} = require('@playwright/test')
-const AuthService = require('../api-request/AuthService');
+const AuthService = require('../api-request/AuthService.js');
 const BookingService = require('../api-request/BookingService.js');
 
 let token, bookingIds;

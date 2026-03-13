@@ -1,0 +1,24 @@
+{
+  'content-length': '197',
+  'content-type': 'application/json; charset=utf-8',
+  date: 'Fri, 13 Mar 2026 08:57:58 GMT',
+  etag: 'W/"c5-u7UWe/TOMoeXw29B3RKQ09dnal0"',
+  nel: '{"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}',
+  'report-to': '{"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=TxqlFpg8sioVTOmhy5WiRA4MnYDWKuQOgXlnbuZLKYk%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1773392278"}],"max_age":3600}',
+  'reporting-endpoints': 'heroku-nel="https://nel.heroku.com/reports?s=TxqlFpg8sioVTOmhy5WiRA4MnYDWKuQOgXlnbuZLKYk%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1773392278"',
+  server: 'Heroku',
+  via: '1.1 heroku-router',
+  'x-powered-by': 'Express'
+}
+{
+  'content-length': '168',
+  'content-type': 'application/json; charset=utf-8',
+  date: 'Fri, 13 Mar 2026 08:57:59 GMT',
+  etag: 'W/"a8-p5uB2C7mxZA3HXJZF+tJCDJr8VE"',
+  nel: '{"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}',
+  'report-to': '{"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=%2FSPi%2BvYZLjWfrp5qRJrVW6uhtVj2C9O5wtw6X63NGxE%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1773392279"}],"max_age":3600}',
+  'reporting-endpoints': 'heroku-nel="https://nel.heroku.com/reports?s=%2FSPi%2BvYZLjWfrp5qRJrVW6uhtVj2C9O5wtw6X63NGxE%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1773392279"',
+  server: 'Heroku',
+  via: '1.1 heroku-router',
+  'x-powered-by': 'Express'
+}

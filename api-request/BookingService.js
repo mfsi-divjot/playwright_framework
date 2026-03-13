@@ -24,13 +24,23 @@ class BookingService{
         const body = await response.json();
         return body;
     }
-    async createBooking(payload){
+    async createBooking(){
         const response = await this.request.post('/booking', {
             headers : {
                 'Accept' : 'application/json',
                 'Content-Type' : 'application/json'
             },
-            data : payload
+            data : {
+                "firstname" : "Jim",
+                "lastname" : "Brown",
+                "totalprice" : 111,
+                "depositpaid" : true,
+                "bookingdates" : {
+                    "checkin" : "2018-01-01",
+                    "checkout" : "2019-01-01"
+                },
+                "additionalneeds" : "Breakfast"
+            }
         })
         expect(response.status()).toBe(200);
         const header = await response.headers();
@@ -39,17 +49,25 @@ class BookingService{
         const body = await response.json();
         return body;
     }
-    async updateBooking(token, id, payload){
+    async updateBooking(token, id){
         const response = await this.request.put(`/booking/${id}`, {
             headers : {
                 'Content-Type' : 'application/json',
                 'Accept' : 'application/json',
                 'Cookie' : `token=${token}`
             },
-            data : payload
+            data : {
+                "firstname" : "James",
+                "lastname" : "Brown",
+                "totalprice" : 111,
+                "depositpaid" : true,
+                "bookingdates" : {
+                    "checkin" : "2018-01-01",
+                    "checkout" : "2019-01-01"
+                },
+                "additionalneeds" : "Breakfast"
+            }
         })
-        // const body = await response.json();
-        // console.log(body);
         const header = await response.headers();
         console.log(header);
         expect(response.status()).toBe(200);
@@ -57,14 +75,17 @@ class BookingService{
         const body = await response.json();
         return body;
     }
-    async partialUpdateBooking(token, id, payload){
+    async partialUpdateBooking(token, id){
         const response = await this.request.patch(`booking/${id}`,{
             headers : {
                 'Content-Type' : 'application/json',
                 'Accept' : 'application/json',
                 'Cookie' : `token=${token}`
             },
-            data : payload
+            data : {
+                "firstname" : "Jamis",
+                "lastname" : "Brown",
+            }
         })
         const header = await response.headers();
         console.log(header);
@@ -81,7 +102,6 @@ class BookingService{
             }
         })
         expect(response.status()).toBe(201);
-    }
-    
+    } 
 }
 module.exports = BookingService

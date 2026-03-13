@@ -2,7 +2,8 @@
 import { defineConfig, devices } from '@playwright/test';
 
 const config = ({
-  testDir : './tests',
+  // testDir : './tests',
+  testDir : './api-tests',
   // reporter : 'html',
   timeout : 40000,
   expect: {

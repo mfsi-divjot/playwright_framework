@@ -1,52 +1,50 @@
 name: Playwright Tests
 
 on:
-  # push:
-  #   branches: [ main, master ]
+  # schedule:
+  #   - cron: '10 16 * * *'
+
   pull_request:
     branches: [ main, master ]
-  schedule:
-    # - cron: '45 9 12 3 *'  # Runs at 3:15 PM IST on 12 March 2026
-    - cron: '10 16 * * *'
+
+permissions:
+  contents: read
+  pull-requests: write
+  checks: write
+
 jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - uses: actions/setup-node@v4
-      with:
-        node-version: lts/*
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
 
-    - name: Install dependencies
-      run: npm ci
+      - name: Install dependencies
+        run: npm ci
 
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
 
-    - name: Install Allure CLI
-      run: npm install -g allure-commandline --save-dev
+      - name: Run Playwright Tests
+        run: npx playwright test api-tests/TC01_Booking.spec.js
 
-    - name: Run Playwright tests
-      run: npx playwright test tests/TC06_Booking.spec.js
+      - name: Generate Allure Report
+        uses: allure-framework/allure-action@v0
+        with:
+          results-directory: allure-results
+          report-directory: allure-report
 
-    - name: Generate Allure report
-      run: allure generate allure-results --clean -o allure-report
-
-    # Upload Playwright HTML report
-    - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
-      with:
-        name: playwright-report
-        path: playwright-report/
-        retention-days: 30
-
-    # Upload Allure HTML report
-    - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
-      with:
-        name: allure-report
-        path: allure-report/
-        retention-days: 30
+      - name: Upload Allure Report
+        uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: allure-report
+          path: allure-report
+          retention-days: 30
