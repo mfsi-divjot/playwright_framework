@@ -33,9 +33,9 @@ const config = ({
     launchOptions : {
       args : ['--start-maximized']
     },
-    screenshot : 'only-on-failure',
-    video : 'retain-on-failure',
-    trace : 'on-first-retry'
+    screenshot : 'off', //'only-on-failure',
+    video : 'off', // 'retain-on-failure',
+    trace : 'off' //'on-first-retry'
   }
 })
 module.exports = config;
