@@ -11,7 +11,7 @@
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.2.3",
-    "allure-playwright": "^3.5.0"
+    "allure-playwright": "^3.6.0"
   },
   "dependencies": {
     "pixelmatch": "^7.1.0",
