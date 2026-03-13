@@ -3,10 +3,8 @@ name: Playwright Tests
 on:
   push:
     branches: [ main, master ]
-
   pull_request:
     branches: [ main, master ]
-
   # schedule:
   #   - cron: '10 16 * * *'
 
@@ -21,33 +19,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Checkout repo
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      # 2. Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: lts/*
 
+      # 3. Install dependencies
       - name: Install dependencies
         run: npm ci
 
+      # 4. Install Playwright browsers
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      # Run tests and generate Allure report
-      - name: Run tests and generate Allure report
-        run: npx allure run -- npx playwright test api-tests/TC01_Booking.spec.js
+      # 5. Run Playwright tests and generate Allure results
+      - name: Run Playwright Tests with Allure Reporter
+        run: npx allure run -- npx playwright test
 
-      # Post summary to Pull Request
-      - name: Run Allure GitHub Action
-        uses: allure-framework/allure-report@v0
+      # 6. Generate Allure report and post PR summary (if PR)
+      - name: Run Allure Action
+        uses: allure-framework/allure-action@v0
         with:
-          report-directory: "./allure-report"
+          results-directory: allure-results
+          report-directory: allure-report
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Upload report as artifact
-      - name: Upload Allure Report
+      # 7. Upload report as artifact
+      - name: Upload Allure Report Artifact
         uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
