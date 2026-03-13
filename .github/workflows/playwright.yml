@@ -1,14 +1,13 @@
 name: Playwright Tests
 
 on:
-  # push:
-  #   branches: [ main, master ]
+  push:
+    branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+  # Daily at 4:12 PM IST
   # schedule:
-  #   - cron: '10 16 * * *'
-  schedule:
-    - cron: '42 10 * * *'
+  #   - cron: '42 10 * * *'
 
 permissions:
   contents: read
@@ -39,19 +38,22 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      # 5. Run Playwright tests and generate Allure results
+      # 5. Run Playwright tests (generate allure-results)
       - name: Run Playwright Tests with Allure Reporter
-        run: npx allure run -- npx playwright test
+        run: npx playwright test
 
-      # 6. Generate Allure report and post PR summary (if PR)
+      # 6. Generate Allure HTML report from results
+      - name: Generate Allure HTML Report
+        run: npx allure generate --clean allure-results -o allure-report
+
+      # 7. Run Allure Action for PR summary (only HTML report needed)
       - name: Run Allure Action
         uses: allure-framework/allure-action@v0
         with:
-          results-directory: allure-results
-          report-directory: allure-report
+          report-directory: "./allure-report"
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 7. Upload report as artifact
+      # 8. Upload report as artifact
       - name: Upload Allure Report Artifact
         uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
