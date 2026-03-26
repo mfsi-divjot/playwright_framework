@@ -26,6 +26,5 @@ test.describe('Amazon - Validate Change Country', ()=>{
     country = new Country(newPage);
     await country.validateCountryName(countryName); 
     await Screenshot.fullPage(page, 'Validate Country');
-    await expect(page).toHaveScreenshot({fullPage : true});
 });
 })

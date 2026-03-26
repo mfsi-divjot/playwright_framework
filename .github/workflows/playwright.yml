@@ -1,8 +1,8 @@
 name: Playwright Tests
 
 on:
-  # push:
-  #   branches: [ main, master ]
+  push:
+    branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
   schedule:
@@ -38,16 +38,22 @@ jobs:
         run: npx playwright install --with-deps
 
       # 5. Run Playwright tests and generate Allure results
-      - name: Run Playwright Tests with Allure Reporter
-        run: npx allure run -- npx playwright test
+      # - name: Run Playwright Tests with Allure Reporter
+      #   run: npx allure run -- npx playwright test
+      # - name: Run tests via package.json script
+      #   run: npm run test:file
 
       # 6. Generate Allure report and post PR summary (if PR)
-      - name: Run Allure Action
-        uses: allure-framework/allure-action@v0
-        with:
-          results-directory: allure-results
-          report-directory: allure-report
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Run Allure Action
+      #   uses: allure-framework/allure-action@v0
+      #   with:
+      #     results-directory: allure-results
+      #     report-directory: allure-report
+      #     github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Generate Allure report
+        run: |
+          npm install -g allure-commandline
+          npm run test:ci
 
       # 7. Upload report as artifact
       - name: Upload Allure Report Artifact
