@@ -3,7 +3,7 @@ const {user} = require('../testData/UserData')
 const SignIn = require('../pageObjects/SignIn')
 const Dashboard = require('../pageObjects/Dashboard');
 const Address = require('../pageObjects/Address');
-const Screenshot = require('../utils/Screenshot');
+const Screenshot = require('../utils/Screenshot')
 
 let signIn; 
 let dashboard;
@@ -15,34 +15,32 @@ test.beforeEach(('Launch Amazon'), async({page})=>{
     signIn = new SignIn(page);
     address = new Address(page);
 
-    await dashboard.validateDashboardPage();
+    await dashboard.validateDashboardPage('https://www.amazon.in');
+
+    await dashboard.clickOnUserAccount();
+    await signIn.enterEmail(user.email);
+    await signIn.clickContinue();
+    await signIn.enterPassword(user.password);
+    await signIn.clickSignIn();
+    await signIn.validateUserLogin(user.name);
 })
-test.describe('Amazon - Validate Cart Functionality', ()=>{
-    test('Amazon - Validate Cart Functionality', async({page})=>{
-        await dashboard.clickOnUserAccount();
-        await signIn.enterEmail(user.email);
-        await signIn.clickContinue();
-        await signIn.enterPassword(user.password);
-        await signIn.clickSignIn();
-        await signIn.validateUserLogin(user.name);
+test.describe('Amazon - Validate Address Functionality', ()=>{
+    test('Amazon - Validate Address Functionality', async({page})=>{
         await dashboard.clickOnLocation();
         await address.clickOnAddAddress();
-        await address.enterUserDetails(user.name, user.number, user.code, user.houseNo, 
-        user.village,user.landmark);
+        await address.enterUserDetails(user); 
         await address.validateAddress("Address saved");
-        await Screenshot.fullPage(page, 'Validate Address saved');
-        await Screenshot.fullPage(page, 'Validate Address saved');
-        // await expect(page).toHaveScreenshot({fullPage:true,name : 'address-added.png'});
-        await address.validateLastAddressDetails(user.name, user.houseNo, user.village, 
-        user.code, user.number);
+        await address.validateLastAddedAddress(user); 
+        await Screenshot.fullPage(page, 'Validate Address Saved');
+
         await address.updateUsernameInLastAddress(user.updatedUsername);
         await address.validateAddress("Address saved");
+        await Screenshot.fullPage(page, 'Validate Address Updated');
+
         await address.validateUpdateUsernameInLastAddress(user.updatedUsername);
         await address.removeLastAddress();
-        await address.validateAddress("Address deleted");
-        // await Screenshot.viewport(page, 'Validate Address Deleted');
-        // await expect(page).toHaveScreenshot({name : 'address-deleted.png', 
-        //     maxDiffPixelRatio : 0.02
-        // });
+        await address.validateAddress("Address deleted"); 
+        await address.validateLastAddressDeleted(user.updatedUsername);
+        await Screenshot.fullPage(page, 'Validate Address Deleted');
     })
 })

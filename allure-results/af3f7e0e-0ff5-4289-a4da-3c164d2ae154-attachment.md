@@ -1,0 +1,898 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Shopping cart" [ref=e9] [cursor=pointer]:
+          - /url: "#sc-active-cart"
+          - text: Your Amazon Cart
+    - separator [ref=e10]
+    - heading "Keyboard shortcuts" [level=2] [ref=e11]
+    - list "Keyboard shortcuts" [ref=e12]:
+      - listitem [ref=e13]:
+        - link "Search, alt, forward slash" [ref=e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e15]:
+            - generic [ref=e16]: Search
+            - generic [ref=e17]:
+              - generic [ref=e18]: alt
+              - generic [ref=e19]: +
+              - generic [ref=e20]: /
+      - listitem [ref=e21]:
+        - link "Cart, shift, alt, c" [ref=e22] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e23]:
+            - generic [ref=e24]: Cart
+            - generic [ref=e25]:
+              - generic [ref=e26]: shift
+              - generic [ref=e27]: +
+              - generic [ref=e28]: alt
+              - generic [ref=e29]: +
+              - generic [ref=e30]: C
+      - listitem [ref=e31]:
+        - link "Home, shift, alt, h" [ref=e32] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e33]:
+            - generic [ref=e34]: Home
+            - generic [ref=e35]:
+              - generic [ref=e36]: shift
+              - generic [ref=e37]: +
+              - generic [ref=e38]: alt
+              - generic [ref=e39]: +
+              - generic [ref=e40]: H
+      - listitem [ref=e41]:
+        - link "Your orders, shift, alt, o" [ref=e42] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e43]:
+            - generic [ref=e44]: Orders
+            - generic [ref=e45]:
+              - generic [ref=e46]: shift
+              - generic [ref=e47]: +
+              - generic [ref=e48]: alt
+              - generic [ref=e49]: +
+              - generic [ref=e50]: O
+      - listitem [ref=e51]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]:
+            - generic [ref=e54]: Show/Hide shortcuts
+            - generic [ref=e55]:
+              - generic [ref=e56]: shift
+              - generic [ref=e57]: +
+              - generic [ref=e58]: alt
+              - generic [ref=e59]: +
+              - generic [ref=e60]: Z
+    - generic [ref=e66]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e67]:
+    - navigation "Primary" [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - link "Amazon.in" [ref=e72] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Chandigarh 140603 Update location" [ref=e75] [cursor=pointer]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: Delivering to Chandigarh 140603
+              - generic [ref=e79]: Update location
+        - search [ref=e82]:
+          - generic [ref=e85]:
+            - generic [ref=e87]: All
+            - combobox "Select the department you want to search in" [ref=e89] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e92]
+          - generic "Go" [ref=e95] [cursor=pointer]:
+            - button "Go" [ref=e96]
+        - generic [ref=e98]:
+          - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e100] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+            - generic [ref=e103]:
+              - img "India" [ref=e104]
+              - generic [ref=e105]: EN
+          - generic [ref=e106]:
+            - link "Hello, sign in Account & Lists" [ref=e107] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fgp%2Fcart%2Fview.html%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e109]: Hello, sign in
+              - generic [ref=e110]: Account & Lists
+            - button "Expand Account and Lists" [ref=e111] [cursor=pointer]
+          - link "Returns & Orders" [ref=e112] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e113]: Returns
+            - generic [ref=e114]: "& Orders"
+          - link "2 items in cart" [ref=e115] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e117]: "2"
+            - generic [ref=e120]: Cart
+      - generic [ref=e121]:
+        - button "Open All Categories Menu" [ref=e123] [cursor=pointer]:
+          - generic [ref=e125]: All
+        - list [ref=e129]:
+          - listitem [ref=e130]:
+            - link "Fresh" [ref=e132] [cursor=pointer]:
+              - /url: /fresh?ref_=nav_cs_fresh
+          - listitem [ref=e133]:
+            - link "MX Player" [ref=e135] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e136]:
+            - link "Sell" [ref=e138] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e139]:
+            - link "Bestsellers" [ref=e141] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e142]:
+            - link "Mobiles" [ref=e144] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e145]:
+            - link "Today's Deals" [ref=e147] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e148]:
+            - link "Customer Service" [ref=e150] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e151]:
+            - generic [ref=e152]:
+              - link "Prime" [ref=e153] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e154] [cursor=pointer]
+          - listitem [ref=e155]:
+            - link "New Releases" [ref=e157] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e158]:
+            - link "Fashion" [ref=e160] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e161]:
+            - link "Electronics" [ref=e163] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e164]:
+            - link "Amazon Pay" [ref=e166] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e167]:
+            - link "Home & Kitchen" [ref=e169] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e170]:
+            - link "Toys & Games" [ref=e172] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e173]:
+            - link "Computers" [ref=e175] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e176]:
+            - link "Books" [ref=e178] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e179]:
+            - link "Gift Cards" [ref=e181] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e182]:
+            - link "Beauty & Personal Care" [ref=e184] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e185]:
+            - link "Car & Motorbike" [ref=e187] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e188]:
+            - link "Home Improvement" [ref=e190] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e191]:
+            - link "Custom Products" [ref=e193] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e194]:
+            - link "Sports, Fitness & Outdoors" [ref=e196] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e197]:
+            - link "Grocery & Gourmet Foods" [ref=e199] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e200]:
+            - link "Health, Household & Personal Care" [ref=e202] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e203]:
+            - link "Video Games" [ref=e205] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e206]:
+            - link "Baby" [ref=e208] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e209]:
+            - link "Pet Supplies" [ref=e211] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e212]:
+            - link "Subscribe & Save" [ref=e214] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e215]:
+            - link "AmazonBasics" [ref=e217] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e218]:
+            - link "Audible" [ref=e220] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e221]:
+            - link "Kindle eBooks" [ref=e223] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e224]:
+            - link "Flights" [ref=e226] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+        - link "Apay_Travel" [ref=e230] [cursor=pointer]:
+          - /url: /flights/?_encoding=UTF8&ref_=nav_swm_event&pf_rd_p=0dde8efb-b6e4-4583-8a00-97fa0f95c3b0&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=9X4FBS5RRJD7SJQBKWKD
+          - img "Apay_Travel" [ref=e231]
+  - main [ref=e234]:
+    - heading "All Carts" [level=1] [ref=e235]
+    - generic [ref=e237]:
+      - generic [ref=e238]:
+        - generic [ref=e242]:
+          - generic [ref=e243]:
+            - generic [ref=e244]:
+              - progressbar [ref=e247]
+              - generic [ref=e249]: ₹499
+            - generic [ref=e255]:
+              - text: Your order is eligible for FREE Delivery.
+              - generic [ref=e256]:
+                - text: Choose
+                - link "FREE Delivery" [ref=e257] [cursor=pointer]:
+                  - /url: /gp/help/customer/display.html?nodeId=200904360&pop-up=1
+                - text: option at checkout.
+          - generic [ref=e258]:
+            - 'heading "Amazon Subtotal (2 items): ₹1,86,980.00" [level=3] [ref=e259]':
+              - generic [ref=e260]: Amazon
+              - generic [ref=e261]:
+                - text: "Subtotal (2 items):"
+                - generic [ref=e262]: ₹1,86,980.00
+            - generic [ref=e266]:
+              - checkbox "This order contains a gift" [ref=e267]
+              - generic [ref=e269]: This order contains a gift
+            - generic [ref=e273] [cursor=pointer]:
+              - button "Proceed to Buy Buy Amazon items" [ref=e274]: Proceed to checkout
+              - generic [ref=e277]: Proceed to Buy
+          - button "EMI Available" [ref=e282] [cursor=pointer]:
+            - heading "EMI Available" [level=5] [ref=e284]
+        - generic [ref=e290]:
+          - heading "Products related to items in your cart" [level=5] [ref=e291]
+          - button "Leave feedback on Sponsored ad" [ref=e297] [cursor=pointer]: Sponsored
+          - list [ref=e301]:
+            - listitem [ref=e302]:
+              - generic [ref=e305]:
+                - link [ref=e307] [cursor=pointer]:
+                  - /url: /dp/B0G46HR61G/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTAyNTEyMDI0OTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=PuAdLa2BSZ&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e309]
+                - generic [ref=e310]:
+                  - link "HP Victus, 14th Gen Intel Core i5-14450HX, 6GB RTX 3050, 24GB DDR5, 512GB SSD, FHD, 144Hz, IPS, 300 nits, 15.6''/39.6cm, Win11, M365* Office24, Mica Silver, 2.3kg, fa2303tx/fa2315tx, RGB Gaming Laptop" [ref=e311] [cursor=pointer]:
+                    - /url: /dp/B0G46HR61G/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTAyNTEyMDI0OTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=PuAdLa2BSZ&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e313]:
+                      - generic [ref=e314]: HP Victus, 14th Gen Intel Core i5-14450HX, 6GB RTX 3050, 24GB DDR5, 512GB SSD, FHD, 144Hz, IPS, 300 nits, 15.6''/39.6cm, Win11, M365* Office24, Mica Silver, 2.3kg, fa2303tx/fa2315tx, RGB Gaming Laptop
+                      - generic [ref=e315]: HP Victus, 14th Gen I…
+                  - link "3.9 out of 5 stars 650 ratings" [ref=e317] [cursor=pointer]:
+                    - /url: /dp/B0G46HR61G/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTAyNTEyMDI0OTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=PuAdLa2BSZ&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e319]: 3.9 out of 5 stars
+                    - generic [ref=e320]: 650 ratings
+                  - link "₹81,990.00" [ref=e322] [cursor=pointer]:
+                    - /url: /dp/B0G46HR61G/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTAyNTEyMDI0OTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=PuAdLa2BSZ&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e324]:
+                      - generic [ref=e325]: ₹81,990.00
+                      - generic [ref=e326]:
+                        - text: ₹
+                        - generic [ref=e327]:
+                          - text: 81,990
+                          - generic [ref=e328]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e332] [cursor=pointer]:
+                    - /url: /dp/B0G46HR61G/ref=pd_cart_sspa_dk_ct_pt_expsub_0/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTAyNTEyMDI0OTMyOjowOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=PuAdLa2BSZ&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e333]:
+              - generic [ref=e336]:
+                - link [ref=e338] [cursor=pointer]:
+                  - /url: /dp/B0FDKPXD95/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTcyODY0MzgyNDMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=T2SKWtEs9j&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e340]
+                - generic [ref=e341]:
+                  - link "HP Smartchoice Victus, AMD Ryzen 7 7445HS, 6GB RTX 3050, 16GB DDR5(Upgradeable) 512GB SSD, FHD, 144Hz, 300 nits, 15.6''/39.6cm, Win 11, M365* Office24, Blue, 2.29kg, fb3134AX/3120ax, Gaming Laptop" [ref=e342] [cursor=pointer]:
+                    - /url: /dp/B0FDKPXD95/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTcyODY0MzgyNDMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=T2SKWtEs9j&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e344]:
+                      - generic [ref=e345]: HP Smartchoice Victus, AMD Ryzen 7 7445HS, 6GB RTX 3050, 16GB DDR5(Upgradeable) 512GB SSD, FHD, 144Hz, 300 nits, 15.6''/39.6cm, Win 11, M365* Office24, Blue, 2.29kg, fb3134AX/3120ax, Gaming Laptop
+                      - generic [ref=e346]: HP Smartchoice Vict…
+                  - link "4.0 out of 5 stars 468 ratings" [ref=e348] [cursor=pointer]:
+                    - /url: /dp/B0FDKPXD95/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTcyODY0MzgyNDMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=T2SKWtEs9j&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e350]: 4.0 out of 5 stars
+                    - generic [ref=e351]: 468 ratings
+                  - link "₹72,990.00" [ref=e353] [cursor=pointer]:
+                    - /url: /dp/B0FDKPXD95/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTcyODY0MzgyNDMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=T2SKWtEs9j&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e355]:
+                      - generic [ref=e356]: ₹72,990.00
+                      - generic [ref=e357]:
+                        - text: ₹
+                        - generic [ref=e358]:
+                          - text: 72,990
+                          - generic [ref=e359]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e363] [cursor=pointer]:
+                    - /url: /dp/B0FDKPXD95/ref=pd_cart_sspa_dk_ct_pt_expsub_1/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTcyODY0MzgyNDMyOjoxOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=T2SKWtEs9j&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e364]:
+              - generic [ref=e367]:
+                - link [ref=e369] [cursor=pointer]:
+                  - /url: /dp/B0F8P4Y7VF/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwNjAyMzIxMjUwODMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=ISCbRaEqys&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e371]
+                - generic [ref=e372]:
+                  - link "HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor (16GB LPDDR5x, 512GB SSD) 2K, 14''/35.6cm, Win11, M365 Basic(1yr)* Office24, Silver, 1.35kg, he0014QU, Light-Weight, Next-Gen AI Laptop" [ref=e373] [cursor=pointer]:
+                    - /url: /dp/B0F8P4Y7VF/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwNjAyMzIxMjUwODMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=ISCbRaEqys&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e375]:
+                      - generic [ref=e376]: HP OmniBook 5 OLED (Previously Pavilion), Snapdragon X Processor (16GB LPDDR5x, 512GB SSD) 2K, 14''/35.6cm, Win11, M365 Basic(1yr)* Office24, Silver, 1.35kg, he0014QU, Light-Weight, Next-Gen AI Laptop
+                      - generic [ref=e377]: HP OmniBook 5 OLE…
+                  - link "4.1 out of 5 stars 195 ratings" [ref=e379] [cursor=pointer]:
+                    - /url: /dp/B0F8P4Y7VF/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwNjAyMzIxMjUwODMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=ISCbRaEqys&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e381]: 4.1 out of 5 stars
+                    - generic [ref=e382]: 195 ratings
+                  - link "₹70,990.00" [ref=e384] [cursor=pointer]:
+                    - /url: /dp/B0F8P4Y7VF/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwNjAyMzIxMjUwODMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=ISCbRaEqys&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e386]:
+                      - generic [ref=e387]: ₹70,990.00
+                      - generic [ref=e388]:
+                        - text: ₹
+                        - generic [ref=e389]:
+                          - text: 70,990
+                          - generic [ref=e390]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e394] [cursor=pointer]:
+                    - /url: /dp/B0F8P4Y7VF/ref=pd_cart_sspa_dk_ct_pt_expsub_2/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwNjAyMzIxMjUwODMyOjoyOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=ISCbRaEqys&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+            - listitem [ref=e395]:
+              - generic [ref=e398]:
+                - link [ref=e400] [cursor=pointer]:
+                  - /url: /dp/B0F2162VGQ/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTYxNTUyODc2OTMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=hYM7hS8C1l&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                  - img [ref=e402]
+                - generic [ref=e403]:
+                  - link "Lenovo Smartchoice Ideapad Slim 3, 13th Gen Intel Core i7 13620H, 16GB RAM, 512GB SSD, WUXGA IPS, 15.3\"/38.8cm, Win 11, Office 2024, Top Metal Cover Grey, 1.6Kg, 83K100CJIN/S1IN, Backlit KB, Laptop" [ref=e404] [cursor=pointer]:
+                    - /url: /dp/B0F2162VGQ/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTYxNTUyODc2OTMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=hYM7hS8C1l&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e406]:
+                      - generic [ref=e407]: Lenovo Smartchoice Ideapad Slim 3, 13th Gen Intel Core i7 13620H, 16GB RAM, 512GB SSD, WUXGA IPS, 15.3"/38.8cm, Win 11, Office 2024, Top Metal Cover Grey, 1.6Kg, 83K100CJIN/S1IN, Backlit KB, Laptop
+                      - generic [ref=e408]: Lenovo Smartchoice I…
+                  - link "4.1 out of 5 stars 381 ratings" [ref=e410] [cursor=pointer]:
+                    - /url: /dp/B0F2162VGQ/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTYxNTUyODc2OTMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=hYM7hS8C1l&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e412]: 4.1 out of 5 stars
+                    - generic [ref=e413]: 381 ratings
+                  - link "₹72,990.00" [ref=e415] [cursor=pointer]:
+                    - /url: /dp/B0F2162VGQ/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTYxNTUyODc2OTMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=hYM7hS8C1l&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+                    - generic [ref=e417]:
+                      - generic [ref=e418]: ₹72,990.00
+                      - generic [ref=e419]:
+                        - text: ₹
+                        - generic [ref=e420]:
+                          - text: 72,990
+                          - generic [ref=e421]: .
+                        - text: "00"
+                  - link "See all buying options" [ref=e425] [cursor=pointer]:
+                    - /url: /dp/B0F2162VGQ/ref=pd_cart_sspa_dk_ct_pt_expsub_3/?_encoding=UTF8&ie=UTF8&psc=1&spc=MTo3ODc3MzA4NDk0NTM2NDg3OjE3NzQ0MjUyMDU6c3BfY2FydF9wZXJjb2xhdGU6MzAwOTYxNTUyODc2OTMyOjozOjo%3D&sp_csd=d2lkZ2V0TmFtZT1zcF9jYXJ0X3BlcmNvbGF0ZQ%3D%3D&sp_cr=DUB&aref=hYM7hS8C1l&pd_rd_w=Dq1aZ&content-id=amzn1.sym.cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_p=cb76820c-ad66-4615-91b2-a94dc3aa0eb5&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&ref_=pd_cart_sspa_dk_ct_pt_expsub
+      - generic [ref=e426]:
+        - generic [ref=e428]:
+          - heading "Shopping Cart" [level=2] [ref=e432]
+          - generic [ref=e435]:
+            - generic [ref=e439]: Price
+            - list "Shopping Cart" [ref=e440]:
+              - listitem [ref=e441]:
+                - generic [ref=e444]:
+                  - link [ref=e446] [cursor=pointer]:
+                    - /url: /gp/product/B0DFWRZLK5/ref=ox_sc_act_image_1?smid=AJ6SIZC8YQDZX&psc=1
+                  - generic [ref=e447]:
+                    - link "acer Nitro V 15, AMD Ryzen 7-7445HS, NVIDIA GeForce RTX 4050-6 GB, 16GB DDR5, 512GB SSD, FHD IPS, 15.6\"/39.62cm, 165Hz, Win 11 Home, Obsidian Black, 2.1KG, ANV15-42, Gaming Laptop" [ref=e449] [cursor=pointer]:
+                      - /url: /gp/product/B0DFWRZLK5/ref=ox_sc_act_title_1?smid=AJ6SIZC8YQDZX&psc=1
+                      - heading "acer Nitro V 15, AMD Ryzen 7-7445HS, NVIDIA GeForce RTX 4050-6 GB, 16GB DDR5, 512GB SSD, FHD IPS, 15.6\"/39.62cm, 165Hz, Win 11 Home, Obsidian Black, 2.1KG, ANV15-42, Gaming Laptop" [level=3] [ref=e451]:
+                        - generic [ref=e452]:
+                          - generic [ref=e453]: acer Nitro V 15, AMD Ryzen 7-7445HS, NVIDIA GeForce RTX 4050-6 GB, 16GB DDR5, 512GB SSD, FHD IPS, 15.6"/39.62cm, 165Hz, Win 11 Home, Obsidian Black, 2.1KG, ANV15-42, Gaming Laptop
+                          - generic [ref=e454]: acer Nitro V 15, AMD Ryzen 7-7445HS, NVIDIA GeForce RTX 4050-6 GB, 16GB DDR5, 512GB SSD, FHD IPS, 15.6"/39.62c…
+                    - generic [ref=e460]:
+                      - generic [ref=e461]: ₹76,990.00
+                      - text: ₹76,990.00
+                    - generic [ref=e462]:
+                      - generic [ref=e463]: In stock
+                      - generic [ref=e466]: FREE delivery Fri, 27 Mar available at checkout
+                      - paragraph [ref=e467]
+                      - generic [ref=e471]:
+                        - checkbox "This will be a gift This is a gift Learn more" [disabled] [ref=e472]
+                        - generic [ref=e474]:
+                          - text: This will be a gift
+                          - link "This is a gift Learn more" [ref=e476] [cursor=pointer]:
+                            - /url: /gp/help/customer/display.html/ref=ord_cart_shr?pop-up=1&nodeId=200507630
+                            - generic [ref=e477]:
+                              - generic [ref=e478]: This is a gift
+                              - text: Learn more
+                      - generic [ref=e479]: "Size: Ryzen 7/16 GB/512 GB/RTX 4050"
+                    - generic [ref=e480]:
+                      - group "Quantity is 1" [ref=e483]:
+                        - generic [ref=e484]: Quantity is 1
+                        - generic [ref=e486]:
+                          - button "Delete acer Nitro V 15, AMD Ryzen 7-7445HS, NVIDIA GeForce RTX 4050-6 GB, 16GB DDR5, 512GB SSD, FHD IPS, 15.6&quot;/39.62cm, 165Hz, Win 11 Home, Obsidian Black, 2.1KG, ANV15-42, Gaming Laptop" [ref=e487] [cursor=pointer]
+                          - generic [ref=e490]:
+                            - generic: Updating quantity
+                          - generic [ref=e494]: Updating quantity
+                          - button "Increase quantity by one acer Nitro V 15, AMD Ryzen 7-7445HS, NVIDIA GeForce RTX 4050-6 GB, 16GB DDR5, 512GB SSD, FHD IPS, 15.6&quot;/39.62cm, 165Hz, Win 11 Home, Obsidian Black, 2.1KG, ANV15-42, Gaming Laptop" [active] [ref=e495] [cursor=pointer]
+                      - button "Delete acer Nitro V 15, AMD Ryzen 7-7445HS, NVIDIA GeForce RTX 4050-6 GB, 16GB DDR5, 512GB SSD, FHD IPS, 15.6&quot;/39.62cm, 165Hz, Win 11 Home, Obsidian Black, 2.1KG, ANV15-42, Gaming Laptop" [disabled] [ref=e499]: Delete
+                      - button "Save for later acer Nitro V 15, AMD Ryzen 7-7445HS, NVIDIA GeForce RTX 4050-6 GB, 16GB DDR5, 512GB SSD, FHD IPS, 15.6&quot;/39.62cm, 165Hz, Win 11 Home, Obsidian Black, 2.1KG, ANV15-42, Gaming Laptop" [disabled] [ref=e502]: Save for later
+                      - button "See more like this acer Nitro V 15, AMD Ryzen 7-7445HS, NVIDIA GeForce RTX 4050-6 GB, 16GB DDR5, 512GB SSD, FHD IPS, 15.6&quot;/39.62cm, 165Hz, Win 11 Home, Obsidian Black, 2.1KG, ANV15-42, Gaming Laptop" [disabled] [ref=e505]: See more like this
+                      - link "Share acer Nitro V 15, AMD Ryzen 7-7445HS, NVIDIA GeForce RTX 4050-6 GB, 16GB DDR5, 512GB SSD, FHD IPS, 15.6&amp;quot;/39.62cm, 165Hz, Win 11 Home, Obsidian Black, 2.1KG, ANV15-42, Gaming Laptop" [ref=e508] [cursor=pointer]:
+                        - /url: "#"
+                        - text: Share
+              - listitem [ref=e509]:
+                - generic [ref=e511]:
+                  - link [ref=e513] [cursor=pointer]:
+                    - /url: /gp/product/B0FDKPZHB7/ref=ox_sc_act_image_2?smid=AJ6SIZC8YQDZX&psc=1
+                  - generic [ref=e514]:
+                    - link "HP Smartchoice Victus, 13th Gen Intel Core i7-13620H, 8GB RTX 5050, 24GB DDR5(Upgradeable) 1TB SSD, 144Hz, FHD, 15.6''/39.6cm, Win11, M365* Office24, Mica Silver, 2.29kg, fa2309TX, RGB Gaming Laptop" [ref=e516] [cursor=pointer]:
+                      - /url: /gp/product/B0FDKPZHB7/ref=ox_sc_act_title_2?smid=AJ6SIZC8YQDZX&psc=1
+                      - heading "HP Smartchoice Victus, 13th Gen Intel Core i7-13620H, 8GB RTX 5050, 24GB DDR5(Upgradeable) 1TB SSD, 144Hz, FHD, 15.6''/39.6cm, Win11, M365* Office24, Mica Silver, 2.29kg, fa2309TX, RGB Gaming Laptop" [level=3] [ref=e518]:
+                        - generic [ref=e519]:
+                          - generic [ref=e520]: HP Smartchoice Victus, 13th Gen Intel Core i7-13620H, 8GB RTX 5050, 24GB DDR5(Upgradeable) 1TB SSD, 144Hz, FHD, 15.6''/39.6cm, Win11, M365* Office24, Mica Silver, 2.29kg, fa2309TX, RGB Gaming Laptop
+                          - generic [ref=e521]: HP Smartchoice Victus, 13th Gen Intel Core i7-13620H, 8GB RTX 5050, 24GB DDR5(Upgradeable) 1TB SSD, 144Hz, FHD,…
+                    - generic [ref=e522]:
+                      - generic [ref=e524]:
+                        - generic [ref=e526]: 12% off
+                        - generic [ref=e528]: Limited time deal
+                      - generic [ref=e529]:
+                        - generic [ref=e533]:
+                          - generic [ref=e534]: ₹1,09,990.00
+                          - text: ₹1,09,990.00
+                        - generic [ref=e535]:
+                          - text: "M.R.P.:"
+                          - generic [ref=e536]:
+                            - generic [ref=e537]: ₹1,24,318.00
+                            - text: ₹1,24,318.00
+                    - generic [ref=e538]:
+                      - generic [ref=e539]: In stock
+                      - generic [ref=e542]: FREE delivery Fri, 27 Mar available at checkout
+                      - paragraph [ref=e543]
+                      - generic [ref=e547]:
+                        - checkbox "This will be a gift This is a gift Learn more" [disabled] [ref=e548]
+                        - generic [ref=e550]:
+                          - text: This will be a gift
+                          - link "This is a gift Learn more" [ref=e552] [cursor=pointer]:
+                            - /url: /gp/help/customer/display.html/ref=ord_cart_shr?pop-up=1&nodeId=200507630
+                            - generic [ref=e553]:
+                              - generic [ref=e554]: This is a gift
+                              - text: Learn more
+                      - generic [ref=e555]: "Size: 15.6 inches"
+                    - generic [ref=e556]:
+                      - group "Quantity is 1" [ref=e559]:
+                        - generic [ref=e560]: Quantity is 1
+                        - generic [ref=e562]:
+                          - button "Delete HP Smartchoice Victus, 13th Gen Intel Core i7-13620H, 8GB RTX 5050, 24GB DDR5(Upgradeable) 1TB SSD, 144Hz, FHD, 15.6&#39;&#39;/39.6cm, Win11, M365* Office24, Mica Silver, 2.29kg, fa2309TX, RGB Gaming Laptop" [ref=e563] [cursor=pointer]
+                          - generic [ref=e567]: "1"
+                          - generic [ref=e569]: "1"
+                          - button "Increase quantity by one HP Smartchoice Victus, 13th Gen Intel Core i7-13620H, 8GB RTX 5050, 24GB DDR5(Upgradeable) 1TB SSD, 144Hz, FHD, 15.6&#39;&#39;/39.6cm, Win11, M365* Office24, Mica Silver, 2.29kg, fa2309TX, RGB Gaming Laptop" [ref=e570] [cursor=pointer]
+                      - button "Delete HP Smartchoice Victus, 13th Gen Intel Core i7-13620H, 8GB RTX 5050, 24GB DDR5(Upgradeable) 1TB SSD, 144Hz, FHD, 15.6&#39;&#39;/39.6cm, Win11, M365* Office24, Mica Silver, 2.29kg, fa2309TX, RGB Gaming Laptop" [disabled] [ref=e574]: Delete
+                      - button "Save for later HP Smartchoice Victus, 13th Gen Intel Core i7-13620H, 8GB RTX 5050, 24GB DDR5(Upgradeable) 1TB SSD, 144Hz, FHD, 15.6&#39;&#39;/39.6cm, Win11, M365* Office24, Mica Silver, 2.29kg, fa2309TX, RGB Gaming Laptop" [disabled] [ref=e577]: Save for later
+                      - button "See more like this HP Smartchoice Victus, 13th Gen Intel Core i7-13620H, 8GB RTX 5050, 24GB DDR5(Upgradeable) 1TB SSD, 144Hz, FHD, 15.6&#39;&#39;/39.6cm, Win11, M365* Office24, Mica Silver, 2.29kg, fa2309TX, RGB Gaming Laptop" [disabled] [ref=e580]: See more like this
+                      - link "Share HP Smartchoice Victus, 13th Gen Intel Core i7-13620H, 8GB RTX 5050, 24GB DDR5(Upgradeable) 1TB SSD, 144Hz, FHD, 15.6&amp;#39;&amp;#39;/39.6cm, Win11, M365* Office24, Mica Silver, 2.29kg, fa2309TX, RGB Gaming Laptop" [ref=e583] [cursor=pointer]:
+                        - /url: "#"
+                        - text: Share
+            - generic [ref=e585]:
+              - text: "Subtotal (2 items):"
+              - generic [ref=e586]: ₹1,86,980.00
+        - generic [ref=e590]:
+          - paragraph [ref=e592]: The price and availability of items at Amazon.in are subject to change. The shopping cart is a temporary place to store a list of your items and reflects each item's most recent price.
+          - paragraph [ref=e593]: Do you have a gift card or promotional code? We'll ask you to enter your claim code when it's time to pay.
+  - group [ref=e601]:
+    - heading "You might also like" [level=2] [ref=e606]
+    - group [ref=e611]:
+      - list [ref=e612]:
+        - listitem [ref=e613]:
+          - generic [ref=e615]:
+            - link [ref=e616] [cursor=pointer]:
+              - /url: /SmartChoice-i5-13420H-GeForce-3050-6GB-AL15G-53/dp/B0DXVGVNKN/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_1/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0DXVGVNKN&psc=1
+              - img [ref=e618]
+            - generic [ref=e620]:
+              - link "acer SmartChoice ALG, 13th Gen Intel Core i5-13420H, NVIDIA GeForce RTX 3050-6GB DDR6, 16GB RAM, 512GB SSD, FHD 15.6\"/39.62 cm, 144Hz, Windows 11 Home, Steel Gray, 1.99 KG, AL15G-53,Gaming Laptop" [ref=e621] [cursor=pointer]:
+                - /url: /SmartChoice-i5-13420H-GeForce-3050-6GB-AL15G-53/dp/B0DXVGVNKN/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_1/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0DXVGVNKN&psc=1
+                - generic [ref=e623]: acer SmartChoice ALG, 13th Gen Intel Core i5-13420H, NVIDIA GeForce RTX 3050-6GB DDR6, 16GB RAM, 512GB SSD, FHD 15.6"/39.62 cm, 144Hz, Windows 11 Home, Steel Gray, 1.99 KG, AL15G-53,Gaming Laptop
+              - link "4.0 out of 5 stars, 325 ratings" [ref=e626] [cursor=pointer]:
+                - /url: /product-reviews/B0DXVGVNKN/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_1_cr/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0DXVGVNKN
+                - generic [ref=e628]: 4.0 out of 5 stars
+                - text: "325"
+              - generic [ref=e629]:
+                - generic [ref=e631]:
+                  - generic [ref=e632]:
+                    - link "-12%" [ref=e633] [cursor=pointer]:
+                      - /url: /SmartChoice-i5-13420H-GeForce-3050-6GB-AL15G-53/dp/B0DXVGVNKN/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_1/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0DXVGVNKN&psc=1
+                      - text: "-12%"
+                    - link "₹79,999.00" [ref=e634] [cursor=pointer]:
+                      - /url: /SmartChoice-i5-13420H-GeForce-3050-6GB-AL15G-53/dp/B0DXVGVNKN/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_1/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0DXVGVNKN&psc=1
+                      - generic [ref=e635]:
+                        - generic [ref=e636]: ₹79,999.00
+                        - generic [ref=e637]:
+                          - text: ₹
+                          - generic [ref=e638]:
+                            - text: 79,999
+                            - generic [ref=e639]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹90,999.00" [ref=e641] [cursor=pointer]':
+                    - /url: /SmartChoice-i5-13420H-GeForce-3050-6GB-AL15G-53/dp/B0DXVGVNKN/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_1/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0DXVGVNKN&psc=1
+                    - generic [ref=e643]: "M.R.P: ₹90,999.00"
+                - generic [ref=e648]: FREE delivery Tue, 31 Mar
+            - generic [ref=e656] [cursor=pointer]:
+              - button "Add to cart, acer SmartChoice ALG, 13th Gen Intel Core i5-13420H, NVIDIA GeForce RTX 3050-6GB DDR6, 16GB RAM, 512GB SSD, FHD 15.6\"/39.62 cm, 144Hz, Windows 11 Home, Steel Gray, 1.99 KG, AL15G-53,Gaming Laptop" [ref=e657]
+              - generic [ref=e658]: Add to cart
+        - listitem [ref=e659]:
+          - generic [ref=e661]:
+            - link [ref=e662] [cursor=pointer]:
+              - /url: /ASUS-7445HS-4050-6GB-Windows-FA607NUG-RL189WS/dp/B0FM38SKN8/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_2/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FM38SKN8&psc=1
+              - img [ref=e664]
+            - generic [ref=e666]:
+              - link "ASUS TUF A16 (2025), AMD Ryzen 7 7445HS, Gaming Laptop (RTX 4050-6GB/140W TGP/16GB RAM/1TB SSD/FHD+/16\"/144Hz/56Whrs/Windows 11/M365 Basic (1Year)*/Office Home 2024/Mecha Gray/2.2Kg) FA607NUG-RL189WS" [ref=e667] [cursor=pointer]:
+                - /url: /ASUS-7445HS-4050-6GB-Windows-FA607NUG-RL189WS/dp/B0FM38SKN8/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_2/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FM38SKN8&psc=1
+                - generic [ref=e669]: ASUS TUF A16 (2025), AMD Ryzen 7 7445HS, Gaming Laptop (RTX 4050-6GB/140W TGP/16GB RAM/1TB SSD/FHD+/16"/144Hz/56Whrs/Windows 11/M365 Basic (1Year)*/Office Home 2024/Mecha Gray/2.2Kg) FA607NUG-RL189WS
+              - link "4.2 out of 5 stars, 101 ratings" [ref=e672] [cursor=pointer]:
+                - /url: /product-reviews/B0FM38SKN8/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_2_cr/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FM38SKN8
+                - generic [ref=e674]: 4.2 out of 5 stars
+                - text: "101"
+              - generic [ref=e675]:
+                - generic [ref=e677]:
+                  - generic [ref=e678]:
+                    - link "-10%" [ref=e679] [cursor=pointer]:
+                      - /url: /ASUS-7445HS-4050-6GB-Windows-FA607NUG-RL189WS/dp/B0FM38SKN8/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_2/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FM38SKN8&psc=1
+                      - text: "-10%"
+                    - link "₹1,02,990.00" [ref=e680] [cursor=pointer]:
+                      - /url: /ASUS-7445HS-4050-6GB-Windows-FA607NUG-RL189WS/dp/B0FM38SKN8/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_2/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FM38SKN8&psc=1
+                      - generic [ref=e681]:
+                        - generic [ref=e682]: ₹1,02,990.00
+                        - generic [ref=e683]:
+                          - text: ₹
+                          - generic [ref=e684]:
+                            - text: 1,02,990
+                            - generic [ref=e685]: .
+                          - text: "00"
+                  - generic [ref=e688]: Limited time deal
+                  - 'link "M.R.P: ₹1,14,990.00" [ref=e690] [cursor=pointer]':
+                    - /url: /ASUS-7445HS-4050-6GB-Windows-FA607NUG-RL189WS/dp/B0FM38SKN8/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_2/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FM38SKN8&psc=1
+                    - generic [ref=e692]: "M.R.P: ₹1,14,990.00"
+                - generic [ref=e697]: FREE delivery Fri, 27 Mar
+            - generic [ref=e705] [cursor=pointer]:
+              - button "Add to cart, ASUS TUF A16 (2025), AMD Ryzen 7 7445HS, Gaming Laptop (RTX 4050-6GB/140W TGP/16GB RAM/1TB SSD/FHD+/16\"/144Hz/56Whrs/Windows 11/M365 Basic (1Year)*/Office Home 2024/Mecha Gray/2.2Kg) FA607NUG-RL189WS" [ref=e706]
+              - generic [ref=e707]: Add to cart
+        - listitem [ref=e708]:
+          - generic [ref=e710]:
+            - link [ref=e711] [cursor=pointer]:
+              - /url: /ASUS-Upgradeable-Keyboard-Graphite-FA506NCG-HN199W/dp/B0FM3C4L2F/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_3/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FM3C4L2F&psc=1
+              - img [ref=e713]
+            - generic [ref=e715]:
+              - link "ASUS TUF A15 (2025), AMD Ryzen 7 7445HS,RTX 3050-4GB,75W TGP,16GB DDR5(Upgradeable Upto 64GB) 512GB SSD,FHD,15.6\",144Hz,RGB Keyboard,Windows 11,Graphite Black,2.3 Kg FA506NCG-HN199W, Gaming Laptop" [ref=e716] [cursor=pointer]:
+                - /url: /ASUS-Upgradeable-Keyboard-Graphite-FA506NCG-HN199W/dp/B0FM3C4L2F/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_3/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FM3C4L2F&psc=1
+                - generic [ref=e718]: ASUS TUF A15 (2025), AMD Ryzen 7 7445HS,RTX 3050-4GB,75W TGP,16GB DDR5(Upgradeable Upto 64GB) 512GB SSD,FHD,15.6",144Hz,RGB Keyboard,Windows 11,Graphite Black,2.3 Kg FA506NCG-HN199W, Gaming Laptop
+              - link "4.2 out of 5 stars, 747 ratings" [ref=e721] [cursor=pointer]:
+                - /url: /product-reviews/B0FM3C4L2F/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_3_cr/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FM3C4L2F
+                - generic [ref=e723]: 4.2 out of 5 stars
+                - text: "747"
+              - generic [ref=e724]:
+                - generic [ref=e726]:
+                  - generic [ref=e727]:
+                    - link "-14%" [ref=e728] [cursor=pointer]:
+                      - /url: /ASUS-Upgradeable-Keyboard-Graphite-FA506NCG-HN199W/dp/B0FM3C4L2F/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_3/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FM3C4L2F&psc=1
+                      - text: "-14%"
+                    - link "₹71,990.00" [ref=e729] [cursor=pointer]:
+                      - /url: /ASUS-Upgradeable-Keyboard-Graphite-FA506NCG-HN199W/dp/B0FM3C4L2F/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_3/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FM3C4L2F&psc=1
+                      - generic [ref=e730]:
+                        - generic [ref=e731]: ₹71,990.00
+                        - generic [ref=e732]:
+                          - text: ₹
+                          - generic [ref=e733]:
+                            - text: 71,990
+                            - generic [ref=e734]: .
+                          - text: "00"
+                  - generic [ref=e737]: Limited time deal
+                  - 'link "M.R.P: ₹83,990.00" [ref=e739] [cursor=pointer]':
+                    - /url: /ASUS-Upgradeable-Keyboard-Graphite-FA506NCG-HN199W/dp/B0FM3C4L2F/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_3/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FM3C4L2F&psc=1
+                    - generic [ref=e741]: "M.R.P: ₹83,990.00"
+                - generic [ref=e746]: FREE delivery Fri, 27 Mar
+            - generic [ref=e754] [cursor=pointer]:
+              - button "Add to cart, ASUS TUF A15 (2025), AMD Ryzen 7 7445HS,RTX 3050-4GB,75W TGP,16GB DDR5(Upgradeable Upto 64GB) 512GB SSD,FHD,15.6\",144Hz,RGB Keyboard,Windows 11,Graphite Black,2.3 Kg FA506NCG-HN199W, Gaming Laptop" [ref=e755]
+              - generic [ref=e756]: Add to cart
+        - listitem [ref=e757]:
+          - generic [ref=e759]:
+            - link [ref=e760] [cursor=pointer]:
+              - /url: /ASUS-Gaming-4050-6GB-Windows-V3607VU-RP550WS/dp/B0F5N2ZK2S/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_4/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0F5N2ZK2S&psc=1
+              - img [ref=e762]
+            - generic [ref=e764]:
+              - link "ASUS Gaming V16 (2025) 14th Gen,Intel Core 5 210H Gaming Laptop (RTX 4050-6GB/16GB RAM/512GB SSD/Windows 11 Home/16/144Hz/M365*/Office Home 2024,Matte Black,1.95 Kg),V3607VU-RP550WS" [ref=e765] [cursor=pointer]:
+                - /url: /ASUS-Gaming-4050-6GB-Windows-V3607VU-RP550WS/dp/B0F5N2ZK2S/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_4/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0F5N2ZK2S&psc=1
+                - generic [ref=e767]: ASUS Gaming V16 (2025) 14th Gen,Intel Core 5 210H Gaming Laptop (RTX 4050-6GB/16GB RAM/512GB SSD/Windows 11 Home/16/144Hz/M365*/Office Home 2024,Matte Black,1.95 Kg),V3607VU-RP550WS
+              - link "4.1 out of 5 stars, 27 ratings" [ref=e770] [cursor=pointer]:
+                - /url: /product-reviews/B0F5N2ZK2S/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_4_cr/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0F5N2ZK2S
+                - generic [ref=e772]: 4.1 out of 5 stars
+                - text: "27"
+              - generic [ref=e773]:
+                - generic [ref=e775]:
+                  - generic [ref=e776]:
+                    - link "-20%" [ref=e777] [cursor=pointer]:
+                      - /url: /ASUS-Gaming-4050-6GB-Windows-V3607VU-RP550WS/dp/B0F5N2ZK2S/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_4/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0F5N2ZK2S&psc=1
+                      - text: "-20%"
+                    - link "₹86,041.00" [ref=e778] [cursor=pointer]:
+                      - /url: /ASUS-Gaming-4050-6GB-Windows-V3607VU-RP550WS/dp/B0F5N2ZK2S/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_4/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0F5N2ZK2S&psc=1
+                      - generic [ref=e779]:
+                        - generic [ref=e780]: ₹86,041.00
+                        - generic [ref=e781]:
+                          - text: ₹
+                          - generic [ref=e782]:
+                            - text: 86,041
+                            - generic [ref=e783]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹1,07,990.00" [ref=e785] [cursor=pointer]':
+                    - /url: /ASUS-Gaming-4050-6GB-Windows-V3607VU-RP550WS/dp/B0F5N2ZK2S/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_4/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0F5N2ZK2S&psc=1
+                    - generic [ref=e787]: "M.R.P: ₹1,07,990.00"
+                - generic [ref=e792]: FREE delivery Fri, 27 Mar
+            - generic [ref=e800] [cursor=pointer]:
+              - button "Add to cart, ASUS Gaming V16 (2025) 14th Gen,Intel Core 5 210H Gaming Laptop (RTX 4050-6GB/16GB RAM/512GB SSD/Windows 11 Home/16/144Hz/M365*/Office Home 2024,Matte Black,1.95 Kg),V3607VU-RP550WS" [ref=e801]
+              - generic [ref=e802]: Add to cart
+        - listitem [ref=e803]:
+          - generic [ref=e805]:
+            - link [ref=e806] [cursor=pointer]:
+              - /url: /acer-Hexa-core-Processor-4050-6GB-ANV15-41/dp/B0FPQ7YC8D/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_5/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FPQ7YC8D&psc=1
+              - img [ref=e808]
+            - generic [ref=e810]:
+              - link "acer Nitro V 15, AMD Ryzen 5 6600H Hexa-core Processor,NVIDIA GeForce RTX 4050-6GB GDDR6,16 GB, 512 GB, Full HD IPS, 15.6\"/39.62 cm, 165 Hz, Win 11 Home,Obsidian Black, 2.1 kg, ANV15-41,Gaming Laptop" [ref=e811] [cursor=pointer]:
+                - /url: /acer-Hexa-core-Processor-4050-6GB-ANV15-41/dp/B0FPQ7YC8D/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_5/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FPQ7YC8D&psc=1
+                - generic [ref=e813]: acer Nitro V 15, AMD Ryzen 5 6600H Hexa-core Processor,NVIDIA GeForce RTX 4050-6GB GDDR6,16 GB, 512 GB, Full HD IPS, 15.6"/39.62 cm, 165 Hz, Win 11 Home,Obsidian Black, 2.1 kg, ANV15-41,Gaming Laptop
+              - link "4.4 out of 5 stars, 112 ratings" [ref=e816] [cursor=pointer]:
+                - /url: /product-reviews/B0FPQ7YC8D/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_5_cr/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FPQ7YC8D
+                - generic [ref=e818]: 4.4 out of 5 stars
+                - text: "112"
+              - generic [ref=e819]:
+                - generic [ref=e821]:
+                  - generic [ref=e822]:
+                    - link "-24%" [ref=e823] [cursor=pointer]:
+                      - /url: /acer-Hexa-core-Processor-4050-6GB-ANV15-41/dp/B0FPQ7YC8D/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_5/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FPQ7YC8D&psc=1
+                      - text: "-24%"
+                    - link "₹74,990.00" [ref=e824] [cursor=pointer]:
+                      - /url: /acer-Hexa-core-Processor-4050-6GB-ANV15-41/dp/B0FPQ7YC8D/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_5/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FPQ7YC8D&psc=1
+                      - generic [ref=e825]:
+                        - generic [ref=e826]: ₹74,990.00
+                        - generic [ref=e827]:
+                          - text: ₹
+                          - generic [ref=e828]:
+                            - text: 74,990
+                            - generic [ref=e829]: .
+                          - text: "00"
+                  - 'link "M.R.P: ₹98,799.00" [ref=e831] [cursor=pointer]':
+                    - /url: /acer-Hexa-core-Processor-4050-6GB-ANV15-41/dp/B0FPQ7YC8D/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_5/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0FPQ7YC8D&psc=1
+                    - generic [ref=e833]: "M.R.P: ₹98,799.00"
+                - generic [ref=e838]: FREE delivery Thu, 2 Apr
+            - generic [ref=e846] [cursor=pointer]:
+              - button "Add to cart, acer Nitro V 15, AMD Ryzen 5 6600H Hexa-core Processor,NVIDIA GeForce RTX 4050-6GB GDDR6,16 GB, 512 GB, Full HD IPS, 15.6\"/39.62 cm, 165 Hz, Win 11 Home,Obsidian Black, 2.1 kg, ANV15-41,Gaming Laptop" [ref=e847]
+              - generic [ref=e848]: Add to cart
+        - listitem [ref=e849]:
+          - generic [ref=e851]:
+            - link [ref=e852] [cursor=pointer]:
+              - /url: /ASUS-Processor-4050-6GB-140WTGP-FX677VU-RL055WS/dp/B0DXF2M5S5/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_6/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0DXF2M5S5&psc=1
+              - img [ref=e854]
+            - generic [ref=e856]:
+              - link "ASUS TUF Gaming F16,Smartchoice,Intel Core 5 Processor 210H,14th Gen Gaming Laptop(RTX 4050-6GB/140WTGP/16GB/512GB/FHD+/16\"/144Hz/Win 11/M365 Basic(1Year)*/Office-24/Mecha Gray/2.20 Kg)FX677VU-RL055WS" [ref=e857] [cursor=pointer]:
+                - /url: /ASUS-Processor-4050-6GB-140WTGP-FX677VU-RL055WS/dp/B0DXF2M5S5/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_6/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0DXF2M5S5&psc=1
+                - generic [ref=e859]: ASUS TUF Gaming F16,Smartchoice,Intel Core 5 Processor 210H,14th Gen Gaming Laptop(RTX 4050-6GB/140WTGP/16GB/512GB/FHD+/16"/144Hz/Win 11/M365 Basic(1Year)*/Office-24/Mecha Gray/2.20 Kg)FX677VU-RL055WS
+              - link "4.2 out of 5 stars, 34 ratings" [ref=e862] [cursor=pointer]:
+                - /url: /product-reviews/B0DXF2M5S5/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_6_cr/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0DXF2M5S5
+                - generic [ref=e864]: 4.2 out of 5 stars
+                - text: "34"
+              - generic [ref=e865]:
+                - generic [ref=e867]:
+                  - generic [ref=e868]:
+                    - link "-10%" [ref=e869] [cursor=pointer]:
+                      - /url: /ASUS-Processor-4050-6GB-140WTGP-FX677VU-RL055WS/dp/B0DXF2M5S5/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_6/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0DXF2M5S5&psc=1
+                      - text: "-10%"
+                    - link "₹97,990.00" [ref=e870] [cursor=pointer]:
+                      - /url: /ASUS-Processor-4050-6GB-140WTGP-FX677VU-RL055WS/dp/B0DXF2M5S5/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_6/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0DXF2M5S5&psc=1
+                      - generic [ref=e871]:
+                        - generic [ref=e872]: ₹97,990.00
+                        - generic [ref=e873]:
+                          - text: ₹
+                          - generic [ref=e874]:
+                            - text: 97,990
+                            - generic [ref=e875]: .
+                          - text: "00"
+                  - generic [ref=e878]: Limited time deal
+                  - 'link "M.R.P: ₹1,08,990.00" [ref=e880] [cursor=pointer]':
+                    - /url: /ASUS-Processor-4050-6GB-140WTGP-FX677VU-RL055WS/dp/B0DXF2M5S5/ref=pd_cart_pd_pss_cart_d_0_d_sccl_2_6/523-6451257-7273116?pd_rd_w=enx9W&content-id=amzn1.sym.7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_p=7627d004-c995-4e6b-a588-c6b19cfc455e&pf_rd_r=9X4FBS5RRJD7SJQBKWKD&pd_rd_wg=yAQ2Z&pd_rd_r=1e977564-828f-4b29-aecf-c51a41c93364&pd_rd_i=B0DXF2M5S5&psc=1
+                    - generic [ref=e882]: "M.R.P: ₹1,08,990.00"
+                - generic [ref=e887]: FREE delivery Thu, 2 Apr
+            - generic [ref=e895] [cursor=pointer]:
+              - button "Add to cart, ASUS TUF Gaming F16,Smartchoice,Intel Core 5 Processor 210H,14th Gen Gaming Laptop(RTX 4050-6GB/140WTGP/16GB/512GB/FHD+/16\"/144Hz/Win 11/M365 Basic(1Year)*/Office-24/Mecha Gray/2.20 Kg)FX677VU-RL055WS" [ref=e896]
+              - generic [ref=e897]: Add to cart
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e898]:
+    - button "Back to top" [ref=e899] [cursor=pointer]:
+      - generic [ref=e900]: Back to top
+    - generic [ref=e901]:
+      - generic [ref=e902]:
+        - heading "Get to Know Us" [level=6] [ref=e903]
+        - list [ref=e904]:
+          - listitem [ref=e905]:
+            - link "About Amazon" [ref=e906] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e907]:
+            - link "Careers" [ref=e908] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e909]:
+            - link "Press Releases" [ref=e910] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e911]:
+            - link "Amazon Science" [ref=e912] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e914]:
+        - heading "Connect with Us" [level=6] [ref=e915]
+        - list [ref=e916]:
+          - listitem [ref=e917]:
+            - link "Facebook" [ref=e918] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e919]:
+            - link "Twitter" [ref=e920] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e921]:
+            - link "Instagram" [ref=e922] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e924]:
+        - heading "Make Money with Us" [level=6] [ref=e925]
+        - list [ref=e926]:
+          - listitem [ref=e927]:
+            - link "Sell on Amazon" [ref=e928] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e929]:
+            - link "Sell under Amazon Accelerator" [ref=e930] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e931]:
+            - link "Protect and Build Your Brand" [ref=e932] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e933]:
+            - link "Amazon Global Selling" [ref=e934] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e935]:
+            - link "Supply to Amazon" [ref=e936] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e937]:
+            - link "Become an Affiliate" [ref=e938] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e939]:
+            - link "Fulfilment by Amazon" [ref=e940] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e941]:
+            - link "Advertise Your Products" [ref=e942] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e943]:
+            - link "Amazon Pay on Merchants" [ref=e944] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e946]:
+        - heading "Let Us Help You" [level=6] [ref=e947]
+        - list [ref=e948]:
+          - listitem [ref=e949]:
+            - link "Your Account" [ref=e950] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e951]:
+            - link "Returns Centre" [ref=e952] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e953]:
+            - link "Recalls and Product Safety Alerts" [ref=e954] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e955]:
+            - link "100% Purchase Protection" [ref=e956] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e957]:
+            - link "Amazon App Download" [ref=e958] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e959]:
+            - link "Help" [ref=e960] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e962]:
+      - link "Amazon India Home" [ref=e965] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e968]:
+        - generic [ref=e969]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e970] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e972]: English
+          - button "Expand to Change Language or Country" [ref=e973] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e974] [cursor=pointer]:
+          - generic [ref=e976]: India
+    - generic "More on Amazon" [ref=e977]:
+      - generic "More on Amazon" [ref=e978]:
+        - list [ref=e979]:
+          - listitem [ref=e980]:
+            - link "AbeBooks Books, art & collectibles" [ref=e981] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e982]
+              - generic [ref=e983]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e984]
+          - listitem [ref=e985]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e986] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e987]
+              - generic [ref=e988]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e989]
+          - listitem [ref=e990]:
+            - link "Audible Download Audio Books" [ref=e991] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e992]
+              - generic [ref=e993]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e994]
+          - listitem [ref=e995]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e996] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e997]
+              - generic [ref=e998]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e999]:
+          - listitem [ref=e1000]:
+            - link "Shopbop Designer Fashion Brands" [ref=e1001] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e1002]
+              - generic [ref=e1003]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e1004]
+          - listitem [ref=e1005]:
+            - link "Amazon Business Everything For Your Business" [ref=e1006] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e1007]
+              - generic [ref=e1008]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e1009]
+          - listitem [ref=e1010]:
+            - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e1011] [cursor=pointer]:
+              - /url: /music/prime?ref=footer_apm
+              - heading "Amazon Prime Music" [level=5] [ref=e1012]
+              - generic [ref=e1013]:
+                - text: 100 million songs, ad-free
+                - text: Over 15 million podcast episodes
+          - listitem [ref=e1014]
+          - listitem [ref=e1015]
+    - generic [ref=e1016]:
+      - list [ref=e1017]:
+        - listitem [ref=e1018]:
+          - link "Conditions of Use & Sale" [ref=e1019] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e1020]:
+          - link "Privacy Notice" [ref=e1021] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e1022]:
+          - link "Interest-Based Ads" [ref=e1023] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e1024]: © 1996-2026, Amazon.com, Inc. or its affiliates
+```

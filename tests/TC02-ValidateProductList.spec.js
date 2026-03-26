@@ -1,28 +1,35 @@
 const {test} = require('@playwright/test')
 const Dashboard = require('../pageObjects/Dashboard')
 const ProductList = require('../pageObjects/ProductList')
+const Screenshot = require('../utils/Screenshot')
 
 let dashboard, productList;
+
+const brand = 'HP';
+const filterOption = 'Price: Low to High';
+
 test.beforeEach('Launch Amazon', async({page})=>{
     await page.goto('/');
 
     dashboard = new Dashboard(page);
     productList = new ProductList(page);
 
-    await dashboard.validateDashboardPage();
+    await dashboard.validateDashboardPage('https://www.amazon.in');
 })
 test.describe('Amazon - Verify Product List',()=>{
-    test('Amazon - Validate Product List', async({page})=>{
+    test('Amazon - Validate Product List', async()=>{
         await dashboard.enterSearchItem('Laptop');
         await dashboard.clickOnSearch();
 
-        await productList.selectBrand('HP');
-        await productList.selectPriceRange();
-        // select any feature from sort by and make sure the list is given in that order
-        // await productList.selectSortOption('Price: Low to High'); 
-        await productList.validateTitle('HP');
+        await productList.selectBrand(brand);
+        await productList.selectPriceRangeOption(1);
+        await productList.selectSortOption(filterOption);
 
-        // await page.waitForTimeout(3000);
+        await productList.validateTitle(brand);
+        // get min & max price value
+        const {finalMinPrice, finalMaxPrice} = await productList.getPriceRange();
+        await productList.validatePrice(finalMinPrice, finalMaxPrice);
+        await productList.validateSortOption(filterOption);
 
     })
 })

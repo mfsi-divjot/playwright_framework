@@ -1,5 +1,5 @@
 const {expect} = require('@playwright/test')
-// add secondId, assertion in test page
+
 class BookingService{
     constructor(request){
         this.request = request
@@ -12,6 +12,7 @@ class BookingService{
         });
         expect(response.status()).toBe(200);
         const body = await response.json();
+        console.log(body);
         return body;
     }
     async getBooking(secondBookingId){
@@ -20,35 +21,29 @@ class BookingService{
                 'Accept' : 'application/json'
             }
         })
-        expect(response.status()).toBe(200);
         const body = await response.json();
         return body;
     }
-    async createBooking(){
+    
+    async getBookingAfterDelete(id){
+        const response = await this.request.get(`/booking/${id}`, {
+            headers : {
+                'Accept' : 'application/json'
+            }
+        })
+        expect(response.status()).toBe(404);
+    }
+    async createBooking(payload){
         const response = await this.request.post('/booking', {
             headers : {
                 'Accept' : 'application/json',
                 'Content-Type' : 'application/json'
             },
-            data : {
-                "firstname" : "Jim",
-                "lastname" : "Brown",
-                "totalprice" : 111,
-                "depositpaid" : true,
-                "bookingdates" : {
-                    "checkin" : "2018-01-01",
-                    "checkout" : "2019-01-01"
-                },
-                "additionalneeds" : "Breakfast"
-            }
+            data : payload
         })
-        expect(response.status()).toBe(200);
-        const header = await response.headers();
-        console.log(header);
-        expect(header['content-type']).toContain('application/json');
-        const body = await response.json();
-        return body;
+        return response;
     }
+    
     async updateBooking(token, id){
         const response = await this.request.put(`/booking/${id}`, {
             headers : {
@@ -104,4 +99,5 @@ class BookingService{
         expect(response.status()).toBe(201);
     } 
 }
+
 module.exports = BookingService

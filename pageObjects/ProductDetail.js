@@ -54,7 +54,7 @@ class ProductDetail{
         await this.page.goBack({ waitUntil: 'domcontentloaded'});
         await this.page.waitForLoadState('domcontentloaded');
     }
-    async gotToWishlist(){
+    async goToWishlist(){
         const wishlist = await this.page.getByText(locators.button.goToWishlist);
         await expect(wishlist).toBeVisible();
         await wishlist.click();

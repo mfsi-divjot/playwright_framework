@@ -1,5 +1,4 @@
 const { expect } = require('@playwright/test');
-
 const locator = {
     input: {
         searchBox: "[role='searchbox']",
@@ -10,9 +9,11 @@ const locator = {
         selectCountry: "section [href*='/country']",
         selectedCountry: "section a[href*='/country'] i",
         location : "#nav-global-location-popover-link",
-        userAccount : "//span[contains(text(),'Account & Lists')]",
+        userAccount : "//span[contains(text(),'Account & Lists')]",  
         addAddress : "a[href$='address_book']",
-        yourAccount : "//span[text()='Your Account']"
+        wishlist : "//span[text()='Your Wish List' and @class='nav-text']",
+        yourAccount : "#nav-link-accountList",
+        list : "span a[href$='lists']"
     },
     readOnly: {
         customerProfile: "[id*='customer-profile'] b",
@@ -30,18 +31,11 @@ class Dashboard {
     constructor(page) {
         this.page = page;
     }
-    async validateDashboardPage(){ // for test case 2 , 3 & 4
+    async validateDashboardPage(url){ 
         console.log(await this.page.title());
         console.log(await this.page.url());
 
-        await expect(this.page).toHaveURL("https://www.amazon.in");
-    }
-    async validateAmazonDashboardPage(){ // for test case 1
-        console.log(await this.page.title());
-        console.log(await this.page.url());
-        
-        // await expect(this.page).toHaveTitle('Amazon.com');
-        await expect(this.page).toHaveURL('https://www.amazon.com/');
+        await expect(this.page).toHaveURL(url); 
     }
     async enterSearchItem(item) {
         await this.page.locator(locator.input.searchBox).fill(item);
@@ -74,6 +68,7 @@ class Dashboard {
         await userAccount.waitFor({state : "visible"});
         await expect(userAccount).toBeVisible();
         await userAccount.click();
+        
         await this.page.waitForLoadState('domcontentloaded');
         const yourAddresses = await this.page.locator(locator.button.yourAddresses);
         await expect(yourAddresses).toBeVisible();
@@ -89,6 +84,18 @@ class Dashboard {
     async clickOnAddAddressBtn(){
         await expect(this.page.locator(locator.link.addAddress)).toBeVisible();
         await this.page.locator(locator.link.addAddress).click();
+    }
+    async openWishlist(){
+        const userAccount = await this.page.locator(locator.link.userAccount);
+        await userAccount.waitFor({state : "visible"});
+        await expect(userAccount).toBeVisible();
+        await userAccount.click();
+
+        await this.page.waitForLoadState('domcontentloaded');
+        const listLink = await this.page.locator(locator.link.list);
+        await listLink.scrollIntoViewIfNeeded();
+        await listLink.click();
+        await this.page.waitForLoadState('domcontentloaded');
     }
 }
 module.exports = Dashboard;

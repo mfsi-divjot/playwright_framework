@@ -37,14 +37,20 @@ class Country{
         await expect(this.page.locator(locators.readOnly.countryName)).toBeVisible();
     }
     async clickOnGoToWebsite() {
+            //shift focus to new tab
+            const page1Promise = this.page.waitForEvent('popup');
             await this.page.locator(locators.button.goToWebsite).click({ force: true })
+            const page1 = await page1Promise;
+            await page1.waitForLoadState('domcontentloaded');
+            return page1;
     }
-    async validateCountryName(){
+    async validateCountryName(countryName){
         // scroll till bottom of page
         await this.page.evaluate(() => {
             window.scrollTo(0, document.body.scrollHeight);
         });
         console.log(await this.page.locator(locators.readOnly.selectedCountry).textContent());
+        await expect(this.page.locator(locators.readOnly.selectedCountry)).toHaveText(countryName);
     }
 }
 module.exports = Country;

@@ -2,8 +2,8 @@
 import { defineConfig, devices } from '@playwright/test';
 
 const config = ({
-  // testDir : './tests',
-  testDir : './api-tests',
+  testDir : './tests', // for ui tests
+  // testDir : './api-tests', // for api tests
   // reporter : 'html',
   timeout : 40000,
   expect: {
@@ -24,18 +24,17 @@ const config = ({
   // ],
   // add base url 
   use : {
-    // baseURL : 'https://www.amazon.com/', // for test case1
-    // baseURL : 'https://www.amazon.in',  // for test case 2, 3, 4 & 5
-    baseURL : 'https://restful-booker.herokuapp.com', // test case 6
+    baseURL : 'https://www.amazon.in',  // ui
+    // baseURL : 'https://restful-booker.herokuapp.com', // api
     browserName : 'chromium',
     headless : false,
     viewport : null,
     launchOptions : {
       args : ['--start-maximized']
     },
-    screenshot : 'off', //'only-on-failure',
-    video : 'off', // 'retain-on-failure',
-    trace : 'off' //'on-first-retry'
+    screenshot : 'only-on-failure', 
+    video : 'retain-on-failure', 
+    trace : 'retain-on-failure'
   }
 })
 module.exports = config;

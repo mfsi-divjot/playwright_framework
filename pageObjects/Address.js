@@ -1,5 +1,5 @@
 const {expect} = require('@playwright/test')
-const Screenshot = require('../utils/Screenshot')
+const {user} = require('../testData/UserData')
 
 const locator = {
     container : {
@@ -42,14 +42,14 @@ class Address {
         await expect(this.page.getByText(locator.container.addAddress)).toBeVisible();
         await this.page.getByText(locator.container.addAddress).click()
     }
-    async enterUserDetails(username, contact, postalCode, houseNo, village, landmark){
-        await this.page.locator(locator.input.fullname).fill(username);
-        await this.page.locator(locator.input.phoneNumber).fill(contact);
-        await this.page.locator(locator.input.pinCode).fill(postalCode);
+    async enterUserDetails(user){
+        await this.page.locator(locator.input.fullname).fill(user.name);
+        await this.page.locator(locator.input.phoneNumber).fill(user.number);
+        await this.page.locator(locator.input.pinCode).fill(user.code);
         await this.page.waitForTimeout(4000);
-        await this.page.locator(locator.input.houseNumber).fill(houseNo);
-        await this.page.locator(locator.input.villageName).fill(village);
-        await this.page.locator(locator.input.landMark).fill(landmark);
+        await this.page.locator(locator.input.houseNumber).fill(user.houseNo);
+        await this.page.locator(locator.input.villageName).fill(user.village);
+        await this.page.locator(locator.input.landMark).fill(user.landmark);
         await expect(this.page.getByText(locator.container.addAddress)).toBeVisible();
         await this.page.getByText(locator.container.addAddress).click({force : true});
         await this.page.waitForTimeout(4000);
@@ -58,12 +58,12 @@ class Address {
     async validateAddress(message){
         await expect(this.page.locator(locator.readOnly.successMsg).first()).toHaveText(message);
     }
-    async validateLastAddressDetails(name, houseNo, village, pinCode, contactNo){
-        await expect(this.page.locator(locator.readOnly.fullName).nth(4)).toHaveText(name);
-        await expect(this.page.locator(locator.readOnly.houseNo).nth(4)).toHaveText(houseNo);
-        await expect(this.page.locator(locator.readOnly.village).nth(4)).toHaveText(village);
-        await expect(this.page.locator(locator.readOnly.pinCode).nth(4)).toContainText(pinCode);
-        await expect(this.page.locator(locator.readOnly.phoneNumber).nth(4)).toContainText(contactNo);
+    async validateLastAddedAddress(user){
+        await expect(this.page.locator(locator.readOnly.fullName).nth(4)).toHaveText(user.name);
+        await expect(this.page.locator(locator.readOnly.houseNo).nth(4)).toHaveText(user.houseNo);
+        await expect(this.page.locator(locator.readOnly.village).nth(4)).toHaveText(user.village);
+        await expect(this.page.locator(locator.readOnly.pinCode).nth(4)).toContainText(user.code);
+        await expect(this.page.locator(locator.readOnly.phoneNumber).nth(4)).toContainText(user.number);
     }
     async updateUsernameInLastAddress(name){
         await this.page.locator(locator.button.editAddress).last().click();
@@ -73,8 +73,6 @@ class Address {
     }
     async validateUpdateUsernameInLastAddress(name){
         await expect(this.page.locator(locator.readOnly.fullName).nth(3)).toHaveText(name);
-        // await Screenshot.element(this.page.locator(locator.readOnly.fullName).nth(3), 'Validate Address Update');
-        // await expect(this.page.locator(locator.readOnly.fullName).nth(3)).toHaveScreenshot({name : "address updated.png"});
     }
     async removeLastAddress(){
         await this.page.locator(locator.button.removeAddress).last().click();
@@ -83,7 +81,10 @@ class Address {
         await this.page.keyboard.press('Tab');
         await this.page.waitForTimeout(2000);
         await this.page.keyboard.press('Enter');
-
+    }
+    async validateLastAddressDeleted(name){
+       const allNames = await this.page.locator(locator.readOnly.fullName).allTextContents();
+       expect(allNames).not.toContain(name); 
     }
 }
 module.exports = Address

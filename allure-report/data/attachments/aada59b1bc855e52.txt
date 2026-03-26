@@ -1,3 +1,0 @@
-
-https://www.amazon.in/
-A snapshot doesn't exist at C:\Users\divjotk\Documents\workspace\playwright_framework\tests\TC04-ValidateAddress.spec.js-snapshots\address-updated-win32.png, writing actual.
