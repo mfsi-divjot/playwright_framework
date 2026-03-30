@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","13193","Amazon - Validate Change Country","","2026-03-27","passed","2026-03-27","Amazon - Validate Change Country","TC01-ValidateCountry.spec.js","",""

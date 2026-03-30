@@ -1,0 +1,26 @@
+{
+  "name": "playwright_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:file": "npx playwright test tests/TC01-ValidateCountry.spec.js",
+    "report:allure": "allure generate ./allure-results --clean -o ./allure-report",
+    "report:open": "allure open ./allure-report",
+    "test:allure": "npm run test:file && npm run report:allure && npm run report:open",
+    "test:ci" : "npm run test:file && npm run report:allure"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.3",
+    "allure-playwright": "^3.6.0"
+  },
+  "dependencies": {
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0"
+  }
+}
