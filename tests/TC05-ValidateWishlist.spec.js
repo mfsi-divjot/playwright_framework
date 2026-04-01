@@ -11,7 +11,9 @@ let dashboard, productList, productDetail, signIn, wishlist, ProductInfo;
 
 test.beforeAll('Launch Amazon', async()=>{
     browser = await chromium.launch();
-    context = await browser.newContext();
+    context = await browser.newContext({
+        storageState: 'storageState.json'
+    });
     page = await context.newPage();
 
     await page.goto('/');
@@ -24,12 +26,12 @@ test.beforeAll('Launch Amazon', async()=>{
 
     await dashboard.validateDashboardPage('https://www.amazon.in');
 
-    await dashboard.clickOnUserAccount();
-    await signIn.enterEmail(user.email);
-    await signIn.clickContinue();
-    await signIn.enterPassword(user.password);
-    await signIn.clickSignIn();
-    await signIn.validateUserLogin(user.name);
+    // await dashboard.clickOnUserAccount();
+    // await signIn.enterEmail(user.email);
+    // await signIn.clickContinue();
+    // await signIn.enterPassword(user.password);
+    // await signIn.clickSignIn();
+    // await signIn.validateUserLogin(user.name);
 })
 test.describe('Amazon - Validate Wishlist', ()=>{ 
     test('Amazon - Search Item in wishlist', async()=>{
