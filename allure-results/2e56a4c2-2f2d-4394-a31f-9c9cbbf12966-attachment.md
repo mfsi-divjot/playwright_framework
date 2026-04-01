@@ -1,0 +1,2057 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "About this item" [ref=e9] [cursor=pointer]:
+          - /url: "#featurebullets_feature_div"
+      - listitem [ref=e10]:
+        - link "Skip to buying options" [ref=e11] [cursor=pointer]:
+          - /url: "#buybox"
+          - text: Buying options
+      - listitem [ref=e12]:
+        - link "Reviews" [ref=e13] [cursor=pointer]:
+          - /url: "#customerReviews"
+    - separator [ref=e14]
+    - heading "Keyboard shortcuts" [level=2] [ref=e15]
+    - list "Keyboard shortcuts" [ref=e16]:
+      - listitem [ref=e17]:
+        - link "Search, alt, forward slash" [ref=e18] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e19]:
+            - generic [ref=e20]: Search
+            - generic [ref=e21]:
+              - generic [ref=e22]: alt
+              - generic [ref=e23]: +
+              - generic [ref=e24]: /
+      - listitem [ref=e25]:
+        - link "Cart, shift, alt, c" [ref=e26] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e27]:
+            - generic [ref=e28]: Cart
+            - generic [ref=e29]:
+              - generic [ref=e30]: shift
+              - generic [ref=e31]: +
+              - generic [ref=e32]: alt
+              - generic [ref=e33]: +
+              - generic [ref=e34]: C
+      - listitem [ref=e35]:
+        - link "Home, shift, alt, h" [ref=e36] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e37]:
+            - generic [ref=e38]: Home
+            - generic [ref=e39]:
+              - generic [ref=e40]: shift
+              - generic [ref=e41]: +
+              - generic [ref=e42]: alt
+              - generic [ref=e43]: +
+              - generic [ref=e44]: H
+      - listitem [ref=e45]:
+        - link "Your orders, shift, alt, o" [ref=e46] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e47]:
+            - generic [ref=e48]: Orders
+            - generic [ref=e49]:
+              - generic [ref=e50]: shift
+              - generic [ref=e51]: +
+              - generic [ref=e52]: alt
+              - generic [ref=e53]: +
+              - generic [ref=e54]: O
+      - listitem [ref=e55]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Show/Hide shortcuts
+            - generic [ref=e59]:
+              - generic [ref=e60]: shift
+              - generic [ref=e61]: +
+              - generic [ref=e62]: alt
+              - generic [ref=e63]: +
+              - generic [ref=e64]: Z
+    - generic [ref=e70]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e71]:
+    - navigation "Primary" [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - link "Amazon.in" [ref=e76] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Chandigarh 140603 Update location" [ref=e79] [cursor=pointer]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: Delivering to Chandigarh 140603
+              - generic [ref=e83]: Update location
+        - search [ref=e86]:
+          - generic [ref=e89]:
+            - generic [ref=e91]: All
+            - combobox "Select the department you want to search in" [ref=e93] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e96]: Laptop
+          - generic "Go" [ref=e99] [cursor=pointer]:
+            - button "Go" [ref=e100]
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e104] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e107]:
+                - img "India" [ref=e108]
+                - generic [ref=e109]: EN
+            - button "Expand to Change Language or Country" [ref=e110] [cursor=pointer]
+          - generic [ref=e111]:
+            - link "Hello, sign in Account & Lists" [ref=e112] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Facer-Pentium-LPDDR4X-39-62cm-A325-45%2Fdp%2FB0GLXWY8ZX%2Fref%3Dnav_ya_signin%3Fdib%3DeyJ2IjoiMSJ9.EAcbfknuHUlkX-ALLmtXtbVcRJ65zX1EFT7e-vHCN-K5GvspZuuufh60LvcP7yx4HY8B_0DO-CB4LQvauYhwV3BRovSL3RkkAzZoGhrZ5PV6VCEQjstzUi937-y72vr1P1iBG2LKD6otfV_R1clj1O_S4YhnVCzTHfLPDEaOsYrr3zuM0gYYaZVYzlOwwcrhu9UylXWT_phP2aFkqpTUZEkyuKEnn6CaU9jSXPaWThM.EU128BH0K-iAM09j8O1ClAKl4x6MxKbzSlhswEwMq0g%26dib_tag%3Dse%26keywords%3DLaptop%26qid%3D1774868640%26sr%3D8-4%26th%3D1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e114]: Hello, sign in
+              - generic [ref=e115]: Account & Lists
+            - button "Expand Account and Lists" [ref=e116] [cursor=pointer]
+          - link "Returns & Orders" [ref=e117] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e118]: Returns
+            - generic [ref=e119]: "& Orders"
+          - link "0 items in cart" [ref=e120] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e122]: "0"
+            - generic [ref=e125]: Cart
+      - generic [ref=e126]:
+        - button "Open All Categories Menu" [ref=e128] [cursor=pointer]:
+          - generic [ref=e130]: All
+        - list [ref=e134]:
+          - listitem [ref=e135]:
+            - link "Fresh" [ref=e137] [cursor=pointer]:
+              - /url: /fresh?ref_=nav_cs_fresh
+          - listitem [ref=e138]:
+            - link "MX Player" [ref=e140] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e141]:
+            - link "Sell" [ref=e143] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e144]:
+            - link "Bestsellers" [ref=e146] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e147]:
+            - link "Mobiles" [ref=e149] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e150]:
+            - link "Today's Deals" [ref=e152] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e153]:
+            - link "Customer Service" [ref=e155] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e156]:
+            - link "New Releases" [ref=e158] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e159]:
+            - generic [ref=e160]:
+              - link "Prime" [ref=e161] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e162] [cursor=pointer]
+          - listitem [ref=e163]:
+            - link "Fashion" [ref=e165] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e166]:
+            - link "Electronics" [ref=e168] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e169]:
+            - link "Amazon Pay" [ref=e171] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e172]:
+            - link "Home & Kitchen" [ref=e174] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e175]:
+            - link "Computers" [ref=e177] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e178]:
+            - link "Toys & Games" [ref=e180] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e181]:
+            - link "Books" [ref=e183] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e184]:
+            - link "Gift Cards" [ref=e186] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e187]:
+            - link "Beauty & Personal Care" [ref=e189] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e190]:
+            - link "Car & Motorbike" [ref=e192] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e193]:
+            - link "Home Improvement" [ref=e195] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e196]:
+            - link "Custom Products" [ref=e198] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e199]:
+            - link "Sports, Fitness & Outdoors" [ref=e201] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e202]:
+            - link "Grocery & Gourmet Foods" [ref=e204] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e205]:
+            - link "Health, Household & Personal Care" [ref=e207] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e208]:
+            - link "Video Games" [ref=e210] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e211]:
+            - link "Pet Supplies" [ref=e213] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e214]:
+            - link "Baby" [ref=e216] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e217]:
+            - link "Subscribe & Save" [ref=e219] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e220]:
+            - link "AmazonBasics" [ref=e222] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e223]:
+            - link "Audible" [ref=e225] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e226]:
+            - link "Kindle eBooks" [ref=e228] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e229]:
+            - link "Flights" [ref=e231] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+      - list [ref=e236]:
+        - listitem [ref=e237]:
+          - link "Electronics" [ref=e239] [cursor=pointer]:
+            - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=topnav_storetab_top_elec_mega
+            - img "Electronics" [ref=e241]
+        - listitem [ref=e242]:
+          - generic [ref=e243]:
+            - link "Mobiles & Accessories" [ref=e244] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=1389401031&ref_=sv_top_elec_mega_1
+            - button "Mobiles & Accessories, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e245] [cursor=pointer]
+        - listitem [ref=e246]:
+          - generic [ref=e247]:
+            - link "Laptops & Accessories" [ref=e248] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=976392031&ref_=sv_top_elec_mega_2
+            - button "Laptops & Accessories, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e249] [cursor=pointer]
+        - listitem [ref=e250]:
+          - generic [ref=e251]:
+            - link "TV & Home Entertainment" [ref=e252] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=1389375031&ref_=sv_top_elec_mega_3
+            - button "TV & Home Entertainment, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e253] [cursor=pointer]
+        - listitem [ref=e254]:
+          - generic [ref=e255]:
+            - link "Audio" [ref=e256] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=1389335031&ref_=sv_top_elec_mega_4
+            - button "Audio, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e257] [cursor=pointer]
+        - listitem [ref=e258]:
+          - generic [ref=e259]:
+            - link "Cameras" [ref=e260] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=1388977031&ref_=sv_top_elec_mega_5
+            - button "Cameras, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e261] [cursor=pointer]
+        - listitem [ref=e262]:
+          - generic [ref=e263]:
+            - link "Computer Peripherals" [ref=e264] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=1375248031&ref_=sv_top_elec_mega_6
+            - button "Computer Peripherals, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e265] [cursor=pointer]
+        - listitem [ref=e266]:
+          - generic [ref=e267]:
+            - link "Smart Technology" [ref=e268] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=13773797031&ref_=sv_top_elec_mega_7
+            - button "Smart Technology, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e269] [cursor=pointer]
+        - listitem [ref=e270]:
+          - generic [ref=e271]:
+            - link "Musical Instruments" [ref=e272] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=3677697031&ref_=sv_top_elec_mega_8
+            - button "Musical Instruments, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e273] [cursor=pointer]
+        - listitem [ref=e274]:
+          - generic [ref=e275]:
+            - link "Office & Stationery" [ref=e276] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=2454172031&ref_=sv_top_elec_mega_9
+            - button "Office & Stationery, You are currently on a drop-down. To open this drop-down, Press Enter." [ref=e277] [cursor=pointer]
+      - dialog [ref=e278]
+  - main [ref=e281]:
+    - list [ref=e287]:
+      - listitem [ref=e288]:
+        - link "Computers & Accessories" [ref=e290] [cursor=pointer]:
+          - /url: /computers-and-accessories/b/ref=dp_bc_1?ie=UTF8&node=976392031
+      - listitem [ref=e291]: ›
+      - listitem [ref=e292]:
+        - link "Laptops" [ref=e294] [cursor=pointer]:
+          - /url: /Laptops/b/ref=dp_bc_2?ie=UTF8&node=1375424031
+      - listitem [ref=e295]: ›
+      - listitem [ref=e296]:
+        - link "Traditional Laptops" [ref=e298] [cursor=pointer]:
+          - /url: /b/ref=dp_bc_3?ie=UTF8&node=22963796031
+    - generic [ref=e299]:
+      - generic [ref=e300]:
+        - generic [ref=e304]:
+          - img "Amazon Prime Logo" [ref=e306]
+          - generic [ref=e308]:
+            - text: Enjoy
+            - strong [ref=e309]: Unlimited FREE Same day/1-day delivery
+            - text: ", Prime offers everyday and more"
+          - button "Join Prime Shopping Edition >>" [ref=e311] [cursor=pointer]:
+            - strong [ref=e312]: Join Prime Shopping Edition >>
+        - generic [ref=e316]:
+          - group [ref=e319]:
+            - button "With Exchange Up to 6,900.00 off" [ref=e322] [cursor=pointer]:
+              - heading "With Exchange Up to 6,900.00 off" [level=5] [ref=e324]:
+                - generic [ref=e326]: With Exchange
+                - generic [ref=e329]:
+                  - text: Up to
+                  - text: 6,900.00 off
+            - generic [ref=e332]:
+              - button "Without Exchange 35,400.00 55,000.00" [expanded] [ref=e333]:
+                - heading "Without Exchange 35,400.00 55,000.00" [level=5] [ref=e335]:
+                  - generic [ref=e338]: Without Exchange
+                  - generic [ref=e340]:
+                    - generic [ref=e341]: 35,400.00
+                    - generic [ref=e343]: 55,000.00
+              - generic [ref=e349]:
+                - generic [ref=e355]:
+                  - generic [ref=e360]:
+                    - text: FREE delivery Sunday, 5 April.
+                    - link "Details about delivery costs and shipping methods" [ref=e361] [cursor=pointer]:
+                      - /url: /gp/help/customer/display.html/?nodeId=200534000
+                      - text: Details
+                  - button "Delivering to Chandigarh 140603 - Update location" [ref=e364] [cursor=pointer]:
+                    - generic [ref=e370]: Delivering to Chandigarh 140603 - Update location
+                - generic [ref=e377]: Only 1 left in stock.
+                - group "Seller, shipping, and buying option details" [ref=e383]:
+                  - generic [ref=e384]:
+                    - heading "Ships from" [level=4] [ref=e385]:
+                      - generic [ref=e386]: Ships from
+                    - generic [ref=e389]: Amazon
+                  - generic [ref=e390]:
+                    - heading "Sold by" [level=4] [ref=e391]:
+                      - generic [ref=e392]: Sold by
+                    - link "New_Tech_Solution" [ref=e396] [cursor=pointer]:
+                      - /url: /gp/help/seller/at-a-glance.html/ref=dp_merchant_link?ie=UTF8&seller=A5MMSWVQYZ351&asin=B0GLXWY8ZX&ref_=dp_merchant_link&isAmazonFulfilled=1
+                  - generic [ref=e399]:
+                    - heading "Payment" [level=4] [ref=e400]:
+                      - generic [ref=e401]: Payment
+                    - button "Secure transaction" [ref=e404] [cursor=pointer]:
+                      - generic [ref=e405]: Secure transaction
+                - group "Include" [ref=e408]:
+                  - generic [ref=e410]: Include
+                  - heading "Add a Protection Plan:" [ref=e412]
+                  - generic [ref=e413]:
+                    - generic [ref=e416]:
+                      - checkbox "1 Year Extended warranty by Acko for ₹1,249.00" [ref=e417]
+                      - generic [ref=e418]:
+                        - link "1 Year Extended warranty by Acko" [ref=e419] [cursor=pointer]:
+                          - /url: "#"
+                        - text: for ₹1,249.00
+                    - generic [ref=e422]:
+                      - checkbox "2 Years Total Protection by OneAssist for ₹1,799.00" [ref=e423]
+                      - generic [ref=e424]:
+                        - link "2 Years Total Protection by OneAssist" [ref=e425] [cursor=pointer]:
+                          - /url: "#"
+                        - text: for ₹1,799.00
+                - generic [ref=e431] [cursor=pointer]:
+                  - button "Add to cart" [ref=e432]
+                  - generic [ref=e433]: Add to cart
+                - generic [ref=e438] [cursor=pointer]:
+                  - button "Buy Now" [ref=e439]
+                  - generic [ref=e440]: Buy Now
+                - generic [ref=e443]:
+                  - checkbox "Add gift options" [ref=e444]
+                  - generic [ref=e445]: Add gift options
+          - generic [ref=e449]:
+            - separator [ref=e450]
+            - link "Add to Wish List" [ref=e455] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fgp%2Faw%2Fd%2FB0GLXWY8ZX&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inamazon&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&
+        - generic [ref=e459]:
+          - generic [ref=e460]: Other sellers on Amazon
+          - separator [ref=e461]
+          - button "New (2) from ₹35,400.00 Fulfilled Fulfilled FREE Delivery." [ref=e464] [cursor=pointer]:
+            - text: New (2) from
+            - generic [ref=e465]:
+              - generic [ref=e466]: ₹35,400.00
+              - generic [ref=e467]:
+                - text: ₹
+                - generic [ref=e468]:
+                  - text: 35,400
+                  - generic [ref=e469]: .
+                - text: "00"
+            - generic [ref=e470]:
+              - generic [ref=e471]:
+                - img "Fulfilled" [ref=e472]
+                - text: Fulfilled
+              - strong [ref=e473]: FREE Delivery
+              - text: .
+      - generic [ref=e474]:
+        - generic [ref=e476]:
+          - button "Share" [ref=e477]:
+            - button "Share" [ref=e478] [cursor=pointer]
+          - generic [ref=e481]:
+            - radiogroup "Image thumbnails" [ref=e483]:
+              - listitem [ref=e484]:
+                - radio [ref=e489] [cursor=pointer]
+              - listitem [ref=e491]:
+                - radio [ref=e496] [cursor=pointer]
+              - listitem [ref=e498]:
+                - radio [ref=e503] [cursor=pointer]
+              - listitem [ref=e505]:
+                - radio [ref=e510] [cursor=pointer]
+              - listitem [ref=e512]:
+                - radio [ref=e517] [cursor=pointer]
+              - listitem [ref=e519]:
+                - radio [ref=e524] [cursor=pointer]
+              - listitem [ref=e526]:
+                - generic [ref=e530] [cursor=pointer]:
+                  - radio "5+" [ref=e531]
+                  - generic [ref=e533]: 5+
+            - generic [ref=e534]:
+              - generic [ref=e536]:
+                - list
+                - list [ref=e537]:
+                  - listitem [ref=e538] [cursor=pointer]:
+                    - button "acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6&#34;/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [ref=e541]:
+                      - img "acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6&#34;/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [ref=e542]
+              - link "Click to see full view" [ref=e546] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e548]:
+          - generic:
+            - button
+      - generic [ref=e549]:
+        - heading "acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6\"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [level=1] [ref=e552]
+        - link "Visit the acer Store" [ref=e555] [cursor=pointer]:
+          - /url: /stores/ACER/page/04646288-4701-4E28-BC2A-4B2CA91242DB?lp_asin=B0GLXWY8ZX&ref_=ast_bln&store_ref=bl_ast_dp_brandlogo_sto
+        - generic [ref=e557]:
+          - generic "3.4 out of 5 stars" [ref=e559]:
+            - button "3.4 out of 5 stars" [ref=e561] [cursor=pointer]:
+              - text: "3.4"
+              - generic [ref=e563]: 3.4 out of 5 stars
+          - link "553 Reviews" [ref=e566] [cursor=pointer]:
+            - /url: "#averageCustomerReviewsAnchor"
+            - text: (553)
+        - generic [ref=e570]: 200+ bought in past month
+        - separator [ref=e571]
+        - generic [ref=e574]:
+          - generic [ref=e576]:
+            - generic [ref=e577]:
+              - generic [ref=e578]: ₹35,400.00 with 36 percent savings
+              - generic [ref=e579]: "-36%"
+              - generic [ref=e581]: ₹35,400
+            - generic [ref=e584]:
+              - generic [ref=e585]: "M.R.P.: ₹55,000.00"
+              - generic [ref=e586]:
+                - text: "M.R.P.:"
+                - generic [ref=e587]:
+                  - generic [ref=e588]: ₹55,000
+                  - text: ₹55,000
+          - generic [ref=e590]: Inclusive of all taxes
+          - generic [ref=e591]:
+            - generic [ref=e592]: EMI starts at ₹1,245. No Cost EMI available
+            - button "EMI options" [ref=e594] [cursor=pointer]: EMI options
+          - generic:
+            - table
+        - generic [ref=e602]:
+          - heading "Offers" [level=5] [ref=e606]
+          - region [ref=e608]:
+            - generic [ref=e610]:
+              - list [ref=e614]:
+                - listitem [ref=e615] [cursor=pointer]:
+                  - generic [ref=e617]:
+                    - heading "Cashback" [level=6] [ref=e618]
+                    - generic [ref=e620]:
+                      - generic [ref=e621]: Upto ₹1,062.00 cashback as Amazon Pay Balance when you pay with Amazon Pay ICICI Bank Credit Cards
+                      - generic [ref=e622]: Upto ₹1,062.00 cashback as Amazon Pay Balance when…
+                    - link "1 offer" [ref=e623]:
+                      - /url: "#"
+                - listitem [ref=e624] [cursor=pointer]:
+                  - generic [ref=e626]:
+                    - heading "Bank Offer" [level=6] [ref=e627]
+                    - generic [ref=e629]:
+                      - generic [ref=e630]: Upto ₹1,500.00 discount on select Credit Cards
+                      - generic [ref=e631]: Upto ₹1,500.00 discount on select Credit Cards
+                    - link "36 offers" [ref=e632]:
+                      - /url: "#"
+              - button "Next page" [ref=e634] [cursor=pointer]:
+                - generic [ref=e637]: Next page
+        - region [ref=e640]:
+          - generic [ref=e642]:
+            - list [ref=e646]:
+              - listitem [ref=e647] [cursor=pointer]:
+                - button "10 days Replacement by Brand" [ref=e652]
+              - listitem [ref=e653] [cursor=pointer]:
+                - button "Free Delivery" [ref=e657]
+              - listitem [ref=e658] [cursor=pointer]:
+                - button "1 Year Warranty" [ref=e662]
+              - listitem [ref=e663] [cursor=pointer]:
+                - button "Pay on Delivery" [ref=e667]
+            - button "Next page" [ref=e669] [cursor=pointer]:
+              - generic [ref=e672]: Next page
+        - generic [ref=e678]:
+          - generic "Selected Style Name is 12GB RAM/512GB SSD. Tap to collapse." [ref=e679] [cursor=pointer]:
+            - generic [ref=e681]: "Style Name: 12GB RAM/512GB SSD"
+          - generic "There are 3 options." [ref=e682]:
+            - group "Make a Style Name selection" [ref=e684]:
+              - radiogroup [ref=e685]:
+                - listitem [ref=e686]:
+                  - generic [ref=e689] [cursor=pointer]:
+                    - radio "12GB RAM/256GB SSD ₹34,900.00 with 37 percent savings ₹34,900.00 ₹55,000.00 ₹55,000.00 In stock" [ref=e690]
+                    - generic [ref=e692]:
+                      - generic [ref=e694]: 12GB RAM/256GB SSD
+                      - separator [ref=e695]
+                      - generic [ref=e699]:
+                        - generic [ref=e700]:
+                          - generic [ref=e701]: ₹34,900.00 with 37 percent savings
+                          - generic [ref=e702]: ₹34,900.00
+                        - generic [ref=e705]:
+                          - generic [ref=e706]: ₹55,000.00
+                          - text: ₹55,000.00
+                - listitem [ref=e707]:
+                  - generic [ref=e710] [cursor=pointer]:
+                    - radio "12GB RAM/512GB SSD ₹35,400.00 with 36 percent savings ₹35,400.00 ₹55,000.00 ₹55,000.00 Only 1 left in stock." [checked] [ref=e711]
+                    - generic [ref=e713]:
+                      - generic [ref=e715]: 12GB RAM/512GB SSD
+                      - separator [ref=e716]
+                      - generic [ref=e720]:
+                        - generic [ref=e721]:
+                          - generic [ref=e722]: ₹35,400.00 with 36 percent savings
+                          - generic [ref=e723]: ₹35,400.00
+                        - generic [ref=e726]:
+                          - generic [ref=e727]: ₹55,000.00
+                          - text: ₹55,000.00
+                - generic "See 1 options with no featured offers" [ref=e729] [cursor=pointer]
+              - navigation
+        - generic [ref=e731]:
+          - list [ref=e734]:
+            - rowgroup [ref=e735]:
+              - listitem [ref=e736]: Brand acer
+              - listitem [ref=e737]: Model Name Aspire 3
+              - listitem [ref=e738]: Screen Size 15.6 Inches
+              - listitem [ref=e739]: Colour Silver
+              - listitem [ref=e740]: Hard Disk Size 512 GB
+              - listitem [ref=e741]: CPU Model Pentium
+              - listitem [ref=e742]: RAM Memory Installed Size 12 GB
+              - listitem [ref=e743]: Operating System Windows 11 Home
+              - listitem [ref=e744]: Special Feature Lightweight
+              - listitem [ref=e745]: Graphics Card Description Integrated
+          - button "See more" [ref=e748] [cursor=pointer]: See more
+        - generic [ref=e751]:
+          - separator [ref=e752]
+          - heading "About this item" [level=1] [ref=e753]
+          - list [ref=e754]:
+            - listitem [ref=e755]: "Processor : Whether you're at home, school, or work, get all the performance you need with the latest Intel Pentium N6000 Processor ; maintaining order and keeping your apps running consistently and smoothly."
+            - listitem [ref=e756]: "Performance : 12GB LPDDR4X RAM for full-power multitasking; 512GB SSD; Thisthin and light laptop offers a good experience for watching videos, browsing the web, remote work, or study from home."
+            - listitem [ref=e757]: "Display : 15.6-inch HD 1366 x 768 resolution display keeps images and videos stunning while the narrow border offers-up more viewable space. To protect user’s eyes from harmful blue light, it also includes Acer BlueLigh Shield."
+            - listitem [ref=e758]: "Wireless Connectivity : 802.11a/b/g/n/ac wireless LAN provides fast internet access. For enhanced video calls this laptop also includes and optimized camera and microphones."
+            - listitem [ref=e759]: "Plenty of Ports : Flexible connectivity options through USB 3.0 ports. Users can also connect an external display through the HDMI port."
+          - generic [ref=e760]:
+            - text: ›
+            - link "See more product details" [ref=e761] [cursor=pointer]:
+              - /url: "#productDetails"
+        - link "Report an issue with this product" [ref=e767] [cursor=pointer]:
+          - /url: "#"
+          - text: Report an issue with this product
+      - generic [ref=e770]:
+        - separator [ref=e771]
+        - generic [ref=e774]:
+          - iframe [ref=e775]:
+            - generic [ref=f10e4]:
+              - link "Primebook 2 Pro 2026 (New Launch) | 8GB RAM, 128GB UFS Storage | 14.1-Inch FHD IPS Display | 14 Hours Battery | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | Backlit Keyboard | in-Built AI (Gray)" [ref=f10e6] [cursor=pointer]:
+                - /url: https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo4OTk2NDE4NTA3Mzk1NTIxOjE3NzQ4Njg2NDc6c3BfaHFwX3NoYXJlZDozMDA3MDYzOTIwMTAxMzI6Ojo6&url=%2Fdp%2FB0FFM8M9B5%2Fref%3Dsspa_dk_hqp_detail_aax_0%3Fpsc%3D1%26aref%3DNLGjhb5MHj%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9ocXBfc2hhcmVk&aref=NLGjhb5MHj&sp_cr=ZAZ
+              - img "Primebook 2 Pro 2026 (New Launch) | 8GB RAM, 128GB UFS Storage | 14.1-Inch FHD IPS Display | 14 Hours Battery | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | Backlit Keyboard | in-Built AI (Gray)" [ref=f10e7]
+              - generic [ref=f10e8]:
+                - generic [ref=f10e9]: Primebook 2 Pro 2026 (New Launch) | 8GB RAM...
+                - generic [ref=f10e10]:
+                  - generic [ref=f10e11]: "511"
+                  - text: ₹24,990.00
+          - button "Leave feedback on Sponsored advertisement" [ref=e777] [cursor=pointer]:
+            - generic [ref=e778]: Sponsored
+    - generic [ref=e784]:
+      - separator [ref=e785]
+      - heading "Frequently bought together" [level=2] [ref=e786]
+      - generic [ref=e787]:
+        - group "Frequently bought together" [ref=e788]:
+          - generic [ref=e789]:
+            - generic [ref=e790]:
+              - 'checkbox "This item: acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6\"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [checked] [ref=e796]'
+              - generic [ref=e801]:
+                - generic [ref=e803]: "This item: acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6\"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop"
+                - generic [ref=e810]:
+                  - generic [ref=e811]: ₹35,400.00
+                  - generic [ref=e812]:
+                    - text: ₹
+                    - generic [ref=e813]:
+                      - text: 35,400
+                      - generic [ref=e814]: .
+                    - text: "00"
+            - generic [ref=e815]:
+              - generic [ref=e816]:
+                - generic [ref=e817]: +
+                - checkbox "Dyazo Water Resistant Laptop Sleeve/Laptop case/laptop cover with Handle Compatible for 15 Inch to 15.6\" Inches laptops & Notebooks - Grey" [checked] [ref=e821]
+                - link "Dyazo Water Resistant Laptop Sleeve/Laptop case/laptop cover with Handle Compatible for 15 Inch to 15.6\" Inches laptops & Not" [ref=e825] [cursor=pointer]:
+                  - /url: /Dyazo-Resistant-Compatible-laptops-Notebooks/dp/B09BFV96TS/ref=pd_bxgy_thbs_d_sccl_1/525-7728687-9818530?pd_rd_w=km13s&content-id=amzn1.sym.142c0d31-3594-485b-b879-def9251f61c0&pf_rd_p=142c0d31-3594-485b-b879-def9251f61c0&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B09BFV96TS&psc=1
+                  - img "Dyazo Water Resistant Laptop Sleeve/Laptop case/laptop cover with Handle Compatible for 15 Inch to 15.6\" Inches laptops & Not" [ref=e826]
+              - generic [ref=e827]:
+                - link "Dyazo Water Resistant Laptop Sleeve/Laptop case/laptop cover with Handle Compatible for 15 Inch to 15.6\" Inches laptops & Notebooks - Grey" [ref=e829] [cursor=pointer]:
+                  - /url: /Dyazo-Resistant-Compatible-laptops-Notebooks/dp/B09BFV96TS/ref=pd_bxgy_d_sccl_1/525-7728687-9818530?pd_rd_w=km13s&content-id=amzn1.sym.142c0d31-3594-485b-b879-def9251f61c0&pf_rd_p=142c0d31-3594-485b-b879-def9251f61c0&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B09BFV96TS&psc=1
+                  - generic [ref=e830]: Dyazo Water Resistant Laptop Sleeve/Laptop case/laptop cover with Handle Compatible for 15 Inch to 15.6" Inches laptops & Notebooks - Grey
+                - generic [ref=e837]:
+                  - generic [ref=e838]: ₹289.00
+                  - generic [ref=e839]:
+                    - text: ₹
+                    - generic [ref=e840]:
+                      - text: "289"
+                      - generic [ref=e841]: .
+                    - text: "00"
+        - generic [ref=e842]:
+          - generic [ref=e843]:
+            - generic [ref=e845]:
+              - text: "Total price:"
+              - generic [ref=e846]:
+                - generic [ref=e847]: ₹35,689.00
+                - generic [ref=e848]:
+                  - text: ₹
+                  - generic [ref=e849]: 35,689.
+                  - text: "00"
+            - generic [ref=e855] [cursor=pointer]:
+              - button "Add both to Cart, acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6\"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop" [ref=e856]
+              - generic [ref=e857]: Add both to Cart
+          - generic [ref=e858]:
+            - generic [ref=e862]: One of these items is dispatched sooner than the other.
+            - link "Show details for Frequently bought together,After enabling, redirect focus to product information to get details," [ref=e864] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - text: Show details
+    - generic [ref=e867]:
+      - separator [ref=e868]
+      - group "Related products with free delivery on eligible orders" [ref=e869]:
+        - generic [ref=e871]:
+          - heading "Related products with free delivery on eligible orders" [level=2] [ref=e872]
+          - link "Sponsored" [ref=e876] [cursor=pointer]:
+            - /url: "#sp_detail_thematic-prime_theme_for_non_prime_members_feedbackForm"
+            - generic [ref=e877]:
+              - text: Sponsored
+              - img [ref=e878]
+        - group [ref=e885]:
+          - list [ref=e886]:
+            - listitem [ref=e887]:
+              - generic [ref=e888]:
+                - link "Primebook 2 Pro 2026 (New Launch) | 8GB RAM, 128GB UFS Storage | 14.1-Inch FHD IPS Display | 14 Hours Battery | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | Backlit Keyboard | in-Built AI (Gray)" [ref=e889] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwNzA2MzkyMDEwMTMyOjo6Og&url=%2Fdp%2FB0FFM8M9B5%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0FFM8M9B5%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DNLGjhb5MHj%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=NLGjhb5MHj&sp_cr=ZAZ
+                  - img [ref=e892]
+                  - generic [ref=e893]: Primebook 2 Pro 2026 (New Launch) | 8GB RAM, 128GB UFS Storage | 14.1-Inch…
+                - link "4.4 out of 5 stars 514 ratings" [ref=e895] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwNzA2MzkyMDEwMTMyOjo6Og&url=%2Fdp%2FB0FFM8M9B5%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0FFM8M9B5%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DNLGjhb5MHj%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=NLGjhb5MHj&sp_cr=ZAZ#customerReviews
+                  - text: "514"
+                - generic [ref=e897]:
+                  - link "Amazon's Choice":
+                    - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwNzA2MzkyMDEwMTMyOjo6Og&url=%2Fdp%2FB0FFM8M9B5%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0FFM8M9B5%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DNLGjhb5MHj%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=NLGjhb5MHj&sp_cr=ZAZ
+                    - generic [ref=e899] [cursor=pointer]: Amazon's Choice
+                - 'link "-17% ₹24,990.00 M.R.P: ₹29,990.00 M.R.P: ₹29,990.00" [ref=e901] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwNzA2MzkyMDEwMTMyOjo6Og&url=%2Fdp%2FB0FFM8M9B5%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0FFM8M9B5%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DNLGjhb5MHj%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=NLGjhb5MHj&sp_cr=ZAZ
+                  - text: "-17%"
+                  - generic [ref=e902]:
+                    - generic [ref=e903]: ₹24,990.00
+                    - generic [ref=e904]:
+                      - text: ₹
+                      - generic [ref=e905]:
+                        - text: 24,990
+                        - generic [ref=e906]: .
+                      - text: "00"
+                  - generic [ref=e907]: "M.R.P: ₹29,990.00"
+                  - generic [ref=e908]:
+                    - text: "M.R.P:"
+                    - generic [ref=e909]:
+                      - generic [ref=e910]: ₹29,990.00
+                      - text: ₹29,990.00
+            - listitem [ref=e911]:
+              - generic [ref=e912]:
+                - link "Certified | T430 Business Laptop | Core i5-3320m | 8GB RAM | 128GB SSD | 14” HD Display | WiFi | Webcam | Win 10 Pro" [ref=e913] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwOTQ2OTA1MzY5MjMyOjo6Og&url=%2Fdp%2FB0GN5VX5JY%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0GN5VX5JY%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DF36D6mWNFD%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=F36D6mWNFD&sp_cr=ZAZ
+                  - img [ref=e916]
+                  - generic [ref=e917]: Certified | T430 Business Laptop | Core i5-3320m | 8GB RAM | 128GB SSD | 14” HD Dis...
+                - link "1.0 out of 5 stars 2 ratings" [ref=e919] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwOTQ2OTA1MzY5MjMyOjo6Og&url=%2Fdp%2FB0GN5VX5JY%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0GN5VX5JY%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DF36D6mWNFD%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=F36D6mWNFD&sp_cr=ZAZ#customerReviews
+                  - text: "2"
+                - 'link "-86% ₹12,990.00 M.R.P: ₹89,990.00 M.R.P: ₹89,990.00" [ref=e922] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwOTQ2OTA1MzY5MjMyOjo6Og&url=%2Fdp%2FB0GN5VX5JY%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB0GN5VX5JY%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DF36D6mWNFD%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=F36D6mWNFD&sp_cr=ZAZ
+                  - text: "-86%"
+                  - generic [ref=e923]:
+                    - generic [ref=e924]: ₹12,990.00
+                    - generic [ref=e925]:
+                      - text: ₹
+                      - generic [ref=e926]:
+                        - text: 12,990
+                        - generic [ref=e927]: .
+                      - text: "00"
+                  - generic [ref=e928]: "M.R.P: ₹89,990.00"
+                  - generic [ref=e929]:
+                    - text: "M.R.P:"
+                    - generic [ref=e930]:
+                      - generic [ref=e931]: ₹89,990.00
+                      - text: ₹89,990.00
+            - listitem [ref=e932]:
+              - generic [ref=e933]:
+                - link "HP 15, 13th Gen Intel Core i5-13420H, (16GB DDR4, 512GB SSD), FHD, Anti-Glare, Micro-Edge, 15.6''/39.6cm, Win11, M365 Basic(1yr)* Office24, Silver, 1.65kg, FR0045TU, Camera w/Shutter, Backlit Laptop" [ref=e934] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAxMDExMzkwODg0ODMyOjo6Og&url=%2Fdp%2FB0GD81XSSP%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0GD81XSSP%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DYmPQI2LVJ1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=YmPQI2LVJ1&sp_cr=ZAZ
+                  - img [ref=e937]
+                  - generic [ref=e938]: HP 15, 13th Gen Intel Core i5-13420H, (16GB DDR4, 512GB SSD), FHD, Anti-Glare, Micr...
+                - link "3.0 out of 5 stars 1 rating" [ref=e940] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAxMDExMzkwODg0ODMyOjo6Og&url=%2Fdp%2FB0GD81XSSP%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0GD81XSSP%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DYmPQI2LVJ1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=YmPQI2LVJ1&sp_cr=ZAZ#customerReviews
+                  - text: "1"
+                - 'link "-9% ₹62,800.00 M.R.P: ₹69,023.00 M.R.P: ₹69,023.00" [ref=e943] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAxMDExMzkwODg0ODMyOjo6Og&url=%2Fdp%2FB0GD81XSSP%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0GD81XSSP%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DYmPQI2LVJ1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=YmPQI2LVJ1&sp_cr=ZAZ
+                  - text: "-9%"
+                  - generic [ref=e944]:
+                    - generic [ref=e945]: ₹62,800.00
+                    - generic [ref=e946]:
+                      - text: ₹
+                      - generic [ref=e947]:
+                        - text: 62,800
+                        - generic [ref=e948]: .
+                      - text: "00"
+                  - generic [ref=e949]: "M.R.P: ₹69,023.00"
+                  - generic [ref=e950]:
+                    - text: "M.R.P:"
+                    - generic [ref=e951]:
+                      - generic [ref=e952]: ₹69,023.00
+                      - text: ₹69,023.00
+            - listitem [ref=e953]:
+              - generic [ref=e954]:
+                - link "Certified ThinkPad T430/T430s Core i5 3320m – 8GB RAM, 128GB SSD 14\", Win 10 Pro, Professional Business Laptop (T430s)" [ref=e955] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwOTc0NTk0NTM5MDMyOjo6Og&url=%2Fdp%2FB0GR56HWV6%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0GR56HWV6%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DHYw1izpe2y%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=HYw1izpe2y&sp_cr=ZAZ
+                  - img [ref=e958]
+                  - generic [ref=e959]: Certified ThinkPad T430/T430s Core i5 3320m – 8GB RAM, 128GB SSD 14", Win…
+                - 'link "-53% ₹13,990.00 M.R.P: ₹29,990.00 M.R.P: ₹29,990.00" [ref=e961] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwOTc0NTk0NTM5MDMyOjo6Og&url=%2Fdp%2FB0GR56HWV6%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0GR56HWV6%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DHYw1izpe2y%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=HYw1izpe2y&sp_cr=ZAZ
+                  - text: "-53%"
+                  - generic [ref=e962]:
+                    - generic [ref=e963]: ₹13,990.00
+                    - generic [ref=e964]:
+                      - text: ₹
+                      - generic [ref=e965]:
+                        - text: 13,990
+                        - generic [ref=e966]: .
+                      - text: "00"
+                  - generic [ref=e967]: "M.R.P: ₹29,990.00"
+                  - generic [ref=e968]:
+                    - text: "M.R.P:"
+                    - generic [ref=e969]:
+                      - generic [ref=e970]: ₹29,990.00
+                      - text: ₹29,990.00
+            - listitem [ref=e971]:
+              - generic [ref=e972]:
+                - link "Primebook 2 Max 2026 (New Launch) | 8GB RAM, 256GB UFS Storage | 15.6-Inch Full HD IPS Display | 12hrs Battery | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | Backlit Keyboard | in-Built AI (Gray)" [ref=e973] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwNzA2MzkyMDEwMDMyOjo6Og&url=%2Fdp%2FB0FFMQB3KL%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0FFMQB3KL%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DzUANlRM61Y%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=zUANlRM61Y&sp_cr=ZAZ
+                  - img [ref=e976]
+                  - generic [ref=e977]: Primebook 2 Max 2026 (New Launch) | 8GB RAM, 256GB UFS Storage | 15.6-Inch…
+                - link "4.3 out of 5 stars 625 ratings" [ref=e979] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwNzA2MzkyMDEwMDMyOjo6Og&url=%2Fdp%2FB0FFMQB3KL%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0FFMQB3KL%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DzUANlRM61Y%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=zUANlRM61Y&sp_cr=ZAZ#customerReviews
+                  - text: "625"
+                - 'link "-17% ₹28,990.00 M.R.P: ₹34,990.00 M.R.P: ₹34,990.00" [ref=e982] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwNzA2MzkyMDEwMDMyOjo6Og&url=%2Fdp%2FB0FFMQB3KL%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0FFMQB3KL%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DzUANlRM61Y%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=zUANlRM61Y&sp_cr=ZAZ
+                  - text: "-17%"
+                  - generic [ref=e983]:
+                    - generic [ref=e984]: ₹28,990.00
+                    - generic [ref=e985]:
+                      - text: ₹
+                      - generic [ref=e986]:
+                        - text: 28,990
+                        - generic [ref=e987]: .
+                      - text: "00"
+                  - generic [ref=e988]: "M.R.P: ₹34,990.00"
+                  - generic [ref=e989]:
+                    - text: "M.R.P:"
+                    - generic [ref=e990]:
+                      - generic [ref=e991]: ₹34,990.00
+                      - text: ₹34,990.00
+            - listitem [ref=e992]:
+              - generic [ref=e993]:
+                - link "Certified ThinkPad L14 Laptop | Core i5-10210U | 10th Gen | 8GB RAM | 512GB SSD | 14-inch FHD Display | Win 11 Pro" [ref=e994] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwOTM5MDMxMTEzNzMyOjo6Og&url=%2Fdp%2FB0GM8S9L9M%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0GM8S9L9M%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DO2nt6GrOoh%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=O2nt6GrOoh&sp_cr=ZAZ
+                  - img [ref=e997]
+                  - generic [ref=e998]: Certified ThinkPad L14 Laptop | Core i5-10210U | 10th Gen | 8GB RAM | 512GB SSD | 1...
+                - link "2.4 out of 5 stars 3 ratings" [ref=e1000] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwOTM5MDMxMTEzNzMyOjo6Og&url=%2Fdp%2FB0GM8S9L9M%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0GM8S9L9M%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DO2nt6GrOoh%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=O2nt6GrOoh&sp_cr=ZAZ#customerReviews
+                  - text: "3"
+                - 'link "-82% ₹27,490.00 M.R.P: ₹1,49,000.00 M.R.P: ₹1,49,000.00" [ref=e1003] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwOTM5MDMxMTEzNzMyOjo6Og&url=%2Fdp%2FB0GM8S9L9M%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0GM8S9L9M%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DO2nt6GrOoh%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=O2nt6GrOoh&sp_cr=ZAZ
+                  - text: "-82%"
+                  - generic [ref=e1004]:
+                    - generic [ref=e1005]: ₹27,490.00
+                    - generic [ref=e1006]:
+                      - text: ₹
+                      - generic [ref=e1007]:
+                        - text: 27,490
+                        - generic [ref=e1008]: .
+                      - text: "00"
+                  - generic [ref=e1009]: "M.R.P: ₹1,49,000.00"
+                  - generic [ref=e1010]:
+                    - text: "M.R.P:"
+                    - generic [ref=e1011]:
+                      - generic [ref=e1012]: ₹1,49,000.00
+                      - text: ₹1,49,000.00
+            - listitem [ref=e1013]:
+              - generic [ref=e1014]:
+                - link "MSI Katana 15 HX Gaming Laptop, Intel Core i5-14450HX, 16GB DDR5 RAM, 512GB PCIe Gen4 SSD, NVIDIA GeForce RTX 5050 8GB,FHD 144Hz Display,Windows 11 Home, Backlit Keyboard,Gaming & Productivity Laptop" [ref=e1015] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwOTI4NDA0NDgxNDMyOjo6Og&url=%2Fdp%2FB096XZH2W4%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB096XZH2W4%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DApBm3gENyn%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=ApBm3gENyn&sp_cr=ZAZ
+                  - img [ref=e1018]
+                  - generic [ref=e1019]: MSI Katana 15 HX Gaming Laptop, Intel Core i5-14450HX, 16GB DDR5 RAM, 512GB…
+                - link "3.8 out of 5 stars 4 ratings" [ref=e1021] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwOTI4NDA0NDgxNDMyOjo6Og&url=%2Fdp%2FB096XZH2W4%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB096XZH2W4%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DApBm3gENyn%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=ApBm3gENyn&sp_cr=ZAZ#customerReviews
+                  - text: "4"
+                - 'link "-10% ₹1,02,990.00 M.R.P: ₹1,14,990.00 M.R.P: ₹1,14,990.00" [ref=e1024] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MTo4Mzk2MzQ0MTk2MTEyOTc6MTc3NDg2ODY0NzpzcF9kZXRhaWxfdGhlbWF0aWM6MzAwOTI4NDA0NDgxNDMyOjo6Og&url=%2Fdp%2FB096XZH2W4%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB096XZH2W4%26pd_rd_w%3DNYDm9%26content-id%3Damzn1.sym.67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_p%3D67d3dec9-3503-44a1-a945-e969d04cca69%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DApBm3gENyn%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&aref=ApBm3gENyn&sp_cr=ZAZ
+                  - text: "-10%"
+                  - generic [ref=e1025]:
+                    - generic [ref=e1026]: ₹1,02,990.00
+                    - generic [ref=e1027]:
+                      - text: ₹
+                      - generic [ref=e1028]:
+                        - text: 1,02,990
+                        - generic [ref=e1029]: .
+                      - text: "00"
+                  - generic [ref=e1030]: "M.R.P: ₹1,14,990.00"
+                  - generic [ref=e1031]:
+                    - text: "M.R.P:"
+                    - generic [ref=e1032]:
+                      - generic [ref=e1033]: ₹1,14,990.00
+                      - text: ₹1,14,990.00
+    - generic [ref=e1038]:
+      - separator [ref=e1039]
+      - group [ref=e1042]:
+        - heading "Customers who viewed this item also viewed" [level=2] [ref=e1047]
+        - group [ref=e1052]:
+          - list [ref=e1053]:
+            - listitem [ref=e1054]:
+              - generic [ref=e1056]:
+                - link [ref=e1057] [cursor=pointer]:
+                  - /url: /Acer-Aspire-Premium-AL15-41-Display/dp/B0D37T35JP/ref=pd_sbs_d_sccl_2_1/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0D37T35JP&psc=1
+                  - img [ref=e1059]
+                - generic [ref=e1061]:
+                  - link "acer Aspire Lite, AMD Ryzen 3-5300U, 8 GB RAM, 512 GB SSD, Full HD 15.6\"/39.62 cm, Windows 11 Home, Steel Gray, 1.59 KG, AL15-41, Premium Laptop" [ref=e1062] [cursor=pointer]:
+                    - /url: /Acer-Aspire-Premium-AL15-41-Display/dp/B0D37T35JP/ref=pd_sbs_d_sccl_2_1/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0D37T35JP&psc=1
+                    - generic [ref=e1064]: acer Aspire Lite, AMD Ryzen 3-5300U, 8 GB RAM, 512 GB SSD, Full HD 15.6"/39.62 cm, Windows 11 Home, Steel Gray, 1.59 KG, AL15-41, Premium Laptop
+                  - link "3.9 out of 5 stars, 655 ratings" [ref=e1067] [cursor=pointer]:
+                    - /url: /product-reviews/B0D37T35JP/ref=pd_sbs_d_sccl_2_1_cr/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0D37T35JP
+                    - generic [ref=e1069]: 3.9 out of 5 stars
+                    - text: "655"
+                  - generic [ref=e1070]:
+                    - link "₹36,990.00" [ref=e1073] [cursor=pointer]:
+                      - /url: /Acer-Aspire-Premium-AL15-41-Display/dp/B0D37T35JP/ref=pd_sbs_d_sccl_2_1/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0D37T35JP&psc=1
+                      - generic [ref=e1075]:
+                        - generic [ref=e1076]: ₹36,990.00
+                        - generic [ref=e1077]:
+                          - text: ₹
+                          - generic [ref=e1078]: 36,990.
+                          - text: "00"
+                    - generic [ref=e1080]: Get it by Thursday, April 2
+                  - text: FREE Delivery by Amazon
+            - listitem [ref=e1081]:
+              - generic [ref=e1083]:
+                - link [ref=e1084] [cursor=pointer]:
+                  - /url: /Primebook-Storage-15-6-Inch-MediaTek-Keyboard/dp/B0FFMQB3KL/ref=pd_sbs_d_sccl_2_2/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0FFMQB3KL&psc=1
+                  - img [ref=e1086]
+                - generic [ref=e1088]:
+                  - link "Primebook 2 Max 2026 (New Launch) | 8GB RAM, 256GB UFS Storage | 15.6-Inch Full HD IPS Display | 12hrs Battery | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | Backlit Keyboard | in-Built AI (Gray)" [ref=e1089] [cursor=pointer]:
+                    - /url: /Primebook-Storage-15-6-Inch-MediaTek-Keyboard/dp/B0FFMQB3KL/ref=pd_sbs_d_sccl_2_2/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0FFMQB3KL&psc=1
+                    - generic [ref=e1091]: Primebook 2 Max 2026 (New Launch) | 8GB RAM, 256GB UFS Storage | 15.6-Inch Full HD IPS Display | 12hrs Battery | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | Backlit Keyboard | in-Built AI (Gray)
+                  - link "4.3 out of 5 stars, 625 ratings" [ref=e1094] [cursor=pointer]:
+                    - /url: /product-reviews/B0FFMQB3KL/ref=pd_sbs_d_sccl_2_2_cr/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0FFMQB3KL
+                    - generic [ref=e1096]: 4.3 out of 5 stars
+                    - text: "625"
+                  - generic [ref=e1097]:
+                    - link "₹28,990.00" [ref=e1100] [cursor=pointer]:
+                      - /url: /Primebook-Storage-15-6-Inch-MediaTek-Keyboard/dp/B0FFMQB3KL/ref=pd_sbs_d_sccl_2_2/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0FFMQB3KL&psc=1
+                      - generic [ref=e1102]:
+                        - generic [ref=e1103]: ₹28,990.00
+                        - generic [ref=e1104]:
+                          - text: ₹
+                          - generic [ref=e1105]: 28,990.
+                          - text: "00"
+                    - generic [ref=e1107]: Get it by Thursday, April 2
+                  - text: FREE Delivery by Amazon
+            - listitem [ref=e1108]:
+              - generic [ref=e1110]:
+                - link [ref=e1111] [cursor=pointer]:
+                  - /url: /ASUS-Chromebook-CX1405-Processor-CX1405CTA-S60622/dp/B0GN2Y3T6M/ref=pd_sbs_d_sccl_2_3/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0GN2Y3T6M&psc=1
+                  - img [ref=e1113]
+                - generic [ref=e1115]:
+                  - link "ASUS Chromebook CX1405 (2026), Intel N50 Processor, Intel UHD iGPU, 8GB RAM, 128GB SSD, FHD, 14\" (35.5 cm), Chrome OS, Pure Grey, 1.39 Kg, CX1405CTA-S60622, 42WHrs, Thin & Light Laptop" [ref=e1116] [cursor=pointer]:
+                    - /url: /ASUS-Chromebook-CX1405-Processor-CX1405CTA-S60622/dp/B0GN2Y3T6M/ref=pd_sbs_d_sccl_2_3/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0GN2Y3T6M&psc=1
+                    - generic [ref=e1118]: ASUS Chromebook CX1405 (2026), Intel N50 Processor, Intel UHD iGPU, 8GB RAM, 128GB SSD, FHD, 14" (35.5 cm), Chrome OS, Pure Grey, 1.39 Kg, CX1405CTA-S60622, 42WHrs, Thin & Light Laptop
+                  - link "3.0 out of 5 stars, 2 ratings" [ref=e1121] [cursor=pointer]:
+                    - /url: /product-reviews/B0GN2Y3T6M/ref=pd_sbs_d_sccl_2_3_cr/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0GN2Y3T6M
+                    - generic [ref=e1123]: 3.0 out of 5 stars
+                    - text: "2"
+                  - generic [ref=e1124]:
+                    - link "₹27,490.00" [ref=e1127] [cursor=pointer]:
+                      - /url: /ASUS-Chromebook-CX1405-Processor-CX1405CTA-S60622/dp/B0GN2Y3T6M/ref=pd_sbs_d_sccl_2_3/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0GN2Y3T6M&psc=1
+                      - generic [ref=e1129]:
+                        - generic [ref=e1130]: ₹27,490.00
+                        - generic [ref=e1131]:
+                          - text: ₹
+                          - generic [ref=e1132]: 27,490.
+                          - text: "00"
+                    - generic [ref=e1134]: Get it by Thursday, April 2
+                  - text: FREE Delivery by Amazon
+            - listitem [ref=e1135]:
+              - generic [ref=e1137]:
+                - link [ref=e1138] [cursor=pointer]:
+                  - /url: /HP-Notebook-15-6-inch-Anti-Glare-Graphics/dp/B0DV97FSGN/ref=pd_sbs_d_sccl_2_4/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0DV97FSGN&psc=1
+                  - img [ref=e1140]
+                - generic [ref=e1142]:
+                  - link "HP 255 Notebook, AMD Athlon Silver 7120U,8GB DDR4, 256GB SSD, 15.6-inch(39.6cm),Anti-Glare, HD Laptop, Radeon Graphics, (Win 11, Silver,1.52kg) G10" [ref=e1143] [cursor=pointer]:
+                    - /url: /HP-Notebook-15-6-inch-Anti-Glare-Graphics/dp/B0DV97FSGN/ref=pd_sbs_d_sccl_2_4/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0DV97FSGN&psc=1
+                    - generic [ref=e1145]: HP 255 Notebook, AMD Athlon Silver 7120U,8GB DDR4, 256GB SSD, 15.6-inch(39.6cm),Anti-Glare, HD Laptop, Radeon Graphics, (Win 11, Silver,1.52kg) G10
+                  - link "2.2 out of 5 stars, 3 ratings" [ref=e1148] [cursor=pointer]:
+                    - /url: /product-reviews/B0DV97FSGN/ref=pd_sbs_d_sccl_2_4_cr/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0DV97FSGN
+                    - generic [ref=e1150]: 2.2 out of 5 stars
+                    - text: "3"
+                  - generic [ref=e1151]:
+                    - link "₹33,999.00" [ref=e1154] [cursor=pointer]:
+                      - /url: /HP-Notebook-15-6-inch-Anti-Glare-Graphics/dp/B0DV97FSGN/ref=pd_sbs_d_sccl_2_4/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0DV97FSGN&psc=1
+                      - generic [ref=e1156]:
+                        - generic [ref=e1157]: ₹33,999.00
+                        - generic [ref=e1158]:
+                          - text: ₹
+                          - generic [ref=e1159]: 33,999.
+                          - text: "00"
+                    - generic [ref=e1161]: Get it by Sunday, April 5
+                  - text: FREE Delivery by Amazon
+            - listitem [ref=e1162]:
+              - generic [ref=e1164]:
+                - link [ref=e1165] [cursor=pointer]:
+                  - /url: /acer-Aspire-Lite-Ryzen-5300U/dp/B0FV95SXBX/ref=pd_sbs_d_sccl_2_5/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0FV95SXBX&psc=1
+                  - img [ref=e1167]
+                - generic [ref=e1169]:
+                  - link "acer Aspire Lite (2025) AMD Ryzen 3 Quad Core 5300U - (8 GB/512 GB SSD/AMD Radeon Graphics/Windows 11 Home) AL15-41 Thin and Light Laptop (15.6 Inch FHD, Steel Grey, 1.5 Kg/MS Office 2021" [ref=e1170] [cursor=pointer]:
+                    - /url: /acer-Aspire-Lite-Ryzen-5300U/dp/B0FV95SXBX/ref=pd_sbs_d_sccl_2_5/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0FV95SXBX&psc=1
+                    - generic [ref=e1172]: acer Aspire Lite (2025) AMD Ryzen 3 Quad Core 5300U - (8 GB/512 GB SSD/AMD Radeon Graphics/Windows 11 Home) AL15-41 Thin and Light Laptop (15.6 Inch FHD, Steel Grey, 1.5 Kg/MS Office 2021
+                  - link "5.0 out of 5 stars, 3 ratings" [ref=e1175] [cursor=pointer]:
+                    - /url: /product-reviews/B0FV95SXBX/ref=pd_sbs_d_sccl_2_5_cr/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0FV95SXBX
+                    - generic [ref=e1177]: 5.0 out of 5 stars
+                    - text: "3"
+                  - generic [ref=e1178]:
+                    - link "₹37,990.00" [ref=e1181] [cursor=pointer]:
+                      - /url: /acer-Aspire-Lite-Ryzen-5300U/dp/B0FV95SXBX/ref=pd_sbs_d_sccl_2_5/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0FV95SXBX&psc=1
+                      - generic [ref=e1183]:
+                        - generic [ref=e1184]: ₹37,990.00
+                        - generic [ref=e1185]:
+                          - text: ₹
+                          - generic [ref=e1186]: 37,990.
+                          - text: "00"
+                    - generic [ref=e1188]: Get it by Saturday, April 4
+                  - text: FREE Delivery by Amazon
+            - listitem [ref=e1189]:
+              - generic [ref=e1191]:
+                - link [ref=e1192] [cursor=pointer]:
+                  - /url: /Acer-Aspire-Celeron-Processor-Windows/dp/B0B641PR4X/ref=pd_sbs_d_sccl_2_6/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0B641PR4X&psc=1
+                  - img [ref=e1194]
+                - generic [ref=e1196]:
+                  - 'link "acer Aspire 3 Laptop (Made in India) (Intel Celeron Dual -Core Processor N4500 | Windows 11 Home | 8 GB | 256GB SSD | Weight : 1.45 Kg| Silver) A314-35 with 35.56 Cm (14-Inch) HD Display" [ref=e1197] [cursor=pointer]':
+                    - /url: /Acer-Aspire-Celeron-Processor-Windows/dp/B0B641PR4X/ref=pd_sbs_d_sccl_2_6/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0B641PR4X&psc=1
+                    - generic [ref=e1199]: "acer Aspire 3 Laptop (Made in India) (Intel Celeron Dual -Core Processor N4500 | Windows 11 Home | 8 GB | 256GB SSD | Weight : 1.45 Kg| Silver) A314-35 with 35.56 Cm (14-Inch) HD Display"
+                  - link "3.2 out of 5 stars, 10 ratings" [ref=e1202] [cursor=pointer]:
+                    - /url: /product-reviews/B0B641PR4X/ref=pd_sbs_d_sccl_2_6_cr/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0B641PR4X
+                    - generic [ref=e1204]: 3.2 out of 5 stars
+                    - text: "10"
+                  - generic [ref=e1205]:
+                    - link "₹33,999.00" [ref=e1208] [cursor=pointer]:
+                      - /url: /Acer-Aspire-Celeron-Processor-Windows/dp/B0B641PR4X/ref=pd_sbs_d_sccl_2_6/525-7728687-9818530?pd_rd_w=1tJ71&content-id=amzn1.sym.d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_p=d1406b44-aa69-47e4-9270-f613e12d52dc&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95&pd_rd_i=B0B641PR4X&psc=1
+                      - generic [ref=e1210]:
+                        - generic [ref=e1211]: ₹33,999.00
+                        - generic [ref=e1212]:
+                          - text: ₹
+                          - generic [ref=e1213]: 33,999.
+                          - text: "00"
+                    - generic [ref=e1215]: Get it by Sunday, April 5
+                  - text: FREE Delivery by Amazon
+    - generic [ref=e1216]:
+      - generic [ref=e1218]:
+        - separator [ref=e1219]
+        - heading "From the manufacturer" [level=2] [ref=e1220]
+        - generic [ref=e1223]:
+          - generic [ref=e1226]:
+            - generic [ref=e1227]:
+              - paragraph [ref=e1228]:
+                - img "Stunning Display" [ref=e1229]
+              - heading "Stunning Display" [level=4] [ref=e1230]
+              - paragraph [ref=e1231]: Experience vivid visuals and crystal-clear clarity with the HD display. Whether you're streaming movies, editing photos, or working on presentations, enjoy an immersive viewing experience with lifelike colors and wide viewing angles.
+            - generic [ref=e1232]:
+              - paragraph [ref=e1233]:
+                - img "Powerful Performance" [ref=e1234]
+              - heading "Powerful Performance" [level=4] [ref=e1235]
+              - paragraph [ref=e1236]: Equipped with an Intel Core Celeron processor and DDR4 system memory, this laptop delivers lightning-fast performance for seamless multitasking, smooth streaming, and responsive computing. From everyday tasks to demanding applications, experience unmatched speed and efficiency.
+            - generic [ref=e1237]:
+              - paragraph [ref=e1238]:
+                - img "Enhanced Privacy Features" [ref=e1239]
+              - heading "Enhanced Privacy Features" [level=4] [ref=e1240]
+              - paragraph [ref=e1241]: Protect your privacy with the integrated camera privacy shutter. Simply slide the shutter to cover the webcam lens whenever you're not using it, ensuring peace of mind and preventing unauthorized access. Safeguard your personal space and maintain control over your privacy.
+          - generic [ref=e1244]:
+            - generic [ref=e1245]:
+              - paragraph [ref=e1246]:
+                - img "Fast and Reliable Storage" [ref=e1247]
+              - heading "Fast and Reliable Storage" [level=4] [ref=e1248]
+              - paragraph [ref=e1249]: With up to 512GB SSD featuring PCIe Gen4.0x4 NVMe technology, enjoy lightning-fast boot times, rapid file transfers, and responsive performance. Store all your documents, media files, and applications with ample space and reliability, while experiencing faster data access speeds compared to traditional HDDs.
+            - generic [ref=e1250]:
+              - paragraph [ref=e1251]:
+                - img "Sleek and Portable Design" [ref=e1252]
+              - heading "Sleek and Portable Design" [level=4] [ref=e1253]
+              - paragraph [ref=e1254]: Designed for ultimate versatility and portability, this laptop features a sleek and ultra-slim design, measuring just 17.7 mm thin and weighing only 1.5 kg. Whether you're working on the go or at home, enjoy unmatched convenience and adaptability without compromising on performance or style.
+            - generic [ref=e1255]:
+              - paragraph [ref=e1256]:
+                - img "Enhanced Flexibility" [ref=e1257]
+              - heading "Enhanced Flexibility" [level=4] [ref=e1258]
+              - paragraph [ref=e1259]: The 180-degree hinge allows you to lay the laptop flat, providing enhanced flexibility for various viewing angles and collaborative work environments
+      - generic:
+        - navigation:
+          - navigation "Navigate within the product detail page":
+            - navigation "Back to top jump link":
+              - generic:
+                - generic: Top
+            - navigation "About this item widget jump link":
+              - generic:
+                - generic: About this item
+            - navigation "Similar widget jump link":
+              - generic:
+                - generic: Similar
+            - navigation "From the brand widget jump link":
+              - generic:
+                - generic: From the Brand
+            - navigation "Product information widget jump link":
+              - generic:
+                - generic: Product information
+            - navigation "Customer reviews widget jump link":
+              - generic:
+                - generic: Reviews
+          - navigation "Back to top Image jump link":
+            - img "acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6\"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop"
+          - navigation "Back to top title jump link":
+            - generic: acer Aspire 3, Intel Pentium N6000, 12GB LPDDR4X RAM, 512GB SSD, HD, 15.6"/39.62cm, Windows 11 Home, Pure Silver, 1.5KG, A325-45, Thin and Light Laptop
+      - generic [ref=e1265]:
+        - heading "Top Brand acer" [level=2] [ref=e1266]:
+          - paragraph [ref=e1268]: Top Brand
+          - paragraph [ref=e1269]: acer
+        - list [ref=e1270]:
+          - listitem [ref=e1271]:
+            - paragraph [ref=e1272]: 85% positive ratings from 50K+ customers
+          - listitem [ref=e1273]:
+            - paragraph [ref=e1274]: 50K+ recent orders from this brand
+          - listitem [ref=e1275]:
+            - paragraph [ref=e1276]: 12+ years on Amazon
+      - generic [ref=e1277]:
+        - separator [ref=e1278]
+        - generic [ref=e1280]:
+          - heading "Product information" [level=1] [ref=e1281]
+          - generic [ref=e1285]:
+            - generic [ref=e1286]:
+              - generic [ref=e1288]:
+                - button "Additional details" [ref=e1291] [cursor=pointer]:
+                  - heading "Additional details" [level=5] [ref=e1293]
+                - button "Display" [ref=e1296] [cursor=pointer]:
+                  - heading "Display" [level=5] [ref=e1298]
+                - button "Memory" [ref=e1301] [cursor=pointer]:
+                  - heading "Memory" [level=5] [ref=e1303]
+                - button "Ports & Slots" [ref=e1306] [cursor=pointer]:
+                  - heading "Ports & Slots" [level=5] [ref=e1308]
+              - generic [ref=e1311]:
+                - heading "Feedback" [level=3] [ref=e1312]
+                - generic [ref=e1317]:
+                  - text: Would you like to
+                  - button "tell us about a lower price?" [ref=e1319] [cursor=pointer]: tell us about a lower price?
+            - generic [ref=e1323]:
+              - button "Processor" [ref=e1326] [cursor=pointer]:
+                - heading "Processor" [level=5] [ref=e1328]
+              - button "Item details" [ref=e1331] [cursor=pointer]:
+                - heading "Item details" [level=5] [ref=e1333]
+              - button "Connectivity" [ref=e1336] [cursor=pointer]:
+                - heading "Connectivity" [level=5] [ref=e1338]
+              - button "Battery" [ref=e1341] [cursor=pointer]:
+                - heading "Battery" [level=5] [ref=e1343]
+              - button "Input Devices" [ref=e1346] [cursor=pointer]:
+                - heading "Input Devices" [level=5] [ref=e1348]
+    - generic [ref=e1350]:
+      - separator [ref=e1351]
+      - heading "What is in the box?" [level=2] [ref=e1352]
+      - listitem [ref=e1354]: Keyboard
+    - generic [ref=e1357]:
+      - separator [ref=e1358]
+      - group "Products related to this item" [ref=e1359]:
+        - generic [ref=e1361]:
+          - heading "Products related to this item" [level=2] [ref=e1362]
+          - link "Sponsored" [ref=e1366] [cursor=pointer]:
+            - /url: "#sp_detail2_feedbackForm"
+            - generic [ref=e1367]:
+              - text: Sponsored
+              - img [ref=e1368]
+        - group [ref=e1375]:
+          - list [ref=e1376]:
+            - listitem [ref=e1377]:
+              - generic [ref=e1378]:
+                - link "Primebook 2 Max 2026 (New Launch) | 8GB RAM, 256GB UFS Storage | 15.6-Inch Full HD IPS Display | 12hrs Battery | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | Backlit Keyboard | in-Built AI (Gray)" [ref=e1379] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA3MDYzOTIwMTAwMzI6Ojo6&url=%2Fdp%2FB0FFMQB3KL%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0FFMQB3KL%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DzUANlRM61Y%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=zUANlRM61Y&sp_cr=ZAZ
+                  - img [ref=e1382]
+                  - generic [ref=e1383]: Primebook 2 Max 2026 (New Launch) | 8GB RAM, 256GB UFS Storage | 15.6-Inch…
+                - link "4.3 out of 5 stars 625 ratings" [ref=e1385] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA3MDYzOTIwMTAwMzI6Ojo6&url=%2Fdp%2FB0FFMQB3KL%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0FFMQB3KL%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DzUANlRM61Y%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=zUANlRM61Y&sp_cr=ZAZ#customerReviews
+                  - text: "625"
+                - 'link "-17% ₹28,990.00 M.R.P: ₹34,990.00 M.R.P: ₹34,990.00" [ref=e1388] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA3MDYzOTIwMTAwMzI6Ojo6&url=%2Fdp%2FB0FFMQB3KL%2Fref%3Dsspa_dk_detail_0%3Fpsc%3D1%26pd_rd_i%3DB0FFMQB3KL%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DzUANlRM61Y%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=zUANlRM61Y&sp_cr=ZAZ
+                  - text: "-17%"
+                  - generic [ref=e1389]:
+                    - generic [ref=e1390]: ₹28,990.00
+                    - generic [ref=e1391]:
+                      - text: ₹
+                      - generic [ref=e1392]:
+                        - text: 28,990
+                        - generic [ref=e1393]: .
+                      - text: "00"
+                  - generic [ref=e1394]: "M.R.P: ₹34,990.00"
+                  - generic [ref=e1395]:
+                    - text: "M.R.P:"
+                    - generic [ref=e1396]:
+                      - generic [ref=e1397]: ₹34,990.00
+                      - text: ₹34,990.00
+            - listitem [ref=e1398]:
+              - generic [ref=e1399]:
+                - link "MSI Katana 15 HX Gaming Laptop, Intel Core i5-14450HX, 16GB DDR5 RAM, 512GB PCIe Gen4 SSD, NVIDIA GeForce RTX 5050 8GB,FHD 144Hz Display,Windows 11 Home, Backlit Keyboard,Gaming & Productivity Laptop" [ref=e1400] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA5Mjg0MDQ0ODE0MzI6Ojo6&url=%2Fdp%2FB096XZH2W4%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB096XZH2W4%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DApBm3gENyn%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=ApBm3gENyn&sp_cr=ZAZ
+                  - img [ref=e1403]
+                  - generic [ref=e1404]: MSI Katana 15 HX Gaming Laptop, Intel Core i5-14450HX, 16GB DDR5 RAM, 512GB…
+                - link "3.8 out of 5 stars 4 ratings" [ref=e1406] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA5Mjg0MDQ0ODE0MzI6Ojo6&url=%2Fdp%2FB096XZH2W4%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB096XZH2W4%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DApBm3gENyn%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=ApBm3gENyn&sp_cr=ZAZ#customerReviews
+                  - text: "4"
+                - 'link "-10% ₹1,02,990.00 M.R.P: ₹1,14,990.00 M.R.P: ₹1,14,990.00" [ref=e1409] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA5Mjg0MDQ0ODE0MzI6Ojo6&url=%2Fdp%2FB096XZH2W4%2Fref%3Dsspa_dk_detail_1%3Fpsc%3D1%26pd_rd_i%3DB096XZH2W4%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DApBm3gENyn%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=ApBm3gENyn&sp_cr=ZAZ
+                  - text: "-10%"
+                  - generic [ref=e1410]:
+                    - generic [ref=e1411]: ₹1,02,990.00
+                    - generic [ref=e1412]:
+                      - text: ₹
+                      - generic [ref=e1413]:
+                        - text: 1,02,990
+                        - generic [ref=e1414]: .
+                      - text: "00"
+                  - generic [ref=e1415]: "M.R.P: ₹1,14,990.00"
+                  - generic [ref=e1416]:
+                    - text: "M.R.P:"
+                    - generic [ref=e1417]:
+                      - generic [ref=e1418]: ₹1,14,990.00
+                      - text: ₹1,14,990.00
+            - listitem [ref=e1419]:
+              - generic [ref=e1420]:
+                - link "Lenovo Legion Pro 5 2025 Intel Core Ultra 9 275HX | NVIDIA RTX 5070 8GB (32GB RAM/1TB SSD/WQXGA OLED/165Hz/16 (40.6cm)/Windows 11/Office 2024+AI Now/Black/2.4Kg), 83F3007BIN AI Powered Gaming Laptop" [ref=e1421] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDEwMDAxNzk3NTMzMzI6Ojo6&url=%2Fdp%2FB0G71G2F8L%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0G71G2F8L%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3Df5uJ2Zp9gf%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=f5uJ2Zp9gf&sp_cr=ZAZ
+                  - img [ref=e1424]
+                  - generic [ref=e1425]: Lenovo Legion Pro 5 2025 Intel Core Ultra 9 275HX | NVIDIA RTX 5070 8GB (32GB RAM…
+                - 'link "-10% ₹2,59,000.00 M.R.P: ₹2,89,000.00 M.R.P: ₹2,89,000.00" [ref=e1427] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDEwMDAxNzk3NTMzMzI6Ojo6&url=%2Fdp%2FB0G71G2F8L%2Fref%3Dsspa_dk_detail_2%3Fpsc%3D1%26pd_rd_i%3DB0G71G2F8L%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3Df5uJ2Zp9gf%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=f5uJ2Zp9gf&sp_cr=ZAZ
+                  - text: "-10%"
+                  - generic [ref=e1428]:
+                    - generic [ref=e1429]: ₹2,59,000.00
+                    - generic [ref=e1430]:
+                      - text: ₹
+                      - generic [ref=e1431]:
+                        - text: 2,59,000
+                        - generic [ref=e1432]: .
+                      - text: "00"
+                  - generic [ref=e1433]: "M.R.P: ₹2,89,000.00"
+                  - generic [ref=e1434]:
+                    - text: "M.R.P:"
+                    - generic [ref=e1435]:
+                      - generic [ref=e1436]: ₹2,89,000.00
+                      - text: ₹2,89,000.00
+            - listitem [ref=e1437]:
+              - generic [ref=e1438]:
+                - link "HP Omnibook 5 OLED (Previously Pavilion), Snapdragon X Processor (16GB LPDDR5x,1TB SSD) 2K OLED,16''/40.6cm, Win11, M365*Office24, Glacier Silver, 1.59kg, fb0001QU, Backlit, Next-Gen AI Laptop" [ref=e1439] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA5MTEwNjg0OTcwMzI6Ojo6&url=%2Fdp%2FB0FRM3G9JF%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0FRM3G9JF%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DVjGFaLvZgu%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=VjGFaLvZgu&sp_cr=ZAZ
+                  - img [ref=e1442]
+                  - generic [ref=e1443]: HP Omnibook 5 OLED (Previously Pavilion), Snapdragon X Processor (16GB LPDDR5x,1TB ...
+                - link "4.1 out of 5 stars 202 ratings" [ref=e1445] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA5MTEwNjg0OTcwMzI6Ojo6&url=%2Fdp%2FB0FRM3G9JF%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0FRM3G9JF%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DVjGFaLvZgu%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=VjGFaLvZgu&sp_cr=ZAZ#customerReviews
+                  - text: "202"
+                - generic [ref=e1447]:
+                  - link "Amazon's Choice":
+                    - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA5MTEwNjg0OTcwMzI6Ojo6&url=%2Fdp%2FB0FRM3G9JF%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0FRM3G9JF%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DVjGFaLvZgu%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=VjGFaLvZgu&sp_cr=ZAZ
+                    - generic [ref=e1449] [cursor=pointer]: Amazon's Choice
+                - 'link "-32% ₹71,979.00 M.R.P: ₹1,05,299.00 M.R.P: ₹1,05,299.00" [ref=e1451] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA5MTEwNjg0OTcwMzI6Ojo6&url=%2Fdp%2FB0FRM3G9JF%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0FRM3G9JF%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DVjGFaLvZgu%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=VjGFaLvZgu&sp_cr=ZAZ
+                  - text: "-32%"
+                  - generic [ref=e1452]:
+                    - generic [ref=e1453]: ₹71,979.00
+                    - generic [ref=e1454]:
+                      - text: ₹
+                      - generic [ref=e1455]:
+                        - text: 71,979
+                        - generic [ref=e1456]: .
+                      - text: "00"
+                  - generic [ref=e1457]: "M.R.P: ₹1,05,299.00"
+                  - generic [ref=e1458]:
+                    - text: "M.R.P:"
+                    - generic [ref=e1459]:
+                      - generic [ref=e1460]: ₹1,05,299.00
+                      - text: ₹1,05,299.00
+                - link "Save 2% with coupon" [ref=e1462] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA5MTEwNjg0OTcwMzI6Ojo6&url=%2Fdp%2FB0FRM3G9JF%2Fref%3Dsspa_dk_detail_3%3Fpsc%3D1%26pd_rd_i%3DB0FRM3G9JF%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DVjGFaLvZgu%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=VjGFaLvZgu&sp_cr=ZAZ
+                  - generic [ref=e1463]:
+                    - generic [ref=e1464]: Save 2%
+                    - text: with coupon
+            - listitem [ref=e1465]:
+              - generic [ref=e1466]:
+                - link "HP 15, 13th Gen Intel Core i5-13420H, (16GB DDR4, 512GB SSD), FHD, Anti-Glare, Micro-Edge, 15.6''/39.6cm, Win11, M365 Basic(1yr)* Office24, Silver, 1.65kg, FR0045TU, Camera w/Shutter, Backlit Laptop" [ref=e1467] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDEwMTEzOTA4ODQ4MzI6Ojo6&url=%2Fdp%2FB0GD81XSSP%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0GD81XSSP%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DYmPQI2LVJ1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=YmPQI2LVJ1&sp_cr=ZAZ
+                  - img [ref=e1470]
+                  - generic [ref=e1471]: HP 15, 13th Gen Intel Core i5-13420H, (16GB DDR4, 512GB SSD), FHD, Anti-Glare, Micr...
+                - link "3.0 out of 5 stars 1 rating" [ref=e1473] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDEwMTEzOTA4ODQ4MzI6Ojo6&url=%2Fdp%2FB0GD81XSSP%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0GD81XSSP%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DYmPQI2LVJ1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=YmPQI2LVJ1&sp_cr=ZAZ#customerReviews
+                  - text: "1"
+                - 'link "-9% ₹62,800.00 M.R.P: ₹69,023.00 M.R.P: ₹69,023.00" [ref=e1476] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDEwMTEzOTA4ODQ4MzI6Ojo6&url=%2Fdp%2FB0GD81XSSP%2Fref%3Dsspa_dk_detail_4%3Fpsc%3D1%26pd_rd_i%3DB0GD81XSSP%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DYmPQI2LVJ1%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=YmPQI2LVJ1&sp_cr=ZAZ
+                  - text: "-9%"
+                  - generic [ref=e1477]:
+                    - generic [ref=e1478]: ₹62,800.00
+                    - generic [ref=e1479]:
+                      - text: ₹
+                      - generic [ref=e1480]:
+                        - text: 62,800
+                        - generic [ref=e1481]: .
+                      - text: "00"
+                  - generic [ref=e1482]: "M.R.P: ₹69,023.00"
+                  - generic [ref=e1483]:
+                    - text: "M.R.P:"
+                    - generic [ref=e1484]:
+                      - generic [ref=e1485]: ₹69,023.00
+                      - text: ₹69,023.00
+            - listitem [ref=e1486]:
+              - generic [ref=e1487]:
+                - link "Primebook 2 Pro 2026 (New Launch) | 8GB RAM, 128GB UFS Storage | 14.1-Inch FHD IPS Display | 14 Hours Battery | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | Backlit Keyboard | in-Built AI (Gray)" [ref=e1488] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA3MDYzOTIwMTAxMzI6Ojo6&url=%2Fdp%2FB0FFM8M9B5%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0FFM8M9B5%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DNLGjhb5MHj%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=NLGjhb5MHj&sp_cr=ZAZ
+                  - img [ref=e1491]
+                  - generic [ref=e1492]: Primebook 2 Pro 2026 (New Launch) | 8GB RAM, 128GB UFS Storage | 14.1-Inch…
+                - link "4.4 out of 5 stars 514 ratings" [ref=e1494] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA3MDYzOTIwMTAxMzI6Ojo6&url=%2Fdp%2FB0FFM8M9B5%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0FFM8M9B5%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DNLGjhb5MHj%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=NLGjhb5MHj&sp_cr=ZAZ#customerReviews
+                  - text: "514"
+                - 'link "-17% ₹24,990.00 M.R.P: ₹29,990.00 M.R.P: ₹29,990.00" [ref=e1497] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA3MDYzOTIwMTAxMzI6Ojo6&url=%2Fdp%2FB0FFM8M9B5%2Fref%3Dsspa_dk_detail_5%3Fpsc%3D1%26pd_rd_i%3DB0FFM8M9B5%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DNLGjhb5MHj%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=NLGjhb5MHj&sp_cr=ZAZ
+                  - text: "-17%"
+                  - generic [ref=e1498]:
+                    - generic [ref=e1499]: ₹24,990.00
+                    - generic [ref=e1500]:
+                      - text: ₹
+                      - generic [ref=e1501]:
+                        - text: 24,990
+                        - generic [ref=e1502]: .
+                      - text: "00"
+                  - generic [ref=e1503]: "M.R.P: ₹29,990.00"
+                  - generic [ref=e1504]:
+                    - text: "M.R.P:"
+                    - generic [ref=e1505]:
+                      - generic [ref=e1506]: ₹29,990.00
+                      - text: ₹29,990.00
+            - listitem [ref=e1507]:
+              - generic [ref=e1508]:
+                - link "Certified | T430 Business Laptop | Core i5-3320m | 8GB RAM | 128GB SSD | 14” HD Display | WiFi | Webcam | Win 10 Pro" [ref=e1509] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA5NDY5MDUzNjkyMzI6Ojo6&url=%2Fdp%2FB0GN5VX5JY%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0GN5VX5JY%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DF36D6mWNFD%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=F36D6mWNFD&sp_cr=ZAZ
+                  - img [ref=e1512]
+                  - generic [ref=e1513]: Certified | T430 Business Laptop | Core i5-3320m | 8GB RAM | 128GB SSD | 14” HD Dis...
+                - link "1.0 out of 5 stars 2 ratings" [ref=e1515] [cursor=pointer]:
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA5NDY5MDUzNjkyMzI6Ojo6&url=%2Fdp%2FB0GN5VX5JY%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0GN5VX5JY%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DF36D6mWNFD%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=F36D6mWNFD&sp_cr=ZAZ#customerReviews
+                  - text: "2"
+                - 'link "-86% ₹12,990.00 M.R.P: ₹89,990.00 M.R.P: ₹89,990.00" [ref=e1518] [cursor=pointer]':
+                  - /url: /sspa/click?ie=UTF8&spc=MToyODEwMjI4ODQ0NjU3NzA0OjE3NzQ4Njg2NDc6c3BfZGV0YWlsMjozMDA5NDY5MDUzNjkyMzI6Ojo6&url=%2Fdp%2FB0GN5VX5JY%2Fref%3Dsspa_dk_detail_6%3Fpsc%3D1%26pd_rd_i%3DB0GN5VX5JY%26pd_rd_w%3DvXKM9%26content-id%3Damzn1.sym.00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_p%3D00892a2d-bd0e-4f46-9295-e128db4dc924%26pf_rd_r%3DYY5WBA1VV38JR379HBES%26pd_rd_wg%3DMnAx5%26pd_rd_r%3Df35a818a-ef53-42cd-9fc1-a9643a64cb95%26aref%3DF36D6mWNFD%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9kZXRhaWwy&aref=F36D6mWNFD&sp_cr=ZAZ
+                  - text: "-86%"
+                  - generic [ref=e1519]:
+                    - generic [ref=e1520]: ₹12,990.00
+                    - generic [ref=e1521]:
+                      - text: ₹
+                      - generic [ref=e1522]:
+                        - text: 12,990
+                        - generic [ref=e1523]: .
+                      - text: "00"
+                  - generic [ref=e1524]: "M.R.P: ₹89,990.00"
+                  - generic [ref=e1525]:
+                    - text: "M.R.P:"
+                    - generic [ref=e1526]:
+                      - generic [ref=e1527]: ₹89,990.00
+                      - text: ₹89,990.00
+    - generic [ref=e1530]:
+      - iframe [ref=e1531]:
+        - generic [ref=f11e3]:
+          - generic [ref=f11e4]: Sponsored Ad. Brand logo. Product image. Lenovo Idea Tab Smartchoice |11" Display, 2.5K Resolution, 90Hz Refresh|8GB RAM, 256GB ROM| MediaTek Dimensity 6300| 7040mAh|4 Speakers| USB-C |Wi-Fi | Luna Grey 17999 Shop now
+          - link "Sponsored Ad. Brand logo. Product image. Lenovo Idea Tab Smartchoice |11\" Display, 2.5K Resolution, 90Hz Refresh|8GB RAM, 256GB ROM| MediaTek Dimensity 6300| 7040mAh|4 Speakers| USB-C |Wi-Fi | Luna Grey 17999 Shop now" [ref=f11e7] [cursor=pointer]:
+            - /url: https://aax-eu-zaz.amazon.in/x/c/RIixvTT2BWkqX2PwX_85KwgAAAGdPmpPugoAAAH_BABvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICCAf0cK/clv1c_ek-gg3HWLbTCSxHuMVr3DJum3sgAYPPphjYCgGPtML9f3RJt5fbK35VS3N_PMDQG28-UxSdJ5DnTBHbozVr3pZcL3vH5ZCafjJabqfayObz8kBruevzkaUB5P119OPCFbroXCIkYee1FroXRTcJhz2DMgrdwHRVxKm2qeesfrRP_GewXx0VKU0ItITyXwLwtH17XI3zqBwLggeGJhmwAMkpNd92ozToZgfk-2orm_URbn3yWn99H6GPyrLPk9JBvxLenFyIrq45HFL_3NYaTxN48Z9XVJAOTekmxo8Zy4o3Fdtm-JzytuK9fl7bQGFiBaSKQm0o7XPldcjgIUNPQQmO3cXQcroG06B0qwVZ4xj1YS5aSNZ0-1myCwZr_mn7qs2-F4EVubYXNauPxPiexgCHaeJYcN4c2YE-ag1TEpAS_z_7XFUWb6IXCT3qifHxuV9qbfw_N0EO4BqsI9LwPIjiwQ2OA70v2vd1r2fnKata7N5b7iNDe65BdS5bnT1fm_nuXHa2KeLTXrHHL1RnhreFbmppuuAurkfqhRNMJ9FcjOaoLwZ7xBYedDYXhzg9kjQ-18W4KemdqbowI64Q6cPz0WtCFnCHTFTPUn-ci9SH6_OrMvsuU1R20LUWjXiprZaFxtAuzqcel4MdlzalzsgD8hIK5ER1A5moEQhYyzP-5RX8i5jnw_iQ-ZtDctJQFDCKs2PWfaFEvrEupbug3AbI79NswI0pHaS0sgca4VCtpsd6f6gA8KpFhzNlIM8a00hUXksXC7ciNn3LC3AO5AptH3SAlgo9rHmUxZ4R4U8Ah6ph3APQveenukK69HNcY0cIm3Z_pbBxZMFjVyThPKhg9vi0R94XpENQgN3m_LPm74acSkTxSOG0pDmjLpS7U-9nc2Z-unFUfeliEDXGzpXT5Ka6LaigDg4AisnOM14wEf6pM1C3reIzbrrS6ea2bj_VrsuxbO2UsNsF5xIgkkZ_fu946o0eMbwiqPWpXC8bzcW5CTdZBecX-CM29eg/http://www.amazon.in/dp/B0FJG3CT42/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=P6nmQgNZ4y
+          - generic [ref=f11e8]:
+            - img "Brand logo" [ref=f11e12]
+            - img "Product image" [ref=f11e16]
+      - button "Leave feedback on Sponsored advertisement" [ref=e1533] [cursor=pointer]:
+        - generic [ref=e1534]: Sponsored
+    - generic [ref=e1538]:
+      - link "Sponsored ad from Lenovo Tablets. \"Idea Tab Plus - Sleek Outside. Smart Inside.\" Shop Lenovo Tablets." [ref=e1539] [cursor=pointer]:
+        - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/stores/page/C6AB8983-4757-4E15-B6D6-9ED43EF8F345/?_encoding=UTF8&store_ref=SB_A07923522WIX52JHAZ84W-A0069750175RSJTFI6QDU&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&lp_asins=B0G2RVGCGC%2CB0G52QZB8H%2CB0G2RXPMMG&lp_query=Laptop&lp_slot=desktop-arbies&lp_page_asin=B0GLXWY8ZX&aref=nxNlpCIztH&pd_rd_i=ad1&ref_=sbx_dp_arbies_sbcdpd_bkgd&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+      - generic [ref=e1540]:
+        - generic [ref=e1542]:
+          - link "Lenovo Tablets" [ref=e1544] [cursor=pointer]:
+            - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/stores/page/C6AB8983-4757-4E15-B6D6-9ED43EF8F345/?_encoding=UTF8&store_ref=SB_A07923522WIX52JHAZ84W-A0069750175RSJTFI6QDU&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&lp_asins=B0G2RVGCGC%2CB0G52QZB8H%2CB0G2RXPMMG&lp_query=Laptop&lp_slot=desktop-arbies&lp_page_asin=B0GLXWY8ZX&aref=nxNlpCIztH&pd_rd_i=ad1&ref_=sbx_dp_arbies_sbcdpd_logo&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+            - img "Lenovo Tablets" [ref=e1546]
+          - generic [ref=e1548]:
+            - link "Idea Tab Plus - Sleek Outside. Smart Inside." [ref=e1549] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/stores/page/C6AB8983-4757-4E15-B6D6-9ED43EF8F345/?_encoding=UTF8&store_ref=SB_A07923522WIX52JHAZ84W-A0069750175RSJTFI6QDU&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&lp_asins=B0G2RVGCGC%2CB0G52QZB8H%2CB0G2RXPMMG&lp_query=Laptop&lp_slot=desktop-arbies&lp_page_asin=B0GLXWY8ZX&aref=nxNlpCIztH&pd_rd_i=ad1&ref_=sbx_dp_arbies_sbcdpd_hl&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+              - generic [ref=e1550]:
+                - generic [ref=e1551]: Idea Tab Plus - Sleek Outside. Smart Inside.
+                - generic [ref=e1552]: Idea Tab Plus - Sleek Outside. Smart Inside.
+            - generic [ref=e1553]:
+              - button "Leave feedback on Sponsored ad" [ref=e1557] [cursor=pointer]: Sponsored
+              - generic [ref=e1559]: "|"
+              - generic [ref=e1560]: Top 10 best-selling brand in tablets
+              - generic [ref=e1561]: "|"
+              - link "Shop Lenovo Tablets" [ref=e1563] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/stores/page/C6AB8983-4757-4E15-B6D6-9ED43EF8F345/?_encoding=UTF8&store_ref=SB_A07923522WIX52JHAZ84W-A0069750175RSJTFI6QDU&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&lp_asins=B0G2RVGCGC%2CB0G52QZB8H%2CB0G2RXPMMG&lp_query=Laptop&lp_slot=desktop-arbies&lp_page_asin=B0GLXWY8ZX&aref=nxNlpCIztH&pd_rd_i=ad1&ref_=sbx_dp_arbies_sbcdpd_cta&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+                - generic [ref=e1566]:
+                  - text: Shop Lenovo
+                  - generic [ref=e1567]:
+                    - text: Tablets
+                    - img [ref=e1568]
+        - generic [ref=e1571]:
+          - generic [ref=e1574]:
+            - link [ref=e1575] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G2RVGCGC/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-1-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_0_bkgd&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+            - link "Lenovo Idea Tab Plus with Pen |Wifi +5G |12.1\" 2.5K Display, 800nits Peak Brightness |8GB RAM + 256GB ROM (Expandable upto 2TB)| MediaTek Dimensity 6400| 10200mAh|4 Speakers with Dolby Atmos|Luna Grey" [ref=e1576] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G2RVGCGC/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-1-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_0_img&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+              - img "Lenovo Idea Tab Plus with Pen |Wifi +5G |12.1\" 2.5K Display, 800nits Peak Brightness |8GB RAM + 256GB ROM (Expandable upto 2TB)| MediaTek Dimensity 6400| 10200mAh|4 Speakers with Dolby Atmos|Luna Grey" [ref=e1579]
+            - generic [ref=e1580]:
+              - link [ref=e1581] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G2RVGCGC/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-1-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_0_bkgd&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+              - link "Lenovo Idea Tab Plus with Pen |Wifi +5G |12.1\" 2.5K Display, 800nits Peak Brightness |8GB RAM + 256GB ROM (Expandable upto 2TB)| MediaTek Dimensity 6400| 10200mAh|4 Speakers with Dolby Atmos|Luna Grey" [ref=e1583] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G2RVGCGC/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-1-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_0_title&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+                - generic [ref=e1584]:
+                  - generic [ref=e1585]: Lenovo Idea Tab Plus with Pen |Wifi +5G |12.1" 2.5K Display, 800nits Peak Brightness |8GB RAM + 256GB ROM (Expandable upto 2TB)| MediaTek Dimensity 6400| 10200mAh|4 Speakers with Dolby Atmos|Luna Grey
+                  - generic [ref=e1586]: Lenovo Idea Tab Plus with Pen |Wifi +5G |12.1" 2.5K Display, 800nits Peak Brightness |8GB RAM + 256GB ROM (Expandable upto 2TB)| Me…
+              - link "Rated 4.2 out of 5 stars by 24 reviews. Go to review section." [ref=e1587] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G2RVGCGC/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-1-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_0_rating&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95#customerReviews
+                - generic [ref=e1588]:
+                  - generic [ref=e1589]: "4.2"
+                  - generic [ref=e1591]: 4.2 out of 5 stars.
+                  - generic [ref=e1592]: (24)
+              - link "₹28,999.00" [ref=e1594] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G2RVGCGC/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-1-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_0_price&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+                - generic [ref=e1596]:
+                  - generic [ref=e1597]: ₹28,999.00
+                  - generic [ref=e1598]:
+                    - text: ₹
+                    - generic [ref=e1599]:
+                      - text: 28,999
+                      - generic [ref=e1600]: .
+                    - text: "00"
+              - generic [ref=e1603]: ₹41,000.00
+              - generic [ref=e1608]: FREE delivery Wed, 1 Apr
+          - generic [ref=e1611]:
+            - link [ref=e1612] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G52QZB8H/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-2-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_1_bkgd&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+            - link "Lenovo Idea Tab Pro with Paper-Like Anti Glare 12.7\" 3K 144 Hz Display & Pen Plus (Matte Edition)| 12GB RAM, 256GB ROM|10200mAh with 45W Charger|MediaTek Dimensity 8300|4 JBL Speakers" [ref=e1613] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G52QZB8H/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-2-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_1_img&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+              - img "Lenovo Idea Tab Pro with Paper-Like Anti Glare 12.7\" 3K 144 Hz Display & Pen Plus (Matte Edition)| 12GB RAM, 256GB ROM|10200mAh with 45W Charger|MediaTek Dimensity 8300|4 JBL Speakers" [ref=e1616]
+            - generic [ref=e1617]:
+              - link [ref=e1618] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G52QZB8H/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-2-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_1_bkgd&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+              - link "Lenovo Idea Tab Pro with Paper-Like Anti Glare 12.7\" 3K 144 Hz Display & Pen Plus (Matte Edition)| 12GB RAM, 256GB ROM|10200mAh with 45W Charger|MediaTek Dimensity 8300|4 JBL Speakers" [ref=e1620] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G52QZB8H/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-2-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_1_title&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+                - generic [ref=e1621]:
+                  - generic [ref=e1622]: Lenovo Idea Tab Pro with Paper-Like Anti Glare 12.7" 3K 144 Hz Display & Pen Plus (Matte Edition)| 12GB RAM, 256GB ROM|10200mAh with 45W Charger|MediaTek Dimensity 8300|4 JBL Speakers
+                  - generic [ref=e1623]: Lenovo Idea Tab Pro with Paper-Like Anti Glare 12.7" 3K 144 Hz Display & Pen Plus (Matte Edition)| 12GB RAM, 256GB ROM|10200m…
+              - link "Rated 4.4 out of 5 stars by 1066 reviews. Go to review section." [ref=e1624] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G52QZB8H/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-2-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_1_rating&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95#customerReviews
+                - generic [ref=e1625]:
+                  - generic [ref=e1626]: "4.4"
+                  - generic [ref=e1628]: 4.4 out of 5 stars.
+                  - generic [ref=e1629]: (1k)
+              - link "₹34,499.00" [ref=e1631] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G52QZB8H/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-2-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_1_price&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+                - generic [ref=e1633]:
+                  - generic [ref=e1634]: ₹34,499.00
+                  - generic [ref=e1635]:
+                    - text: ₹
+                    - generic [ref=e1636]:
+                      - text: 34,499
+                      - generic [ref=e1637]: .
+                    - text: "00"
+              - generic [ref=e1640]: ₹53,000.00
+              - generic [ref=e1645]: FREE delivery Thu, 2 Apr
+          - generic [ref=e1648]:
+            - link [ref=e1649] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G2RXPMMG/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-3-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_2_bkgd&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+            - link "Lenovo Idea Tab Plus with Pen |Wifi + 5G|12.1\" 2.5K Display, 800nits Peak Brightness|12GB RAM + 256GB ROM (Expandable upto 2TB)|MediaTek Dimensity 6400| 10200mAh|4 Speakers with Dolby Atmos| Luna Grey" [ref=e1650] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G2RXPMMG/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-3-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_2_img&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+              - img "Lenovo Idea Tab Plus with Pen |Wifi + 5G|12.1\" 2.5K Display, 800nits Peak Brightness|12GB RAM + 256GB ROM (Expandable upto 2TB)|MediaTek Dimensity 6400| 10200mAh|4 Speakers with Dolby Atmos| Luna Grey" [ref=e1653]
+            - generic [ref=e1654]:
+              - link [ref=e1655] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G2RXPMMG/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-3-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_2_bkgd&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+              - link "Lenovo Idea Tab Plus with Pen |Wifi + 5G|12.1\" 2.5K Display, 800nits Peak Brightness|12GB RAM + 256GB ROM (Expandable upto 2TB)|MediaTek Dimensity 6400| 10200mAh|4 Speakers with Dolby Atmos| Luna Grey" [ref=e1657] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G2RXPMMG/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-3-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_2_title&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+                - generic [ref=e1658]:
+                  - generic [ref=e1659]: Lenovo Idea Tab Plus with Pen |Wifi + 5G|12.1" 2.5K Display, 800nits Peak Brightness|12GB RAM + 256GB ROM (Expandable upto 2TB)|MediaTek Dimensity 6400| 10200mAh|4 Speakers with Dolby Atmos| Luna Grey
+                  - generic [ref=e1660]: Lenovo Idea Tab Plus with Pen |Wifi + 5G|12.1" 2.5K Display, 800nits Peak Brightness|12GB RAM + 256GB ROM (Expandable upto 2TB)|Me…
+              - link "Rated 4.4 out of 5 stars by 44 reviews. Go to review section." [ref=e1661] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G2RXPMMG/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-3-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_2_rating&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95#customerReviews
+                - generic [ref=e1662]:
+                  - generic [ref=e1663]: "4.4"
+                  - generic [ref=e1665]: 4.4 out of 5 stars.
+                  - generic [ref=e1666]: (44)
+              - link "₹31,999.00" [ref=e1668] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JLct7WqxR6bLAbrfsw0Jha4AAAGdPmpQAQoAAAH2AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICCg_SKF/clv1c_ek-wBXvWVcba3jK2Z6rSA82kWrKxkFUXMD3fQ_jJyh5wuFOfupQGmf2Ke1D08WpfZgFlRJtvBsG8JESz4tApTx-pDYbsiMyIjhl3HEanzI4-yReKSCavJWu8Cvn3qGert0MTv7Qj9_d0kUTgJOdtMum3MNyfkB2qkumgD_aoxpVvQVu816KM9W7v9h3746_VtetQxWoLGADD_4jLo-ihatg3N5-cp-WSJgPn5H1ygrPCjF67iUN5UomIsgQjymNbkGyaqnPhjOewWxWamFVZWVBHrlifobI3Gb3AWpLS-WgMy9RU1AVqkpbLW5dfypioOMtTLCSoMTtXCWYKhKvuj2zdnaP0OGibZPta969G7VKSqOvlQG4qw_OAJQjn-emhEz4mS2fgKm9lITX7t21m9x1Iy5x94OHtEj3NiA1ndd2PtTTB9QoqADgK3pGgDT3gDbcLHI213HSzRdDWXeJE06xsxlky51TVjwuCRCFnW5sWHWYE1A_3YnMTPMNHAGyTGuV5m9iNgeE4ErpxiNqk-Kay6DFCtRIkM4A8VZyaKN-UZkULzVK1IXSDNAovEuDr8cJaU3K4SAIRArc4s8_2aLVzYiBGTEAg4EWFtV6yrpNwzSS2QYiJvg-c9i6b7txuQtqaiCvejLjIMoxrWCCjWx4OlcqBuUMm-ZwzMWZ2dZkYmfeG7SLPyB1Q_e_WTXfU8eQP6TrFlMSTbo4uqLWME2FJ5kuHJm_6GqrSlzRw3UE99XmCS4yxMF0rP2xvPyE2d0FCRThQA6b6N2MbUFy7asyc8end8UVvNnnZSdEFEuTbJsOAdhKpscjM_iSlX9KEBWFbASubuNOuzcsL7w4N78hINHL9AbQcGwJ1dWFTkptks47UAmQ4jyMvxhMAULf6peeYZIsUsD3fA1wpVz0CcsFaO9OjbbL3awazlcFO2q2R1oVPWCxHBEj7NvFaALd22ik-1OpAn80zXgv_ip7mMU8GxbbCEXFmtFLfqZ8kK2VLwLf3WeV7f6KHb_0DNL1tvcbKh-jFNfx_sKnzm8ZjkI4HMKAWi64E9F3TkQWPve1NpeIXJLncLM3qbWbSGo6vDq2oVhhuGGE9vWzoSaMDRDgANAQwETsmvSw6ZpyUtPGipfyquRxi66MSFFToH-2wDpXbNtR92V0pio7UxgW2HyV5HnCLYxMF2ZKQEQQ49DPxvqGIaX3gFmf-wyhbsWOmRmGlN_8hh8-ipr8SCQ4YmDoIgCR69XEc6_al68IG201g2-RNj08I1NoNyK84hdBF00INBiNN7sJgtJooq44a1qlNtsMa7YIoeJ_k8L81vM1XVufa6r7XMS1g-lz_XNvM1mQYuKKdcZbI1mlSU79IrRs4RkUus_57q-WAVnLF-Hc160K_qxE_PeUtxlI_pnksbbshKGOcGA2mKAsUAgc1NHJgFImTaVmL2SwBzoaO5J-L4hCArDoAqfq7OwK8xcBIroyCDzcfGQJzpzDaM-YYRTLzJn7j5Hd8e2Lx1EwCm7M9eOQAKU2aNiaIvnBlluMxLLHzgf66VwnlT4w1Os4tDFhFWkUr2xyYfdoT7iW1NdlvYdsPbEtUrLU0mKp6vKpd4Q8CgkBcX4wFdhEKgM1ktw/https://www.amazon.in/gp/aw/d/B0G2RXPMMG/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=900115dfc73f13905550f21ef748f532&hsa_cr_id=0&sr=1-3-undefined&aref=nxNlpCIztH&ref_=sbx_dp_arbies_sbcdpd_asin_2_price&pd_rd_w=bD6Y5&content-id=amzn1.sym.63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_p=63aa7cd6-ad67-4d5a-a8f6-895556e5766c&pf_rd_r=YY5WBA1VV38JR379HBES&pd_rd_wg=MnAx5&pd_rd_r=f35a818a-ef53-42cd-9fc1-a9643a64cb95
+                - generic [ref=e1670]:
+                  - generic [ref=e1671]: ₹31,999.00
+                  - generic [ref=e1672]:
+                    - text: ₹
+                    - generic [ref=e1673]:
+                      - text: 31,999
+                      - generic [ref=e1674]: .
+                    - text: "00"
+              - generic [ref=e1677]: ₹45,000.00
+              - generic [ref=e1682]: FREE delivery Thu, 2 Apr
+    - generic "Top reviews" [ref=e1685]:
+      - separator [ref=e1686]
+      - generic [ref=e1688]:
+        - generic [ref=e1689]:
+          - generic [ref=e1694]:
+            - heading "Customer reviews" [level=2] [ref=e1696]
+            - generic [ref=e1698]:
+              - generic [ref=e1701]: 3.4 out of 5 stars
+              - generic [ref=e1704]: 3.4 out of 5
+            - generic [ref=e1705]: 553 global ratings
+            - list [ref=e1709]:
+              - listitem [ref=e1710]:
+                - link "41 percent of reviews have 5 stars" [ref=e1712] [cursor=pointer]:
+                  - /url: /product-reviews/B0GLXWY8ZX/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar
+                  - generic [ref=e1713]: 5 star
+                  - progressbar [ref=e1715]
+                  - generic [ref=e1716]: 41%
+              - listitem [ref=e1717]:
+                - link "18 percent of reviews have 4 stars" [ref=e1719] [cursor=pointer]:
+                  - /url: /product-reviews/B0GLXWY8ZX/ref=acr_dp_hist_4?ie=UTF8&filterByStar=four_star&reviewerType=all_reviews#reviews-filter-bar
+                  - generic [ref=e1720]: 4 star
+                  - progressbar [ref=e1722]
+                  - generic [ref=e1723]: 18%
+              - listitem [ref=e1724]:
+                - link "9 percent of reviews have 3 stars" [ref=e1726] [cursor=pointer]:
+                  - /url: /product-reviews/B0GLXWY8ZX/ref=acr_dp_hist_3?ie=UTF8&filterByStar=three_star&reviewerType=all_reviews#reviews-filter-bar
+                  - generic [ref=e1727]: 3 star
+                  - progressbar [ref=e1729]
+                  - generic [ref=e1730]: 9%
+              - listitem [ref=e1731]:
+                - link "4 percent of reviews have 2 stars" [ref=e1733] [cursor=pointer]:
+                  - /url: /product-reviews/B0GLXWY8ZX/ref=acr_dp_hist_2?ie=UTF8&filterByStar=two_star&reviewerType=all_reviews#reviews-filter-bar
+                  - generic [ref=e1734]: 2 star
+                  - progressbar [ref=e1736]
+                  - generic [ref=e1737]: 4%
+              - listitem [ref=e1738]:
+                - link "28 percent of reviews have 1 stars" [ref=e1740] [cursor=pointer]:
+                  - /url: /product-reviews/B0GLXWY8ZX/ref=acr_dp_hist_1?ie=UTF8&filterByStar=one_star&reviewerType=all_reviews#reviews-filter-bar
+                  - generic [ref=e1741]: 1 star
+                  - progressbar [ref=e1743]
+                  - generic [ref=e1744]: 28%
+            - button "How are ratings calculated?" [ref=e1749] [cursor=pointer]: How are ratings calculated?
+          - separator [ref=e1751]
+          - separator [ref=e1752]
+          - generic [ref=e1754]:
+            - iframe [ref=e1755]:
+              - generic [ref=f12e4]:
+                - link "Primebook 2 Pro 2026 (New Launch) | 8GB RAM, 128GB UFS Storage | 14.1-Inch FHD IPS Display | 14 Hours Battery | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | Backlit Keyboard | in-Built AI (Gray)" [ref=f12e5] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/ROHFWrAzaxfhL5jWKV-5JzoAAAGdPmpP4goAAAH_BABvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICA4N0w1/clv1c_ek8OM3GX57OOBXc7_aNg_dRdd3xzpM-zyh6O-c65deeJx00n5DGA_SDXPN6hwcHxvVxrp48mWOVTK3k6H9wvHqmSe87caBljbpCMtL_82XbfMHZzMq65-U9kj2T_9d8s0FSdr9SLIl-AiuVnw9xv0pyTiZkr9fLC29PfXN_QPEb2GEzGU7X_e3386rdWiYSWo0ej3fhjIqoYn0-1cAiLKdazqo_5xAbp31XsePXvmNJf8dxHv_36n4B4WoP8GXgbUjraaq2T87bG9JPSf5NaEN2RX9wLyke8_MMMUOy7fT50YzCoArW8-zeZdC7VIGpY0dsh6kMmExD1k7HjZF81z7jx4-zXuMh0jl9klAqqoGoMmAZXMES-hNngkllQgYVMCvuVWy5HKg/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjIyMzQ5MTgxOTc5MTIzOjE3NzQ4Njg2NDc6c3BfY3JyX3NoYXJlZDozMDA3MDYzOTIwMTAxMzI6Ojo6&url=%2Fdp%2FB0FFM8M9B5%2Fref%3Dsspa_dk_crr_aax_0%3Fpsc%3D1%26aref%3DNLGjhb5MHj%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9jcnJfc2hhcmVk&aref=NLGjhb5MHj&sp_cr=ZAZ
+                - img "Primebook 2 Pro 2026 (New Launch) | 8GB RAM, 128GB UFS Storage | 14.1-Inch FHD IPS Display | 14 Hours Battery | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | Backlit Keyboard | in-Built AI (Gray)" [ref=f12e9]
+                - generic [ref=f12e11]: Primebook 2 Pro 2026 (New Launch) | 8GB RAM, 128GB UFS Storage | 14.1-Inch FHD IPS Display | 14 Hours Battery | MediaTek Helio G99 | Android 15 (PrimeOS 3.0) | Backlit Keyboard | in-Built AI (Gray)
+                - generic [ref=f12e12]:
+                  - generic [ref=f12e13]:
+                    - link "511" [ref=f12e15] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/ROHFWrAzaxfhL5jWKV-5JzoAAAGdPmpP4goAAAH_BABvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICA4N0w1/clv1c_ek8OM3GX57OOBXc7_aNg_dRdd3xzpM-zyh6O-c65deeJx00n5DGA_SDXPN6hwcHxvVxrp48mWOVTK3k6H9wvHqmSe87caBljbpCMtL_82XbfMHZzMq65-U9kj2T_9d8s0FSdr9SLIl-AiuVnw9xv0pyTiZkr9fLC29PfXN_QPEb2GEzGU7X_e3386rdWiYSWo0ej3fhjIqoYn0-1cAiLKdazqo_5xAbp31XsePXvmNJf8dxHv_36n4B4WoP8GXgbUjraaq2T87bG9JPSf5NaEN2RX9wLyke8_MMMUOy7fT50YzCoArW8-zeZdC7VIGpY0dsh6kMmExD1k7HjZF81z7jx4-zXuMh0jl9klAqqoGoMmAZXMES-hNngkllQgYVMCvuVWy5HKg/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjIyMzQ5MTgxOTc5MTIzOjE3NzQ4Njg2NDc6c3BfY3JyX3NoYXJlZDozMDA3MDYzOTIwMTAxMzI6Ojo6&url=%2Fdp%2FB0FFM8M9B5%2Fref%3Dsspa_dk_crr_aax_0%3Fpsc%3D1%26aref%3DNLGjhb5MHj%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9jcnJfc2hhcmVk&aref=NLGjhb5MHj&sp_cr=ZAZ#customerReviews
+                      - text: "511"
+                    - generic [ref=f12e17]: ₹24,990.00
+                  - link "Shop now" [ref=f12e21] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/ROHFWrAzaxfhL5jWKV-5JzoAAAGdPmpP4goAAAH_BABvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICA4N0w1/clv1c_ek8OM3GX57OOBXc7_aNg_dRdd3xzpM-zyh6O-c65deeJx00n5DGA_SDXPN6hwcHxvVxrp48mWOVTK3k6H9wvHqmSe87caBljbpCMtL_82XbfMHZzMq65-U9kj2T_9d8s0FSdr9SLIl-AiuVnw9xv0pyTiZkr9fLC29PfXN_QPEb2GEzGU7X_e3386rdWiYSWo0ej3fhjIqoYn0-1cAiLKdazqo_5xAbp31XsePXvmNJf8dxHv_36n4B4WoP8GXgbUjraaq2T87bG9JPSf5NaEN2RX9wLyke8_MMMUOy7fT50YzCoArW8-zeZdC7VIGpY0dsh6kMmExD1k7HjZF81z7jx4-zXuMh0jl9klAqqoGoMmAZXMES-hNngkllQgYVMCvuVWy5HKg/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo1MjIyMzQ5MTgxOTc5MTIzOjE3NzQ4Njg2NDc6c3BfY3JyX3NoYXJlZDozMDA3MDYzOTIwMTAxMzI6Ojo6&url=%2Fdp%2FB0FFM8M9B5%2Fref%3Dsspa_dk_crr_aax_0%3Fpsc%3D1%26aref%3DNLGjhb5MHj%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9jcnJfc2hhcmVk&aref=NLGjhb5MHj&sp_cr=ZAZ
+            - button "Leave feedback on Sponsored advertisement" [ref=e1757] [cursor=pointer]:
+              - generic [ref=e1758]: Sponsored
+        - generic [ref=e1763]:
+          - generic [ref=e1767]:
+            - heading "Customers say" [level=3] [ref=e1768]
+            - generic [ref=e1770]: Customers give mixed feedback about the laptop's build quality and value for money, with some finding it good for the price while others consider it a waste of money. The performance receives negative reviews, with the laptop working very slowly and taking about 2 minutes to open an app. Moreover, the battery life and reliability are problematic, with multiple reports of charging issues and motherboard problems. Additionally, customers report issues with sound quality, extreme heating, and display performance.
+            - generic [ref=e1771]:
+              - generic [ref=e1772]:
+                - generic [ref=e1773]: AI Generated from the text of customer reviews
+                - img [ref=e1774]
+                - generic [ref=e1775]: Generated from the text of customer reviews
+              - heading "Select to learn more" [level=4] [ref=e1776]
+              - tablist "Select to learn more" [ref=e1777]:
+                - generic [ref=e1778]:
+                  - tab "Mixed aspect, quality, 68 mentions" [ref=e1782]:
+                    - button "Quality(68)" [ref=e1783] [cursor=pointer]:
+                      - generic [ref=e1784]:
+                        - img [ref=e1785]
+                        - generic [ref=e1787]: Quality(68)
+                  - tab "Mixed aspect, value for money, 38 mentions" [ref=e1792]:
+                    - button "Value for money(38)" [ref=e1793] [cursor=pointer]:
+                      - generic [ref=e1794]:
+                        - img [ref=e1795]
+                        - generic [ref=e1797]: Value for money(38)
+                  - tab "Mixed aspect, display quality, 11 mentions" [ref=e1802]:
+                    - button "Display quality(11)" [ref=e1803] [cursor=pointer]:
+                      - generic [ref=e1804]:
+                        - img [ref=e1805]
+                        - generic [ref=e1807]: Display quality(11)
+                  - tab "Negative aspect, performance, 56 mentions" [ref=e1812]:
+                    - button "Performance(56)" [ref=e1813] [cursor=pointer]:
+                      - generic [ref=e1814]:
+                        - img [ref=e1815]
+                        - generic [ref=e1817]: Performance(56)
+                  - tab "Negative aspect, battery life, 24 mentions" [ref=e1822]:
+                    - button "Battery life(24)" [ref=e1823] [cursor=pointer]:
+                      - generic [ref=e1824]:
+                        - img [ref=e1825]
+                        - generic [ref=e1827]: Battery life(24)
+                  - tab "Negative aspect, reliability, 16 mentions" [ref=e1832]:
+                    - button "Reliability(16)" [ref=e1833] [cursor=pointer]:
+                      - generic [ref=e1834]:
+                        - img [ref=e1835]
+                        - generic [ref=e1837]: Reliability(16)
+                  - tab "Negative aspect, sound quality, 14 mentions" [ref=e1842]:
+                    - button "Sound quality(14)" [ref=e1843] [cursor=pointer]:
+                      - generic [ref=e1844]:
+                        - img [ref=e1845]
+                        - generic [ref=e1847]: Sound quality(14)
+                  - tab "Negative aspect, heating, 13 mentions" [ref=e1852]:
+                    - button "Heating(13)" [ref=e1853] [cursor=pointer]:
+                      - generic [ref=e1854]:
+                        - img [ref=e1855]
+                        - generic [ref=e1857]: Heating(13)
+          - generic [ref=e1860]:
+            - group [ref=e1862]:
+              - generic [ref=e1863]:
+                - heading "Reviews with images" [level=3] [ref=e1865]
+                - link "See all photos" [ref=e1868] [cursor=pointer]:
+                  - /url: javascript:void(0)
+              - group [ref=e1872]:
+                - list [ref=e1873]:
+                  - listitem [ref=e1874]:
+                    - button "Customer Image, click to open customer review" [ref=e1875] [cursor=pointer]:
+                      - img "Customer Image, click to open customer review" [ref=e1876]
+                  - listitem [ref=e1878]:
+                    - button "Customer Image, click to open customer review" [ref=e1879] [cursor=pointer]:
+                      - img "Customer Image, click to open customer review" [ref=e1880]
+                  - listitem [ref=e1882]:
+                    - button "Customer Image, click to open customer review" [ref=e1883] [cursor=pointer]:
+                      - img "Customer Image, click to open customer review" [ref=e1884]
+                  - listitem [ref=e1886]:
+                    - button "Customer Image, click to open customer review" [ref=e1887] [cursor=pointer]:
+                      - img "Customer Image, click to open customer review" [ref=e1888]
+                  - listitem [ref=e1890]:
+                    - button "Customer Image, click to open customer review" [ref=e1891] [cursor=pointer]:
+                      - img "Customer Image, click to open customer review" [ref=e1892]
+                  - listitem [ref=e1894]:
+                    - button "Customer Image, click to open customer review" [ref=e1895] [cursor=pointer]:
+                      - img "Customer Image, click to open customer review" [ref=e1896]
+                  - listitem [ref=e1898]:
+                    - button "Customer Image, click to open customer review" [ref=e1899] [cursor=pointer]:
+                      - img "Customer Image, click to open customer review" [ref=e1900]
+                  - listitem [ref=e1902]:
+                    - button "Customer Image, click to open customer review" [ref=e1903] [cursor=pointer]:
+                      - img "Customer Image, click to open customer review" [ref=e1904]
+                  - listitem [ref=e1906]:
+                    - button "Customer Image, click to open customer review" [ref=e1907] [cursor=pointer]:
+                      - img "Customer Image, click to open customer review" [ref=e1908]
+                  - listitem [ref=e1910]:
+                    - button "Customer Image, click to open customer review" [ref=e1911] [cursor=pointer]:
+                      - img "Customer Image, click to open customer review" [ref=e1912]
+                  - listitem [ref=e1914]:
+                    - button "Customer Image, click to open customer review" [ref=e1915] [cursor=pointer]:
+                      - img "Customer Image, click to open customer review" [ref=e1916]
+                  - listitem [ref=e1918]:
+                    - button "Customer Image, click to open customer review" [ref=e1919] [cursor=pointer]:
+                      - img "Customer Image, click to open customer review" [ref=e1920]
+            - separator [ref=e1922]
+          - generic [ref=e1926]:
+            - heading "Top reviews from India" [level=3] [ref=e1928]
+            - link "Translate all reviews to English" [ref=e1934] [cursor=pointer]:
+              - /url: "#customerReviews"
+            - list [ref=e1937]:
+              - listitem [ref=e1938]:
+                - generic [ref=e1941]:
+                  - link "Anshuman singh" [ref=e1943] [cursor=pointer]:
+                    - /url: /gp/profile/amzn1.account.AGVSO73F6LVHAZTQ2BPQCXBMQAFA
+                    - img [ref=e1946]
+                    - generic [ref=e1947]: Anshuman singh
+                  - heading "5.0 out of 5 stars लैपटाप" [level=5] [ref=e1949]:
+                    - link "5.0 out of 5 stars लैपटाप" [ref=e1950] [cursor=pointer]:
+                      - /url: /gp/customer-reviews/R1O0HAH8IZNI08/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                      - generic [ref=e1952]: 5.0 out of 5 stars
+                      - text: लैपटाप
+                  - heading "Reviewed in India on 1 March 2026" [level=6] [ref=e1953]
+                  - generic [ref=e1954]:
+                    - text: "Style Name: 8GB/512GB/15.6\""
+                    - img [ref=e1955]
+                    - text: Verified Purchase
+                  - generic [ref=e1960]: बहुत अच्छा लैपटाप। चलने में भी बहुत अच्छा।
+                  - list [ref=e1962]:
+                    - listitem [ref=e1963]:
+                      - button "Customer image" [ref=e1965] [cursor=pointer]:
+                        - img "Customer image" [ref=e1966]
+                  - generic [ref=e1967]:
+                    - link "Mark Review As Helpful" [ref=e1971] [cursor=pointer]:
+                      - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fdp%2FB0GLXWY8ZX%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhFxw6CTW%25252Bt1L7b%25252Fzo7NIMXS9yMVGm7Lfn4jjFSQc8Rf3AAAAAGnKWKcAAAAB%26reviewId%3DR1O0HAH8IZNI08%23R1O0HAH8IZNI08&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&marketPlaceId=A21TJRUUN4KGV&language=en&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                      - generic [ref=e1972]: Helpful
+                    - generic [ref=e1974]:
+                      - img [ref=e1975]
+                      - link "Report review by Anshuman singh" [ref=e1977] [cursor=pointer]:
+                        - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hFxw6CTW%2Bt1L7b%2Fzo7NIMXS9yMVGm7Lfn4jjFSQc8Rf3AAAAAGnKWKcAAAAB&reviewId=R1O0HAH8IZNI08
+                        - text: Report
+                    - link "Translate review to English" [ref=e1980] [cursor=pointer]:
+                      - /url: "#customerReviews"
+              - listitem [ref=e1981]:
+                - generic [ref=e1984]:
+                  - link "Avadhoot A Suryavanshi" [ref=e1986] [cursor=pointer]:
+                    - /url: /gp/profile/amzn1.account.AET2WAJMWLUEYI7SCFRBL7XITVGA
+                    - img [ref=e1989]
+                    - generic [ref=e1990]: Avadhoot A Suryavanshi
+                  - heading "1.0 out of 5 stars “Refund Requested but No Response from Support”" [level=5] [ref=e1992]:
+                    - link "1.0 out of 5 stars “Refund Requested but No Response from Support”" [ref=e1993] [cursor=pointer]:
+                      - /url: /gp/customer-reviews/R37KNZLSAZRX05/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                      - generic [ref=e1995]: 1.0 out of 5 stars
+                      - text: “Refund Requested but No Response from Support”
+                  - heading "Reviewed in India on 2 January 2026" [level=6] [ref=e1996]
+                  - generic [ref=e1997]:
+                    - text: "Style Name: 8GB/512GB/15.6\""
+                    - img [ref=e1998]
+                    - text: Verified Purchase
+                  - generic [ref=e2003]:
+                    - text: I purchased this Acer laptop just one month ago, and unfortunately, my experience has been extremely disappointing.
+                    - text: I could use the laptop for only around 10 days
+                    - text: Soon after purchase, a motherboard issue occurred and it had to be replaced
+                    - text: After the motherboard replacement, keyboard problems started
+                    - text: A technician visited and replaced the keyboard, but the issue is still not fully resolved
+                    - text: Because of these repeated hardware failures, the laptop is not reliable for daily or professional use
+                    - text: I contacted Acer support multiple times and even requested a refund, but I have not received any proper response so far. This has caused work disruption, financial loss, and mental stress.
+                    - text: Buying a brand-new laptop and facing such serious issues within a month is unacceptable. I expected much better quality and support from a brand like Acer.
+                    - text: I do not recommend this product to anyone.
+                  - generic [ref=e2004]:
+                    - generic [ref=e2005]:
+                      - generic [ref=e2006]: 13 people found this helpful
+                      - link "Mark Review As Helpful" [ref=e2010] [cursor=pointer]:
+                        - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fdp%2FB0GLXWY8ZX%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhG73APNDDjDzuISbZRMkOvJM5BypIBy5TZU8uNVe8Y7aAAAAAGnKWKcAAAAB%26reviewId%3DR37KNZLSAZRX05%23R37KNZLSAZRX05&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&marketPlaceId=A21TJRUUN4KGV&language=en&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                        - generic [ref=e2011]: Helpful
+                    - generic [ref=e2013]:
+                      - img [ref=e2014]
+                      - link "Report review by Avadhoot A Suryavanshi" [ref=e2016] [cursor=pointer]:
+                        - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hG73APNDDjDzuISbZRMkOvJM5BypIBy5TZU8uNVe8Y7aAAAAAGnKWKcAAAAB&reviewId=R37KNZLSAZRX05
+                        - text: Report
+              - listitem [ref=e2017]:
+                - generic [ref=e2020]:
+                  - link "Sana Sana" [ref=e2022] [cursor=pointer]:
+                    - /url: /gp/profile/amzn1.account.AHQ43HQGT2ENFL5FWPTLJQNTS2JA
+                    - img [ref=e2025]
+                    - generic [ref=e2026]: Sana Sana
+                  - heading "4.0 out of 5 stars Good" [level=5] [ref=e2028]:
+                    - link "4.0 out of 5 stars Good" [ref=e2029] [cursor=pointer]:
+                      - /url: /gp/customer-reviews/R3OH8YK9QPM4GE/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                      - generic [ref=e2031]: 4.0 out of 5 stars
+                      - text: Good
+                  - heading "Reviewed in India on 30 September 2025" [level=6] [ref=e2032]
+                  - generic [ref=e2033]:
+                    - text: "Style Name: 8GB/512GB/15.6\""
+                    - img [ref=e2034]
+                    - text: Verified Purchase
+                  - generic [ref=e2039]: I got the parcel today. It is really good quality, display, light weight let see how storage and battery will work.bt it is not responding quickly
+                  - generic [ref=e2040]:
+                    - generic [ref=e2041]:
+                      - generic [ref=e2042]: 2 people found this helpful
+                      - link "Mark Review As Helpful" [ref=e2046] [cursor=pointer]:
+                        - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fdp%2FB0GLXWY8ZX%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhOUW7%25252BZi1wlLSxNqKnSkNMaY7eE%25252Bg4aggdRne7Cj34W%25252BAAAAAGnKWKcAAAAB%26reviewId%3DR3OH8YK9QPM4GE%23R3OH8YK9QPM4GE&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&marketPlaceId=A21TJRUUN4KGV&language=en&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                        - generic [ref=e2047]: Helpful
+                    - generic [ref=e2049]:
+                      - img [ref=e2050]
+                      - link "Report review by Sana Sana" [ref=e2052] [cursor=pointer]:
+                        - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hOUW7%2BZi1wlLSxNqKnSkNMaY7eE%2Bg4aggdRne7Cj34W%2BAAAAAGnKWKcAAAAB&reviewId=R3OH8YK9QPM4GE
+                        - text: Report
+              - listitem [ref=e2053]:
+                - generic [ref=e2056]:
+                  - link "sachin sahare" [ref=e2058] [cursor=pointer]:
+                    - /url: /gp/profile/amzn1.account.AHK6BUAFMQKIPAIY3AKQ6MFAT3WQ
+                    - img [ref=e2061]
+                    - generic [ref=e2062]: sachin sahare
+                  - heading "5.0 out of 5 stars Acer Aspire 3 is awesome laptop" [level=5] [ref=e2064]:
+                    - link "5.0 out of 5 stars Acer Aspire 3 is awesome laptop" [ref=e2065] [cursor=pointer]:
+                      - /url: /gp/customer-reviews/R1A0A3A2QWGP5T/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                      - generic [ref=e2067]: 5.0 out of 5 stars
+                      - text: Acer Aspire 3 is awesome laptop
+                  - heading "Reviewed in India on 20 August 2024" [level=6] [ref=e2068]
+                  - generic [ref=e2069]:
+                    - text: "Style Name: 8GB/512GB/15.6\""
+                    - img [ref=e2070]
+                    - text: Verified Purchase
+                  - generic [ref=e2075]: I recently ordered a laptop on last month end and I must say, it’s an awesome product! The battery life is impressive, lasting 8-10 hours on a full charge, which is perfect for a full day of work or study without constantly needing to recharge. The performance is incredibly smooth, making it a pleasure to use for various tasks. Whether it's browsing, streaming, or handling more intensive applications, this laptop handles it all effortlessly. Highly recommend it for anyone looking for a reliable and efficient device! It cost only 21k and light weight. Seriously if I suggest to get this useful product for personal use.
+                  - generic [ref=e2076]:
+                    - generic [ref=e2077]:
+                      - generic [ref=e2078]: 44 people found this helpful
+                      - link "Mark Review As Helpful" [ref=e2082] [cursor=pointer]:
+                        - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fdp%2FB0GLXWY8ZX%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhDyuGuu0AoqQywCI9HdZrciYaTnHUzAl2DUfZ9rvRB37AAAAAGnKWKcAAAAB%26reviewId%3DR1A0A3A2QWGP5T%23R1A0A3A2QWGP5T&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&marketPlaceId=A21TJRUUN4KGV&language=en&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                        - generic [ref=e2083]: Helpful
+                    - generic [ref=e2085]:
+                      - img [ref=e2086]
+                      - link "Report review by sachin sahare" [ref=e2088] [cursor=pointer]:
+                        - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hDyuGuu0AoqQywCI9HdZrciYaTnHUzAl2DUfZ9rvRB37AAAAAGnKWKcAAAAB&reviewId=R1A0A3A2QWGP5T
+                        - text: Report
+              - listitem [ref=e2089]:
+                - generic [ref=e2092]:
+                  - link "Fauzia fasih khan" [ref=e2094] [cursor=pointer]:
+                    - /url: /gp/profile/amzn1.account.AHCNMMDBJ37TCPC3LEWIIYTUB7HA
+                    - img [ref=e2097]
+                    - generic [ref=e2098]: Fauzia fasih khan
+                  - heading "1.0 out of 5 stars Bad quality" [level=5] [ref=e2100]:
+                    - link "1.0 out of 5 stars Bad quality" [ref=e2101] [cursor=pointer]:
+                      - /url: /gp/customer-reviews/R5N0HKIXMB7BZ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                      - generic [ref=e2103]: 1.0 out of 5 stars
+                      - text: Bad quality
+                  - heading "Reviewed in India on 6 March 2026" [level=6] [ref=e2104]
+                  - generic [ref=e2105]:
+                    - text: "Style Name: 8GB/512GB/15.6\""
+                    - img [ref=e2106]
+                    - text: Verified Purchase
+                  - generic [ref=e2111]:
+                    - text: Laptop working is too slow after using of 2-3 days.. it hangs alot while using..
+                    - text: I am not recommending to buy...
+                  - generic [ref=e2112]:
+                    - generic [ref=e2113]:
+                      - generic [ref=e2114]: One person found this helpful
+                      - link "Mark Review As Helpful" [ref=e2118] [cursor=pointer]:
+                        - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fdp%2FB0GLXWY8ZX%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhOQFyYfQjM3QLpEPh%25252FscYpYteV%25252BACaIBAeJnUu%25252BmhcHvAAAAAGnKWKcAAAAB%26reviewId%3DR5N0HKIXMB7BZ%23R5N0HKIXMB7BZ&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&marketPlaceId=A21TJRUUN4KGV&language=en&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                        - generic [ref=e2119]: Helpful
+                    - generic [ref=e2121]:
+                      - img [ref=e2122]
+                      - link "Report review by Fauzia fasih khan" [ref=e2124] [cursor=pointer]:
+                        - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hOQFyYfQjM3QLpEPh%2FscYpYteV%2BACaIBAeJnUu%2BmhcHvAAAAAGnKWKcAAAAB&reviewId=R5N0HKIXMB7BZ
+                        - text: Report
+              - listitem [ref=e2125]:
+                - generic [ref=e2128]:
+                  - link "Satya Ranjan" [ref=e2130] [cursor=pointer]:
+                    - /url: /gp/profile/amzn1.account.AHPRKPZNUYPM4G6LD2DP3VVJDYFA
+                    - img [ref=e2133]
+                    - generic [ref=e2134]: Satya Ranjan
+                  - heading "3.0 out of 5 stars Wastage of money" [level=5] [ref=e2136]:
+                    - link "3.0 out of 5 stars Wastage of money" [ref=e2137] [cursor=pointer]:
+                      - /url: /gp/customer-reviews/R2M8IMIYYRBDSV/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                      - generic [ref=e2139]: 3.0 out of 5 stars
+                      - text: Wastage of money
+                  - heading "Reviewed in India on 25 October 2025" [level=6] [ref=e2140]
+                  - generic [ref=e2141]:
+                    - text: "Style Name: 8GB/512GB/15.6\""
+                    - img [ref=e2142]
+                    - text: Verified Purchase
+                  - generic [ref=e2147]: New but running like old processor is very very slow and some software not working properly
+                  - generic [ref=e2148]:
+                    - link "Mark Review As Helpful" [ref=e2152] [cursor=pointer]:
+                      - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fdp%2FB0GLXWY8ZX%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhBqGCCqZGVOaEijyvTp0bmUJkcd%25252B%25252B7DlVo4PNT1kLXAsAAAAAGnKWKcAAAAB%26reviewId%3DR2M8IMIYYRBDSV%23R2M8IMIYYRBDSV&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&marketPlaceId=A21TJRUUN4KGV&language=en&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                      - generic [ref=e2153]: Helpful
+                    - generic [ref=e2155]:
+                      - img [ref=e2156]
+                      - link "Report review by Satya Ranjan" [ref=e2158] [cursor=pointer]:
+                        - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hBqGCCqZGVOaEijyvTp0bmUJkcd%2B%2B7DlVo4PNT1kLXAsAAAAAGnKWKcAAAAB&reviewId=R2M8IMIYYRBDSV
+                        - text: Report
+              - listitem [ref=e2159]:
+                - generic [ref=e2162]:
+                  - link "ILAYARAJA G" [ref=e2164] [cursor=pointer]:
+                    - /url: /gp/profile/amzn1.account.AGFQQTU5TJJT4ZJDYWJHUSW2KBZQ
+                    - img [ref=e2167]
+                    - generic [ref=e2168]: ILAYARAJA G
+                  - heading "5.0 out of 5 stars Quality" [level=5] [ref=e2170]:
+                    - link "5.0 out of 5 stars Quality" [ref=e2171] [cursor=pointer]:
+                      - /url: /gp/customer-reviews/RQW1HH4D83LKQ/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                      - generic [ref=e2173]: 5.0 out of 5 stars
+                      - text: Quality
+                  - heading "Reviewed in India on 9 February 2026" [level=6] [ref=e2174]
+                  - generic [ref=e2175]:
+                    - text: "Style Name: 8GB/512GB/15.6\""
+                    - img [ref=e2176]
+                    - text: Verified Purchase
+                  - generic [ref=e2181]: Good
+                  - generic [ref=e2182]:
+                    - link "Mark Review As Helpful" [ref=e2186] [cursor=pointer]:
+                      - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fdp%2FB0GLXWY8ZX%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhESzsbBVNFDBGyt4fiUSIjgXdxlE%25252FF45K6T2KyGub%25252B0KAAAAAGnKWKcAAAAB%26reviewId%3DRQW1HH4D83LKQ%23RQW1HH4D83LKQ&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&marketPlaceId=A21TJRUUN4KGV&language=en&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                      - generic [ref=e2187]: Helpful
+                    - generic [ref=e2189]:
+                      - img [ref=e2190]
+                      - link "Report review by ILAYARAJA G" [ref=e2192] [cursor=pointer]:
+                        - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hESzsbBVNFDBGyt4fiUSIjgXdxlE%2FF45K6T2KyGub%2B0KAAAAAGnKWKcAAAAB&reviewId=RQW1HH4D83LKQ
+                        - text: Report
+              - listitem [ref=e2193]:
+                - generic [ref=e2196]:
+                  - link "Soumak Das" [ref=e2198] [cursor=pointer]:
+                    - /url: /gp/profile/amzn1.account.AGEWLELUPIBG72NEZV7AONBRLVMA
+                    - img [ref=e2201]
+                    - generic [ref=e2202]: Soumak Das
+                  - heading "4.0 out of 5 stars Good but could be better" [level=5] [ref=e2204]:
+                    - link "4.0 out of 5 stars Good but could be better" [ref=e2205] [cursor=pointer]:
+                      - /url: /gp/customer-reviews/RGGSYXITD1A8S/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8
+                      - generic [ref=e2207]: 4.0 out of 5 stars
+                      - text: Good but could be better
+                  - heading "Reviewed in India on 24 March 2026" [level=6] [ref=e2208]
+                  - generic [ref=e2209]:
+                    - text: "Style Name: 12GB RAM/512GB SSD"
+                    - img [ref=e2210]
+                    - text: Verified Purchase
+                  - generic [ref=e2215]: The processor is a bit slow as expected but other than that good office purpose laptop
+                  - generic [ref=e2216]:
+                    - link "Mark Review As Helpful" [ref=e2220] [cursor=pointer]:
+                      - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fdp%2FB0GLXWY8ZX%2Fref%3Dcm_cr_dp_d_vote_lft%3Fie%3DUTF8%26csrfT%3DhI8POTKC8N%25252B2JgUAf89G093TitIZDlIIDsaKPuykrJopAAAAAGnKWKcAAAAB%26reviewId%3DRGGSYXITD1A8S%23RGGSYXITD1A8S&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&marketPlaceId=A21TJRUUN4KGV&language=en&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+                      - generic [ref=e2221]: Helpful
+                    - generic [ref=e2223]:
+                      - img [ref=e2224]
+                      - link "Report review by Soumak Das" [ref=e2226] [cursor=pointer]:
+                        - /url: /hz/reviews-render/report-review/ref=cm_cr_dp_d_report?csrfT=hI8POTKC8N%2B2JgUAf89G093TitIZDlIIDsaKPuykrJopAAAAAGnKWKcAAAAB&reviewId=RGGSYXITD1A8S
+                        - text: Report
+            - generic [ref=e2228]:
+              - separator [ref=e2229]
+              - link "See more reviews" [ref=e2230] [cursor=pointer]:
+                - /url: /product-reviews/B0GLXWY8ZX/ref=cm_cr_dp_d_show_all_btm?ie=UTF8
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e2235]:
+    - button "Back to top" [ref=e2236] [cursor=pointer]:
+      - generic [ref=e2237]: Back to top
+    - generic [ref=e2238]:
+      - generic [ref=e2239]:
+        - heading "Get to Know Us" [level=6] [ref=e2240]
+        - list [ref=e2241]:
+          - listitem [ref=e2242]:
+            - link "About Amazon" [ref=e2243] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e2244]:
+            - link "Careers" [ref=e2245] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e2246]:
+            - link "Press Releases" [ref=e2247] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e2248]:
+            - link "Amazon Science" [ref=e2249] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e2251]:
+        - heading "Connect with Us" [level=6] [ref=e2252]
+        - list [ref=e2253]:
+          - listitem [ref=e2254]:
+            - link "Facebook" [ref=e2255] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e2256]:
+            - link "Twitter" [ref=e2257] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e2258]:
+            - link "Instagram" [ref=e2259] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e2261]:
+        - heading "Make Money with Us" [level=6] [ref=e2262]
+        - list [ref=e2263]:
+          - listitem [ref=e2264]:
+            - link "Sell on Amazon" [ref=e2265] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e2266]:
+            - link "Sell under Amazon Accelerator" [ref=e2267] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e2268]:
+            - link "Protect and Build Your Brand" [ref=e2269] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e2270]:
+            - link "Amazon Global Selling" [ref=e2271] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e2272]:
+            - link "Supply to Amazon" [ref=e2273] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e2274]:
+            - link "Become an Affiliate" [ref=e2275] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e2276]:
+            - link "Fulfilment by Amazon" [ref=e2277] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e2278]:
+            - link "Advertise Your Products" [ref=e2279] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e2280]:
+            - link "Amazon Pay on Merchants" [ref=e2281] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e2283]:
+        - heading "Let Us Help You" [level=6] [ref=e2284]
+        - list [ref=e2285]:
+          - listitem [ref=e2286]:
+            - link "Your Account" [ref=e2287] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e2288]:
+            - link "Returns Centre" [ref=e2289] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e2290]:
+            - link "Recalls and Product Safety Alerts" [ref=e2291] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e2292]:
+            - link "100% Purchase Protection" [ref=e2293] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e2294]:
+            - link "Amazon App Download" [ref=e2295] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e2296]:
+            - link "Help" [ref=e2297] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e2299]:
+      - link "Amazon India Home" [ref=e2302] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e2305]:
+        - generic [ref=e2306]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e2307] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e2309]: English
+          - button "Expand to Change Language or Country" [ref=e2310] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e2311] [cursor=pointer]:
+          - generic [ref=e2313]: India
+    - generic "More on Amazon" [ref=e2314]:
+      - generic "More on Amazon" [ref=e2315]:
+        - list [ref=e2316]:
+          - listitem [ref=e2317]:
+            - link "AbeBooks Books, art & collectibles" [ref=e2318] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e2319]
+              - generic [ref=e2320]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e2321]
+          - listitem [ref=e2322]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e2323] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e2324]
+              - generic [ref=e2325]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e2326]
+          - listitem [ref=e2327]:
+            - link "Audible Download Audio Books" [ref=e2328] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e2329]
+              - generic [ref=e2330]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e2331]
+          - listitem [ref=e2332]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e2333] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e2334]
+              - generic [ref=e2335]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e2336]:
+          - listitem [ref=e2337]:
+            - link "Shopbop Designer Fashion Brands" [ref=e2338] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e2339]
+              - generic [ref=e2340]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e2341]
+          - listitem [ref=e2342]:
+            - link "Amazon Business Everything For Your Business" [ref=e2343] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e2344]
+              - generic [ref=e2345]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e2346]
+          - listitem [ref=e2347]:
+            - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e2348] [cursor=pointer]:
+              - /url: /music/prime?ref=footer_apm
+              - heading "Amazon Prime Music" [level=5] [ref=e2349]
+              - generic [ref=e2350]:
+                - text: 100 million songs, ad-free
+                - text: Over 15 million podcast episodes
+          - listitem [ref=e2351]
+          - listitem [ref=e2352]
+    - generic [ref=e2353]:
+      - list [ref=e2354]:
+        - listitem [ref=e2355]:
+          - link "Conditions of Use & Sale" [ref=e2356] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e2357]:
+          - link "Privacy Notice" [ref=e2358] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e2359]:
+          - link "Interest-Based Ads" [ref=e2360] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e2361]: © 1996-2026, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e2363]:
+    - iframe [ref=f13e2]:
+      - generic [active]:
+        - img [ref=f14e1]
+        - img [ref=f14e2]
+        - img [ref=f14e3]
+        - img [ref=f14e4]
+        - img [ref=f14e5]
+        - img [ref=f14e6]
+        - img [ref=f14e7]
+        - img [ref=f14e8]
+        - img [ref=f14e9]
+        - img [ref=f14e10]
+        - img [ref=f14e11]
+        - img [ref=f14e12]
+        - img [ref=f14e13]
+        - img [ref=f14e14]
+        - img [ref=f14e15]
+        - img [ref=f14e16]
+        - img [ref=f14e17]
+        - img [ref=f14e18]
+        - img [ref=f14e19]
+        - img [ref=f14e20]
+        - img [ref=f14e21]
+        - img [ref=f14e22]
+        - img [ref=f14e23]
+        - img [ref=f14e24]
+        - img [ref=f14e25]
+        - img [ref=f14e26]
+        - img [ref=f14e27]
+        - img [ref=f14e28]
+        - img [ref=f14e29]
+        - img [ref=f14e30]
+        - img [ref=f14e31]
+        - img [ref=f14e32]
+        - img [ref=f14e33]
+        - img [ref=f14e34]
+        - img [ref=f14e35]
+        - img [ref=f14e36]
+        - img [ref=f14e37]
+```

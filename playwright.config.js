@@ -1,7 +1,8 @@
 // @ts-check
-import { defineConfig, devices } from '@playwright/test';
+const { defineConfig, devices } = require('@playwright/test');
 
-const config = ({
+module.exports = defineConfig({
+  globalSetup: require.resolve('./global-setup.js'),
   testDir : './tests', // for ui tests
   // testDir : './api-tests', // for api tests
   // reporter : 'html',
@@ -26,6 +27,7 @@ const config = ({
   use : {
     baseURL : 'https://www.amazon.in',  // ui
     // baseURL : 'https://restful-booker.herokuapp.com', // api
+    storageState: 'storageState.json',
     browserName : 'chromium',
     headless : false,
     viewport : null,
@@ -37,4 +39,3 @@ const config = ({
     trace : 'retain-on-failure'
   }
 })
-module.exports = config;
